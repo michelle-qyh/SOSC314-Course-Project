@@ -14,8 +14,8 @@ The five conditions a document must meet: 	1.	Institution. Authored by the Europ
 The analysis moves from describing the language to measuring frames to explaining differences. We begin with descriptive text analysis — word and phrase frequencies per institution — followed by unsupervised topic modelling to identify recurring themes without defining them in advance, and distinctive-language analysis (Fightin’ Words) to find the vocabulary each institution uses disproportionately often. The direct test of our hypotheses is frame classification: every paragraph is assigned to one or more predefined policy frames (economic opportunity, fundamental rights, security, labour, consumer protection, innovation, regulatory governance), with the classifier validated against a hand-coded sample before its output is used. Similarity analysis then measures how linguistically close the institutions are and whether their language converges as legislation moves from proposal to adoption, and all results are compared across legislative stages and before/after the release of ChatGPT in November 2022 as a shift in public attention. As a robustness check, we train a classifier to predict the authoring institution from text alone; its accuracy indicates whether institutional differences are systematic and serves as a diagnostic, not a finding in itself.
 
 ## Team
-- Tim Maurice Steiner
-- Michelle (Yuhan Qiu)
+- Tim Maurice Steiner (tms128@duke.edu)
+- Michelle, Yuhan Qiu (yq122@duke.edu)
 
 ## Repo Structure
 - `reports/` — weekly progress reports
