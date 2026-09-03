@@ -21,3 +21,6 @@ Descriptive text analysis → topic modelling → distinctive-language analysis 
 - `reports/` — weekly progress reports
 - `notebooks/` — code
 - `data/` — original and processed data
+
+## Reuse and licence
+EU institutional documents may be reused under Commission Decision 2011/833/EU with attribution. The repository stores identifiers and source URLs and rebuilds full texts from them rather than redistributing them. 
