@@ -1,1 +1,86 @@
+import io, requests, pandas as pd
+
+ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
+AUTH = "http://publications.europa.eu/resource/authority/"
+PREFIXES = """
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+"""
+ENG = f"<{AUTH}language/ENG>"
+
+Q_EUROVOC = f"""{PREFIXES}
+SELECT DISTINCT ?work ?agent ?type ?date ?title WHERE {{
+  ?work cdm:work_is_about_concept_eurovoc <http://eurovoc.europa.eu/3030> ;
+        cdm:work_created_by_agent ?agent ;
+        cdm:work_date_document ?date .
+  OPTIONAL {{ ?work cdm:work_has_resource-type ?type }}
+  OPTIONAL {{ ?e cdm:expression_belongs_to_work ?work ;
+                cdm:expression_uses_language {ENG} ;
+                cdm:expression_title ?title }}
+  FILTER(?date >= "2020-01-01"^^xsd:date)
+}}"""
+
+Q_TITLE = f"""{PREFIXES}
+SELECT DISTINCT ?work ?agent ?type ?date ?title WHERE {{
+  ?e cdm:expression_belongs_to_work ?work ;
+     cdm:expression_uses_language {ENG} ;
+     cdm:expression_title ?title .
+  ?work cdm:work_created_by_agent ?agent ;
+        cdm:work_date_document ?date .
+  OPTIONAL {{ ?work cdm:work_has_resource-type ?type }}
+  FILTER(?date >= "2020-01-01"^^xsd:date)
+  FILTER(CONTAINS(LCASE(STR(?title)), "artificial intelligence"))
+}}"""
+
+def run(q):
+    r = requests.get(ENDPOINT, params={"query": q},
+                     headers={"Accept": "text/csv"}, timeout=180)
+    r.raise_for_status()
+    df = pd.read_csv(io.StringIO(r.text))
+    for c in df.columns:
+        df[c] = df[c].astype(str).str.replace(AUTH, "", regex=False)
+    return df
+
+COMMISSION = {"COM","SG","SJ","CNECT","RTD","COMP","JUST","EMPL","GROW","HOME","TRADE",
+              "SANTE","ENER","MOVE","EAC","ECFIN","FISMA","AGRI","ENV","CLIMA","DEFIS",
+              "DIGIT","JRC","EISMEA","EASME","HADEA","REA","ERCEA","CINEA","EACEA","ESTAT",
+              "OLAF","TAXUD","MARE","REGIO","INTPA","NEAR","ECHO","BUDG","HR","COMM","OIB"}
+
+def institution(agent):
+    code = str(agent).split("/")[-1]
+    if code == "CONSIL": return "Council"
+    if code == "EP" or code.startswith("EP_"): return "Parliament"
+    if code in COMMISSION: return "Commission"
+    return None
+
+# scope rules: CELLAR resource type -> in/out (same as data/doc_types.csv)
+IN_SCOPE = {"COMMUNIC","JOINT_COMMUNIC","COMMUNIC_POSIT","PAPER_WHITE","SWD",
+            "IMPACT_ASSESS","IMPACT_ASSESS_SUM","IMPACT_ASSESS_INCEP","EVL",
+            "FACT_SUM_REPORT_CONSULT","PROP_REG","PROP_DIR","PROP_DEC","RECO","RECO_DEC",
+            "REPORT","REPORT_EP","REPORT_DRAFT_EP_CMT","OWNINI_RES","RES_LEGIS","RES",
+            "ADOPT_TEXT","OPIN_EP_CMT","OPIN_LETTER_EP_CMT","AMEND_LIST_EP","NOTE",
+            "ITEM_IA_NOTE","NOTE_INFO","CONCL","POSIT","DECLAR","STAT_REASON","STAT",
+            "AGREE_PROV"}
+
+u = pd.concat([run(Q_EUROVOC), run(Q_TITLE)])
+u["institution"] = u["agent"].map(institution)
+u = u.dropna(subset=["institution"])
+u["type"] = u["type"].str.replace("resource-type/", "", regex=False)
+
+# exclude works attributed to more than one institution (co-signed acts, joint declarations)
+n_inst = u.drop_duplicates(["work", "institution"]).groupby("work")["institution"].nunique()
+
+works = (u.groupby("work")
+           .agg(institution=("institution", "first"), type=("type", "first"),
+                date=("date", "first"), title=("title", "first"))
+           .reset_index())
+works["joint"] = works["work"].map(n_inst).gt(1)
+works["in_scope"] = works["type"].isin(IN_SCOPE) & ~works["joint"]
+
+core = works[works["in_scope"]]
+print("Found:", len(works), "| In scope:", len(core))
+print(core.groupby("institution").size())
+print(core.assign(year=pd.to_datetime(core["date"]).dt.year)
+          .pivot_table(index="year", columns="institution", values="work",
+                       aggfunc="count", fill_value=0))
 
