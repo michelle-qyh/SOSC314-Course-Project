@@ -1,0 +1,52 @@
+type_raw,doc_type,genre,scope,reason
+COMMUNIC,communication,formal_position,in,Commission policy communication
+JOINT_COMMUNIC,communication,formal_position,in,Joint communication (Commission/HR)
+COMMUNIC_POSIT,communication,formal_position,in,Commission communication on a position
+PAPER_WHITE,communication,formal_position,in,White paper
+SWD,staff_document,formal_position,in,Commission staff working document
+IMPACT_ASSESS,staff_document,formal_position,in,Impact assessment
+IMPACT_ASSESS_SUM,staff_document,formal_position,in,Impact assessment summary
+IMPACT_ASSESS_INCEP,staff_document,formal_position,in,Inception impact assessment
+EVL,staff_document,formal_position,in,Evaluation
+FACT_SUM_REPORT_CONSULT,staff_document,formal_position,in,Consultation summary report
+PROP_REG,proposal,legislative,in,Proposal for a regulation
+PROP_DIR,proposal,legislative,in,Proposal for a directive
+PROP_DEC,proposal,legislative,in,Proposal for a decision
+PROP_ACT,proposal,forwarding,out,Register copy of a Commission proposal attributed to the Council — authored by the Commission; the original is captured under COM
+RECO,recommendation,formal_position,in,Recommendation
+RECO_DEC,recommendation,formal_position,in,Recommendation for a decision
+REPORT,report,formal_position,in,Report (Commission report to EP/Council or EP committee report)
+REPORT_EP,report,formal_position,in,EP report
+REPORT_DRAFT_EP_CMT,report,formal_position,in,EP committee draft report
+OWNINI_RES,resolution,formal_position,in,EP own-initiative resolution
+RES_LEGIS,resolution,legislative,in,EP legislative resolution
+RES,resolution,formal_position,in,Resolution
+ADOPT_TEXT,resolution,formal_position,in,EP adopted text
+OPIN_EP_CMT,opinion,formal_position,in,EP committee opinion
+OPIN_LETTER_EP_CMT,opinion,formal_position,in,EP committee opinion letter
+AMEND_LIST_EP,amendments,legislative,in,EP amendment list
+NOTE,council_note,legislative,in,Council presidency note / compromise text / mandate
+ITEM_IA_NOTE,council_note,legislative,in,Council I/A item note (adoption with statements)
+NOTE_INFO,council_note,legislative,in,Council information note
+CONCL,conclusions,formal_position,in,Council conclusions
+POSIT,position,legislative,in,Council position
+DECLAR,declaration,formal_position,in,Declaration
+STAT_REASON,statement,formal_position,in,Council statement of reasons
+STAT,statement,formal_position,in,Statement
+AGREE_PROV,agreement,legislative,in,Provisional agreement text
+PUB_GEN,publication,research,out,General publication (JRC/DG research report or brief) — not an institutional position; secondary corpus
+NOTE_COVER,cover_note,forwarding,out,Council cover note forwarding a document authored elsewhere (Commission or national parliament)
+CORRIGENDUM,corrigendum,legal_act,out,Corrigendum
+REG,legal_act,legal_act,out,Adopted regulation — co-signed legal text
+DEC,legal_act,legal_act,out,Adopted decision — legal text
+ACT_LEGIS,legal_act,legal_act,out,Adopted legislative act (register copy) — legal text
+REG_IMPL,legal_act,legal_act,out,Implementing regulation
+REG_IMPL_DRAFT,legal_act,legal_act,out,Draft implementing regulation
+DEC_IMPL,legal_act,legal_act,out,Implementing decision
+NOTICE,notice,administrative,out,Merger non-opposition notice tagged AI
+ANNOUNC,notice,administrative,out,Merger prior-notification announcement tagged AI
+ITEM_I_NOTE,council_note,administrative,out,Procedural I-item note (consultation of Committee of the Regions)
+PLENARY_MINUTES_EP,minutes,administrative,out,Plenary minutes
+STU,study,research,out,Commissioned study
+FACTSHEET,factsheet,communicative,out,Factsheet — thin communicative material
+EDUCATIONAL,publication,research,out,Educational material
