@@ -21,15 +21,33 @@ The analysis moves from describing the language to measuring frames to explainin
 
 ## Repo Structure
 
-- `reports/` — weekly progress reports and their figures
-- `notebooks/` — code, one subfolder per week (`Week 2/`: inventory script, paired notebook, and `cellar.py`, the CELLAR API helpers)
-- `data/` — scope rules (`doc_types.csv`), query snapshots (`inventory/`), one retrieved document (`sample/`), and `raw/` / `corpus/` for the full corpus (gitignored, rebuilt from identifiers)
+```
+SOSC314-Course-Project/
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── doc_types.csv          # scope rules: type → in/out, with reasons
+│   ├── doc_types.xlsx         # formatted view of the same table
+│   ├── inventory/             # committed query snapshots (4 Sep 2026)
+│   │   ├── works_eurovoc.csv
+│   │   ├── works_title.csv
+│   │   └── works_union.csv
+│   ├── white_paper_2020.html  # retrieved sample document
+│   └── white_paper_2020.pdf
+├── notebooks/
+│   ├── cellar.py              # CELLAR API helpers (SPARQL + REST)
+│   ├── 01_inventory.py        # inventory pipeline → 647 found / 191 in scope
+│   └── 01.Feasibility Test and Initial Exploration.ipynb
+└── reports/
+    └── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+```
+
 
 ## Reproduce
 
 ```bash
 pip install -r requirements.txt
-python "notebooks/Week 2/01_inventory.py"   # uses cached snapshots; set REFRESH = True to re-query CELLAR
+python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; set REFRESH = True to re-query CELLAR
 ```
 
 ## Reuse and licence
