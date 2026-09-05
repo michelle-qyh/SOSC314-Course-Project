@@ -61,6 +61,11 @@ works = (
 )
 works["year"] = pd.to_datetime(works["date"]).dt.year
 
+# Works attributed to more than one institution (co-signed legal acts, joint
+# declarations) cannot serve an institutional comparison and are excluded.
+n_inst = u.drop_duplicates(["work", "institution"]).groupby("work")["institution"].nunique()
+works["joint"] = works["work"].map(n_inst).gt(1)
+
 # %% [markdown]
 # ## Scope rules
 # `data/doc_types.csv` maps every raw CELLAR resource type to a harmonised
@@ -71,6 +76,7 @@ doc_types = pd.read_csv(ROOT / "data" / "doc_types.csv")
 works = works.merge(doc_types, left_on="type", right_on="type_raw", how="left")
 unmapped = works[works["scope"].isna()]["type"].unique()
 assert len(unmapped) == 0, f"Unmapped resource types: {unmapped}"
+works.loc[works["joint"], ["scope", "reason"]] = ["out", "jointly authored by multiple institutions"]
 works.to_csv(INV / "works_union.csv", index=False)
 
 core = works[works["scope"] == "in"]
@@ -127,7 +133,7 @@ fig.suptitle(
     fontsize=9.5, x=0.01, ha="left", y=1.02,
 )
 fig.tight_layout()
-fig.savefig(ROOT / "reports" / "01_corpus_inventory.png", dpi=200, bbox_inches="tight")
+fig.savefig(ROOT / "reports" / "week2_corpus_inventory.png", dpi=200, bbox_inches="tight")
 print("figure written")
 
 # %% [markdown]
