@@ -26,22 +26,28 @@ SOSC314-Course-Project/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   ├── doc_types.csv          # scope rules: type → in/out, with reasons
-│   ├── doc_types.xlsx         # formatted view of the same table
-│   ├── inventory/             # committed query snapshots (4 Sep 2026)
+│   ├── doc_types.csv               # scope rules: type → in/out, with reasons (rev. 6 Sep)
+│   ├── doc_types.xlsx              # formatted view of the same table
+│   ├── inventory/                  # committed query snapshots (retrieval 4 Sep 2026)
 │   │   ├── works_eurovoc.csv
 │   │   ├── works_title.csv
 │   │   └── works_union.csv
-│   ├── white_paper_2020.html  # retrieved sample document
+│   ├── white_paper_2020.html       # retrieved sample document
 │   └── white_paper_2020.pdf
 ├── notebooks/
-│   ├── cellar.py              # CELLAR API helpers (SPARQL + REST)
-│   ├── 01_inventory.py        # inventory pipeline → 647 found / 191 in scope
-│   └── 01.Feasibility Test and Initial Exploration.ipynb
+│   ├── cellar.py                   # CELLAR API helpers (SPARQL + REST)
+│   ├── 01_inventory.py             # inventory pipeline: query → scope filter → counts
+│   ├── 01.Feasibility Test and Initial Exploration.ipynb
+│   ├── data/
+│   │   └── raw_works_2026-09-05.csv    # working retrieval for the exploration notebook
+│   └── figures/
+│       └── week2_combined.png
 └── reports/
-    └── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+    ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+    └── figures/
+        ├── figure1_pipeline_week2.png          # data-acquisition and scope pipeline
+        └── figure2_corpus_inventory_week2.png  # corpus inventory by year and type
 ```
-
 
 ## Reproduce
 
@@ -49,6 +55,23 @@ SOSC314-Course-Project/
 pip install -r requirements.txt
 python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; set REFRESH = True to re-query CELLAR
 ```
+
+## Useful Links
+
+**Data infrastructure**
+- [CELLAR SPARQL endpoint](https://publications.europa.eu/webapi/rdf/sparql) — the public query interface used by `cellar.py`
+- [Publications Office: Advanced / machine access to EU law](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) — EUR-Lex documentation on programmatic access
+- [CELLAR / CDM ontology documentation](https://op.europa.eu/en/web/eu-vocabularies/cellar) — the data model behind our queries (works, expressions, agents)
+- [EuroVoc concept "artificial intelligence"](https://eurovoc.europa.eu/3030) — the subject tag used as our first retrieval criterion
+
+**The legislative file**
+- [AI Act procedure file (2021/0106(COD))](https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2021/0106(COD)) — the full legislative history in Parliament's Legislative Observatory
+- [Regulation (EU) 2024/1689 (AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) — the adopted act on EUR-Lex
+- [Council public register](https://www.consilium.europa.eu/en/documents-publications/public-register/) — source system for the Council documents mirrored in CELLAR
+
+**Reuse**
+- [Commission Decision 2011/833/EU](https://eur-lex.europa.eu/eli/dec/2011/833/oj) — the legal basis for reusing EU documents
+
 
 ## Reuse and licence
 

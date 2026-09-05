@@ -7,7 +7,7 @@ SWD,staff_document,formal_position,in,Commission staff working document
 IMPACT_ASSESS,staff_document,formal_position,in,Impact assessment
 IMPACT_ASSESS_SUM,staff_document,formal_position,in,Impact assessment summary
 IMPACT_ASSESS_INCEP,staff_document,formal_position,in,Inception impact assessment
-EVL,staff_document,formal_position,in,Evaluation
+EVL,staff_document,formal_position,out,"Programme-level evaluations in which AI is peripheral, not the subject (manual check 6 Sep 2026)"
 FACT_SUM_REPORT_CONSULT,staff_document,formal_position,in,Consultation summary report
 PROP_REG,proposal,legislative,in,Proposal for a regulation
 PROP_DIR,proposal,legislative,in,Proposal for a directive
@@ -27,7 +27,7 @@ OPIN_LETTER_EP_CMT,opinion,formal_position,in,EP committee opinion letter
 AMEND_LIST_EP,amendments,legislative,in,EP amendment list
 NOTE,council_note,legislative,in,Council presidency note / compromise text / mandate
 ITEM_IA_NOTE,council_note,legislative,in,Council I/A item note (adoption with statements)
-NOTE_INFO,council_note,legislative,in,Council information note
+NOTE_INFO,cover_note,forwarding,out,Transmission notes forwarding EP first-reading outcomes / letters to the EP - not Council-authored (manual check 6 Sep 2026)
 CONCL,conclusions,formal_position,in,Council conclusions
 POSIT,position,legislative,in,Council position
 DECLAR,declaration,formal_position,in,Declaration
