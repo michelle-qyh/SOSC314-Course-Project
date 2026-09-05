@@ -56,6 +56,23 @@ pip install -r requirements.txt
 python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; set REFRESH = True to re-query CELLAR
 ```
 
+## Useful Links
+
+**Data infrastructure**
+- [CELLAR SPARQL endpoint](https://publications.europa.eu/webapi/rdf/sparql) — the public query interface used by `cellar.py`
+- [Publications Office: Advanced / machine access to EU law](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) — EUR-Lex documentation on programmatic access
+- [CELLAR / CDM ontology documentation](https://op.europa.eu/en/web/eu-vocabularies/cellar) — the data model behind our queries (works, expressions, agents)
+- [EuroVoc concept "artificial intelligence"](https://eurovoc.europa.eu/3030) — the subject tag used as our first retrieval criterion
+
+**The legislative file**
+- [AI Act procedure file (2021/0106(COD))](https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2021/0106(COD)) — the full legislative history in Parliament's Legislative Observatory
+- [Regulation (EU) 2024/1689 (AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) — the adopted act on EUR-Lex
+- [Council public register](https://www.consilium.europa.eu/en/documents-publications/public-register/) — source system for the Council documents mirrored in CELLAR
+
+**Reuse**
+- [Commission Decision 2011/833/EU](https://eur-lex.europa.eu/eli/dec/2011/833/oj) — the legal basis for reusing EU documents
+
+
 ## Reuse and licence
 
 EU institutional documents may be reused under Commission Decision 2011/833/EU with attribution. The repository stores identifiers and source URLs and rebuilds full texts from them rather than redistributing them.
