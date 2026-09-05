@@ -21,15 +21,15 @@ The analysis moves from describing the language to measuring frames to explainin
 
 ## Repo Structure
 
-- `reports/` — weekly progress reports and their figures
-- `notebooks/` — code, one subfolder per week (`Week 2/`: inventory script, paired notebook, and `cellar.py`, the CELLAR API helpers)
-- `data/` — scope rules (`doc_types.csv`), query snapshots (`inventory/`), one retrieved document (`sample/`), and `raw/` / `corpus/` for the full corpus (gitignored, rebuilt from identifiers)
+- `reports/` — weekly progress reports
+- `notebooks/` — code: `cellar.py` (CELLAR API helpers), `01_inventory.py` (inventory pipeline), and the feasibility/exploration notebook
+- `data/` — scope rules (`doc_types.csv` / `.xlsx`), query snapshots (`inventory/`), and one retrieved document as proof of full-text access
 
 ## Reproduce
 
 ```bash
 pip install -r requirements.txt
-python "notebooks/Week 2/01_inventory.py"   # uses cached snapshots; set REFRESH = True to re-query CELLAR
+python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; set REFRESH = True to re-query CELLAR
 ```
 
 ## Reuse and licence
