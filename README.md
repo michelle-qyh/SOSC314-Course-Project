@@ -26,22 +26,28 @@ SOSC314-Course-Project/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   ├── doc_types.csv          # scope rules: type → in/out, with reasons
-│   ├── doc_types.xlsx         # formatted view of the same table
-│   ├── inventory/             # committed query snapshots (4 Sep 2026)
+│   ├── doc_types.csv               # scope rules: type → in/out, with reasons (rev. 6 Sep)
+│   ├── doc_types.xlsx              # formatted view of the same table
+│   ├── inventory/                  # committed query snapshots (retrieval 4 Sep 2026)
 │   │   ├── works_eurovoc.csv
 │   │   ├── works_title.csv
 │   │   └── works_union.csv
-│   ├── white_paper_2020.html  # retrieved sample document
+│   ├── white_paper_2020.html       # retrieved sample document
 │   └── white_paper_2020.pdf
 ├── notebooks/
-│   ├── cellar.py              # CELLAR API helpers (SPARQL + REST)
-│   ├── 01_inventory.py        # inventory pipeline → 647 found / 191 in scope
-│   └── 01.Feasibility Test and Initial Exploration.ipynb
+│   ├── cellar.py                   # CELLAR API helpers (SPARQL + REST)
+│   ├── 01_inventory.py             # inventory pipeline: query → scope filter → counts
+│   ├── 01.Feasibility Test and Initial Exploration.ipynb
+│   ├── data/
+│   │   └── raw_works_2026-09-05.csv    # working retrieval for the exploration notebook
+│   └── figures/
+│       └── week2_combined.png
 └── reports/
-    └── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+    ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+    └── figures/
+        ├── figure1_pipeline_week2.png          # data-acquisition and scope pipeline
+        └── figure2_corpus_inventory_week2.png  # corpus inventory by year and type
 ```
-
 
 ## Reproduce
 
