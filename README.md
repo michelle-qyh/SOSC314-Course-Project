@@ -76,3 +76,22 @@ python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; s
 ## Reuse and licence
 
 EU institutional documents may be reused under Commission Decision 2011/833/EU with attribution. The repository stores identifiers and source URLs and rebuilds full texts from them rather than redistributing them.
+
+## References
+
+**Framing and problem definition**
+- Entman, R. M. (1993). Framing: Toward Clarification of a Fractured Paradigm. *Journal of Communication*, 43(4), 51–58.
+- Rochefort, D. A., & Cobb, R. W. (eds.) (1994). *The Politics of Problem Definition: Shaping the Policy Agenda*. University Press of Kansas.
+
+**Computational text analysis**
+- Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. *Journal of Machine Learning Research*, 3, 993–1022.
+- Monroe, B. L., Colaresi, M. P., & Quinn, K. M. (2008). Fightin' Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict. *Political Analysis*, 16(4), 372–403.
+- Grimmer, J., & Stewart, B. M. (2013). Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts. *Political Analysis*, 21(3), 267–297.
+
+**EU institutions and AI regulation**
+- Hix, S., & Høyland, B. (2022). *The Political System of the European Union* (5th ed.). Bloomsbury.
+- Princen, S. (2009). *Agenda-Setting in the European Union*. Palgrave Macmillan.
+- Veale, M., & Zuiderveen Borgesius, F. (2021). Demystifying the Draft EU Artificial Intelligence Act. *Computer Law Review International*, 22(4), 97–112.
+
+**AI Transparency**
+ChatGPT 5.6 Luna has been used to update the repo structure tree found in this README. 
