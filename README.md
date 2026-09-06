@@ -101,4 +101,4 @@ EU institutional documents may be reused under Commission Decision 2011/833/EU w
 
 **AI Transparency**
 
-ChatGPT 5.6 Luna was used to update the repo structure tree found in this README. Claude Fable 5.1 was used to detect coding errors in `notebooks/01_inventory.py` and `notebooks/cellar.py`.
+ChatGPT 5.6 Luna was used to update the repo structure tree found in this README. Claude Fable 5.1 was used to detect coding errors and get code recommendations in `notebooks/01_inventory.py` and `notebooks/cellar.py`.
