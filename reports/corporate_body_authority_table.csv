@@ -1,0 +1,1961 @@
+code,label,broader
+STECF,"Scientific, Technical and Economic Committee for Fisheries",COM
+COUN_ASS_EC_BGR,EC–Bulgaria Association Council,EC
+COUN_ASS_EC_SVN,EC–Slovenia Association Council,EC
+COUN_COOP_EC_MKD,EC–Macedonia Cooperation Council,EC
+REPRES_FRA,Representation in France,COM
+TENTEA,Trans-European Transport Network Executive Agency,COM
+CMT_MIX_EEC_EFTA,EEC–EFTA Joint Committee,EEC
+EP_OFF_SPA,Liaison Office in Spain,EP
+WB,World Bank,
+APEC,Asia-Pacific Economic Cooperation,
+ECAC,European Civil Aviation Conference,
+CIS,Commonwealth of Independent States,
+SCIC,Directorate-General for Interpretation,COM
+COUN_ASS_EC_EST,EC–Estonia Association Council,EC
+EUMS_NONEURO4,"Non-euro area Member States: Denmark, Greece, Sweden, United Kingdom",EUMS
+COUN_JOIN,Joint Council,EURUN
+STAT_COMMUN,Statistical Office,ECSC
+AGRI,Directorate-General for Agriculture and Rural Development,COM
+BUDG,Directorate-General for Budget,COM
+CEPOL,European Union Agency for Law Enforcement Training,EURAG
+CFI,Court of First Instance,CURIA
+CJ,Court of Justice,CURIA
+CMT_MIX_EC_EST,EC–Estonia Joint Committee,EC
+CMT_ADVIS_MONOPOL,Advisory Committee on Restrictive Practices and Dominant Positions,EURUN
+CMT_MIX_EEAREA,EEA Joint Committee,EEAREA
+CMT_MIX_EEC_NOR,EEC–Norway Joint Committee,EEC
+COM,European Commission,EURUN
+COMP,Directorate-General for Competition,COM
+CONSIL,Council of the European Union,EURUN
+COR,European Committee of the Regions,EURUN
+COURT_NAT,National Courts,EUMS
+CST,Civil Service Tribunal,CURIA
+CURIA,Court of Justice of the European Union,EURUN
+DG01,"DG I – External Relations: Commercial Policy and Relations with North America, the Far East, Australia and New Zealand",COM
+DG02,DG II – Economic and Financial Affairs,COM
+DG03,DG III – Industry,COM
+DG15,DG XV – Internal Market and Financial Services,COM
+DG23,"DG XXIII – Enterprise Policy, Distributive Trades, Tourism and Cooperatives",COM
+EC,European Communities,
+ECA,European Court of Auditors,EURUN
+ECB,European Central Bank,EURUN
+ECFIN,Directorate-General for Economic and Financial Affairs,COM
+ECHO,Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO),COM
+EEAS,European External Action Service,EURUN
+EESC,European Economic and Social Committee,EURUN
+EEC,European Economic Community,
+EIB,European Investment Bank,EURUN
+EMPL,"Directorate-General for Employment, Social Affairs and Inclusion",COM
+ENER,Directorate-General for Energy,COM
+ENV,Directorate-General for Environment,COM
+EP,European Parliament,EURUN
+EPSO,European Personnel Selection Office,COM
+EP_AGRI,Committee on Agriculture and Rural Development,EP_CMT
+EP_CULT,Committee on Culture and Education,EP_CMT
+EP_DELCON,Delegation to the Conciliation Committee,EP_CMT
+EP_ECON,Committee on Economic and Monetary Affairs,EP_CMT
+EP_EMPL,Committee on Employment and Social Affairs,EP_CMT
+EP_FEMM,Committee on Women’s Rights and Gender Equality,EP_CMT
+EP_GROUP_ALDE,Group of the Alliance of Liberals and Democrats for Europe,EP_GROUP
+EP_GROUP_ARC,Rainbow Group in the European Parliament,EP_GROUP
+EP_GROUP_ARE,Group of the European Radical Alliance,EP_GROUP
+EP_GROUP_COM,Communist and Allies Group,EP_GROUP
+EP_GROUP_DEP,Group of European Progressive Democrats,EP_GROUP
+EP_GROUP_ECR,European Conservatives and Reformists Group,EP_GROUP
+EP_GROUP_ED,European Democratic Group,EP_GROUP
+EP_GROUP_EFD,Europe of freedom and direct democracy Group,EP_GROUP
+EP_GROUP_ELDR,"Group of the European Liberal, Democrat and Reform Party",EP_GROUP
+EP_GROUP_EPP,Group of the European People’s Party,EP_GROUP
+EP_GROUP_GREEN,The Green Group in the European Parliament,EP_GROUP
+EP_GROUP_GREEN_EFA,Group of the Greens/European Free Alliance,EP_GROUP
+EP_GROUP_GUE_NGL,The Left group in the European Parliament,EP_GROUP
+EP_GROUP_LD,Liberal and Democratic Group,EP_GROUP
+EP_GROUP_LDR,Liberal and Democratic Reformist Group,EP_GROUP
+EP_GROUP_LEFT,Left Unity,EP_GROUP
+EP_GROUP_NI,Non-attached Members,EP_GROUP
+EP_GROUP_PSE,Socialist Group in the European Parliament,EP_GROUP
+EP_GROUP_RDE,Group of the European Democratic Alliance,EP_GROUP
+EP_GROUP_SD,Group of the Progressive Alliance of Socialists and Democrats in the European Parliament,EP_GROUP
+EP_GROUP_UEN,Union for Europe of the Nations Group,EP_GROUP
+EP_GROUP_UPE,Group Union for Europe,EP_GROUP
+EP_IMCO,Committee on the Internal Market and Consumer Protection,EP_CMT
+EP_INTA,Committee on International Trade,EP_CMT
+EP_INTERNAL_POL,Directorate-General for Internal Policies of the Union,EP
+EP_ITRE,"Committee on Industry, Research and Energy",EP_CMT
+EP_LIBE,"Committee on Civil Liberties, Justice and Home Affairs",EP_CMT
+EP_RELA,Committee on External Economic Relations,EP_CMT
+EP_TRAN,Committee on Transport and Tourism,EP_CMT
+ESTAT,Eurostat,COM
+ETF,European Training Foundation,EURAG
+EUMS10,"The ten Member States: Belgium, Denmark, Germany, Ireland, Greece, France, Italy, Luxembourg, Netherlands, United Kingdom",EUMS
+EUMS12,"The twelve Member States: Belgium, Denmark, Germany, Ireland, Greece, Spain, France, Italy, Luxembourg, Netherlands, Portugal, United Kingdom",EUMS
+EUMS27,"The twenty-seven Member States: Belgium, Bulgaria, Czech Republic, Denmark, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Hungary, Malta, Netherlands, Austria, Poland, Portugal, Romania, Slovenia, Slovakia, Finland, Sweden, United Kingdom",EUMS
+EUMS6,"The six Member States: Belgium, Germany, France, Italy, Luxembourg, Netherlands",EUMS
+EUMS,The Member States,EURUN
+EUROPOL,Europol,EURAG
+EURCOM,European Community,
+EURUN,European Union,
+FISMA,"Directorate-General for Financial Stability, Financial Services and Capital Markets Union",COM
+FRONTEX,Frontex,EURAG
+GCEU,General Court,CURIA
+IES,Institute for Environment and Sustainability,JRC
+INTPA,Directorate-General for International Partnerships,COM
+JLS,"Directorate-General for Justice, Freedom and Security",COM
+JRCGEEL,Institute for Reference Materials and Measurements,JRC
+JRCISP,Joint Research Centre – Ispra,JRC
+MARE,Directorate-General for Maritime Affairs and Fisheries,COM
+MARKT,Directorate-General for the Internal Market and Services,COM
+NEAR,Directorate-General for Neighbourhood and Enlargement Negotiations,COM
+OAMI,European Union Intellectual Property Office,EURAG
+OP_DATPRO,Provisional data,
+PUBL,Publications Office of the European Union,COM
+RTD,Directorate-General for Research and Innovation,COM
+SANTE,Directorate-General for Health and Food Safety,COM
+SG,Secretariat-General,COM
+TAXUD,Directorate-General for Taxation and Customs Union,COM
+TRADE,Directorate-General for Trade and Economic Security,COM
+TREN,Directorate-General for Energy and Transport,COM
+CASSTM,Administrative Commission on Social Security for Migrant Workers,COM
+CEDEFOP,Cedefop,EURAG
+CLIMA,Directorate-General for Climate Action,COM
+COMMU,Directorate-General for Communication,COM
+CPVO,Community Plant Variety Office,EURAG
+DEV,"Directorate-General for Development and Relations with African, Caribbean and Pacific States",COM
+DG10,"DG X – Information, Communication, Culture and Audiovisual Media",COM
+DG17,Directorate-General for Energy,COM
+EAC,"Directorate-General for Education, Youth, Sport and Culture",COM
+EFTA_SUC,EFTA Surveillance Authority,EFTA
+ENTR,Directorate-General for Enterprise and Industry,COM
+EP_BUDG,Committee on Budgets,EP_CMT
+EP_CONT,Committee on Budgetary Control,EP_CMT
+EP_ENVI,"Committee on the Environment, Climate and Food Safety",EP_CMT
+EP_GROUP_CDI,Group for the Technical Coordination and Defence of Independent Groups and Members,EP_GROUP
+EP_GROUP_EUL,Group for the European United Left,EP_GROUP
+EUROFOUND,Eurofound,EURAG
+FRA,European Union Agency for Fundamental Rights,EURAG
+GOVREP,Representatives of the Governments of the Member States,EUMS
+GROW,"Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs",COM
+HOME,Directorate-General for Migration and Home Affairs,COM
+JRC,Joint Research Centre,COM
+HRUFASP,High Representative of the Union,EEAS
+JRCSEV,Institute for Prospective Technological Studies,JRC
+MOVE,Directorate-General for Mobility and Transport,COM
+OLAF,European Anti-Fraud Office,COM
+OSHA,European Agency for Safety and Health at Work,EURAG
+RELEX,Directorate-General for External Relations,COM
+SRB,Single Resolution Board,EURAG
+EP_AFET,Committee on Foreign Affairs,EP_CMT
+UNICE,Union of Industries of the European Community,
+EUMS15,"The fifteen Member States: Belgium, Denmark, Germany, Ireland, Greece, Spain, France, Italy, Luxembourg, Netherlands, Austria, Portugal, Finland, Sweden, United Kingdom",EUMS
+CONSIL_SG,General Secretariat of the Council,CONSIL
+CMT_MIX_EEC_AND,EEC–Andorra Joint Committee,EEC
+CMT_MIX_EEC_CHE,EEC–Switzerland Joint Committee,EEC
+COU_EUR,Council of Europe,
+EACEA,European Education and Culture Executive Agency,COM
+EAEC,European Atomic Energy Community,
+EASO,European Asylum Support Office,EURAG
+EBA,European Banking Authority,EURAG
+ECSC_HA,High Authority,ECSC
+EMCDDA,European Monitoring Centre for Drugs and Drug Addiction,EURAG
+EP_AFCO,Committee on Constitutional Affairs,EP_CMT
+EP_DEVE,Committee on Development,EP_CMT
+EP_GROUP_DR,Technical Group of the European Right,EP_GROUP
+EP_GROUP_IEDN,Group of Independents for a Europe of Nations,EP_GROUP
+EP_GROUP_IND_DEM,Independence/Democracy Group,EP_GROUP
+EP_JURI,Committee on Legal Affairs,EP_CMT
+EP_PECH,Committee on Fisheries,EP_CMT
+ESMA,European Securities and Markets Authority,EURAG
+HR,Directorate-General for Human Resources and Security,COM
+EUMS9,"The nine Member States: Belgium, Denmark, Germany, Ireland, France, Italy, Luxembourg, Netherlands, United Kingdom",EUMS
+INFSO,Directorate-General for the Information Society and Media,COM
+REGIO,Directorate-General for Regional and Urban Policy,COM
+UNESCO,Unesco,UNO
+UNO,United Nations Organisation,
+ACP,"African, Caribbean and Pacific Group of States",
+ACP_MIN,ACP Council of Ministers,
+CNECT,"Directorate-General for Communications Networks, Content and Technology",COM
+DG01A,"DG IA – External Relations: Europe and the New Independent States, Common Foreign and Security Policy and External Missions",COM
+ECDC,European Centre for Disease Prevention and Control,EURAG
+ECSC,European Coal and Steel Community,
+EDPS,European Data Protection Supervisor,EURUN
+EFTA_COURT,EFTA Court,EFTA
+EP_GROUP_CHD,Christian-Democratic Group (Group of the European People’s Party),EP_GROUP
+EP_GROUP_ECNS,European Conservative Group,EP_GROUP
+EP_GROUP_EDD,Group for a Europe of Democracies and Diversities,EP_GROUP
+EP_GROUP_TDI,Technical Group of Independent Members – mixed group,EP_GROUP
+EP_REGI,Committee on Regional Development,EP_CMT
+SANCO,Directorate-General for Health and Consumers,COM
+OSCE,Organization for Security and Cooperation in Europe,
+UNCHR,United Nations Commission on Human Rights,UNO
+UNSEC,United Nations Secretariat,UNO
+AIDCO,EuropeAid Co-operation Office,COM
+BEREC,Body of European Regulators for Electronic Communications,EURUN
+CMT_MIX_EEC_SWE,EEC–Sweden Joint Committee,EEC
+ECHA,European Chemicals Agency,EURAG
+CRS,Catholic Relief Service,
+EEA,European Environment Agency,EURAG
+EIGE,European Institute for Gender Equality,EURAG
+ENISA,European Union Agency for Cybersecurity,EURAG
+EP_GROUP_GUE,Confederal Group of the European United Left,EP_GROUP
+ERA,European Union Agency for Railways,EURAG
+EUISS,European Union Institute for Security Studies,EURAG
+EURY,Eurydice,EACEA
+IPSC,Institute for the Protection and Security of the Citizen,JRC
+SJ,Legal service,COM
+COUN_ASS_EEC_CYP,EEC–Cyprus Association Council,EEC
+UNECE,United Nations Economic Commission for Europe,ECOSOC
+EFSA,European Food Safety Authority,EURAG
+EURCOU,European Council,EURUN
+EP_GROUP_FE,Forza Europa Group,EP_GROUP
+EP_PETI,Committee on Petitions,EP_CMT
+EP_POLI,Political Affairs Committee,EP_CMT
+ACP-EU_JA,ACP–EU Joint Assembly,
+CMT_MIX_EU_CHE,EU–Switzerland Joint Committee,EURUN
+CORDIS,CORDIS,PUBL
+COR_COTER,Commission for Territorial Cohesion Policy and EU Budget,COR
+DG07,DG VII – Transport,COM
+ELARG,Directorate-General for Enlargement,COM
+EAEC_COM,Commission,EAEC
+JUST,Directorate-General for Justice and Consumers,COM
+SCAD,Automated Central Documentation Service,COM
+CMT_PSC,Political and Security Committee,CONSIL
+ACP-EU_JPA,ACP–EU Joint Parliamentary Assembly,
+COUN_ASS_EC_ROU,EC–Romania Association Council,EC
+EFTA_SEC,EFTA Secretariat,EFTA
+EMEA,European Medicines Agency,EURAG
+EP_GROUP,Political groups at the European Parliament,EP
+EP_RESEARCH,Directorate-General for Parliamentary Research Services,EP
+NP,National parliaments,EUMS
+CCSS,Administrative Commission for the Coordination of Social Security Systems,COM
+REPRES_SPA,Representation in Spain,COM
+COR_NAT,Commission for Natural Resources,COR
+EP_CMT,EP Committee,EP
+EP_GROUP_ITS,"Identity, Tradition and Sovereignty Group",EP_GROUP
+AASM,Associated African States and Madagascar,
+REA,European Research Executive Agency,COM
+COUN_ASS,Association Council,EURUN
+EP_GROUP_EDN,Europe of Nations Group (Coordination Group),EP_GROUP
+DEFIS,Directorate-General for Defence Industry and Space,COM
+CMT_MIX_EC_NOR,EC–Norway Joint Committee,EC
+COUN_ASS_EC_CSK,EC–Czech Republic Association Council,EC
+CMT_MON,Monetary Committee,EURUN
+COCOR,Coordinating Committee on the nomenclature of iron and steel products,ECSC
+UNION_AFR,African Union,
+DEL_SRB,Delegation to Serbia,EEAS_DEL
+EIT,European Institute of Innovation and Technology,EURAG
+IHCP,Institute for Health and Consumer Protection,JRC
+REPRES_POL_WAW,Representation in Poland – Warsaw,COM
+SPC,Pacific Community,
+DEL_RUS,Delegation to Russia,EEAS_DEL
+EASA,European Union Aviation Safety Agency,EURAG
+EP_EXTERN_POL,Directorate-General for External Policies of the Union,EP
+EUMS25,"The twenty-five Member States: Belgium, Czech Republic, Denmark, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Hungary, Malta, Netherlands, Austria, Poland, Portugal, Slovenia, Slovakia, Finland, Sweden, United Kingdom",EUMS
+EURATOM,Euratom Supply Agency,EURAG
+COR_ECON,Commission for Economic Policy,COR
+D9P,Directorate ‘Coordination and Preparation of Publications’,HR
+EMSA,European Maritime Safety Agency,EURAG
+WHO,World Health Organization,
+DGT,Directorate-General for Translation,COM
+COUN_ASS_EC_JOR,EC–Jordan Association Council,EC
+UNSC,Security Council,UNO
+EIF,European Investment Fund,EIB
+EUI,European University Institute,
+REPRES_BEL,Representation in Belgium,COM
+REPRES_PRT,Representation in Portugal,COM
+TASKF,Task Force for the Accession Negotiations,COM
+CMT_MIX_EEC_PRT,EEC–Portugal Joint Committee,EEC
+EFTA_MS,EFTA Member States,EFTA
+EGSA,European GNSS Agency,EURAG
+ECMT,European Conference of Ministers of Transport,
+INEA,Innovation and Networks Executive Agency,COM
+JRCPETT,Institute for Energy and Transport,JRC
+LRC,Library and e-Resources Centre,EAC
+UNHCR,Office of the United Nations High Commissioner for Refugees,UNO
+WFP,World Food Programme,UNO
+CFCA,European Fisheries Control Agency,EURAG
+AUDIT,Directorate-General for Financial Control,COM
+CMT_MIX_EC_MEX,EC–Mexico Joint Committee,EC
+EP_OFF_POL,Liaison Office in Poland,EP
+EP_OFF_FRA_PAR,Liaison Office in France – Paris,EP
+CMT_CONC,Conciliation Committee,EURUN
+CMT_COOP_CUSTOM,Customs Cooperation Committee,EURUN
+FVO,Directorate for Health and Food Audits and Analysis,SANTE
+DEL_NOR_ISL,Delegation to Norway and to Iceland,RELEX
+DEL_COL_ECU,Delegation to Colombia and to Ecuador,RELEX
+LABOUR,"Directorate-General for Labour Problems, Restructuring and Reconversion",ECSC_HA
+SHCMOEI,Safety and Health Commission for the Mining and other Extractive Industries,ECSC
+ECSC_CMTCSL,Consultative Committee of the European Coal and Steel Community,ECSC
+EP_ASSOC,Committee on Associations,EP_CMT
+EEAREA_MS,European Economic Area – Member States,EEAREA
+DEL_PHL,Delegation to the Philippines,EEAS_DEL
+ECSEL,ECSEL Joint Undertaking,EURAG
+CEPT,European Conference of Postal and Telecommunications Administrations,
+EUROCONTROL,Eurocontrol,
+EBU,European Broadcasting Union,
+EMI,European Monetary Institute,EC
+ECWAS,Economic Community of West African States,
+ERC,European Research Council Executive Agency,COM
+IMI,IMI 2 Joint Undertaking,EURAG
+REPRES_FIN,Representation in Finland,COM
+REPRES_CZE,Representation in Czechia,COM
+COUN_ASS_EC_POL,EC–Poland Association Council,EC
+CMT_COOP_EEC_SMR,EEC–San Marino Cooperation Committee,EEC
+CMT_MIX_EEC_AUT,EEC–Austria Joint Committee,EEC
+CMT_MIX_EEC_FIN,EEC–Finland Joint Committee,EEC
+CMT_ADVIS_MERGER,Advisory Committee on Concentrations,EURUN
+EFTA_STC,Standing Committee of the EFTA States,EFTA
+CDT,Translation Centre,EURAG
+REPRES_GRC,Representation in Greece,COM
+COR_CIVEX,"Commission for Citizenship, Governance, Institutional and External Affairs",COR
+CMT_MIX_EC_JPN,EC–Japan Joint Committee,EC
+CMT_MIX_EC_ISL,EC–Iceland Joint Committee,EC
+ICRC,International Committee of the Red Cross,
+DEVCO,Directorate-General for International Cooperation and Development,COM
+COUN_ASS_EC_HUN,EC–Hungary Association Council,EC
+COU_EUR_CM,Committee of Ministers of the Council of Europe,COU_EUR
+COU_EUR_PA,Parliamentary Assembly of the Council of Europe,COU_EUR
+COUN_ASS_EC_SVK,EC–Slovakia Association Council,EC
+OMB,European Ombudsman,EURUN
+REPRES_SVN,Representation in Slovenia,COM
+CMT_MIX,Joint Committee,EURUN
+ESRB,European Systemic Risk Board,EURUN
+ESA,European Space Agency,
+WTO,World Trade Organization,
+COST,European cooperation in science and technology,
+BEPA,Bureau of European Policy Advisers,COM
+EAHC,Executive Agency for Health and Consumers,COM
+CMT_MIX_EC_EFTA,EC–EFTA Joint Committee,EC
+COUN_ASS_EEC_TUR,EEC–Turkey Association Council,EEC
+ETUC,European Trade Union Confederation,
+ACER,European Union Agency for the Cooperation of Energy Regulators,EURAG
+EP_COMMU,Directorate-General for Communication,EP
+ACP_AMB,ACP Committee of Ambassadors,
+EEAREA,European Economic Area,
+EUROJUST,European Union Agency for Criminal Justice Cooperation,EURAG
+COR_SEDEC,"Commission for Social Policy, Education, Employment, Research and Culture",COR
+REPRES_BGR,Representation in Bulgaria,COM
+EP_PRES,Directorate-General for the Presidency,EP
+CMT_JOIN,Joint Committee,EURUN
+UNEP,United Nations Environment Programme,UNO
+DHS,Directorate Health and Safety,EAEC_COM
+DEL_ALB,Delegation to Albania,EEAS_DEL
+EIPA,European Institute of Public Administration,
+EP_OFF_BEL,Liaison Office in Belgium,EP
+EDA,European Defence Agency,EURAG
+SADC,Southern African Development Community,
+AECL,Atomic Energy of Canada Limited,
+CMT_AMB_EU_ACP,ACP–EU Committee of Ambassadors,EURUN
+UNAIDS,UNAIDS,UNO
+ETHI,European Group on Ethics in Science and New Technologies,COM
+COUN_ASS_EC_LVA,EC–Latvia Association Council,EC
+COUN_COOP_EEC_JOR,EEC–Jordan Cooperation Council,EEC
+COUN_COOP_EEC_ISR,EEC–Israel Cooperation Council,EEC
+EP_OFF_SWE,Liaison Office in Sweden,EP
+MPC,Migration Policy Centre,EUI
+RSCAS,Robert Schuman Centre for Advanced Studies,EUI
+UNSAG,United Nations specialized agency,UNO
+NATO,North Atlantic Treaty Organization,
+WTORG,Warsaw Treaty Organization,
+OECD,Organisation for Economic Co-operation and Development,
+EP_OFF_DEU_BER,Liaison Office in Germany – Berlin,EP
+EP_OFF_FRA_MRS,Liaison Office in France – Marseille,EP
+LISA,"European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice",EURAG
+REPRES_FRA_PAR,Representation in France – Paris,COM
+REPRES_IRL,Representation in Ireland,COM
+SESAR,Single European Sky ATM Research 3 Joint Undertaking,EURAG
+REPRES_ITA_ROM,Representation in Italy – Rome,COM
+REPRES_LUX,Representation in Luxembourg,COM
+DIGIT,Directorate-General for Digital Services,COM
+EP_GER_UNIFIC,Temporary Committee on the Impact of German unification on the EC,EP_CMT
+COMECON,Comecon,
+JUSTI,Directorate-General for Justice,COM
+IAEA,International Atomic Energy Agency,
+EPSC,European Political Strategy Centre,COM
+REPRES_SPA_MAD,Representation in Spain – Madrid,COM
+CMT_MIX_EC_CHE,EC–Switzerland Joint Committee,EC
+SISHC,Steel Industry Safety and Health Commission,ECSC
+FCH,Fuel Cells and Hydrogen 2 Joint Undertaking,EURAG
+IATA,International Air Transport Association,
+COR_ENVE,"Commission for the Environment, Climate Change and Energy",COR
+COUN_COOP_EC_ZAF,EC–South Africa Cooperation Council,EC
+ECPRD,European Centre for Parliamentary Research and Documentation,EP
+EUMS_EURO19,"The Member States having adopted the euro: Belgium, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Slovakia, Finland",EUMS
+FPI,Service for Foreign Policy Instruments,COM
+COUN_COOP_EEC_TUN,EEC–Tunisia Cooperation Council,EEC
+REPRES_GBR,Representation in the United Kingdom,COM
+CMT_INLAND_TRANSP_CHE,EC–Switzerland Inland Transport Committee,EC
+DEL_UKR,Delegation to Ukraine,EEAS_DEL
+DEL_ETH,Delegation to Ethiopia,EEAS_DEL
+CAP,Central American Parliament,
+OAS,Organization of American States,
+EP_OFF_CYP,Liaison Office in Cyprus,EP
+ESM,European Stability Mechanism,
+EACI,Executive Agency for Competitiveness and Innovation,COM
+REPRES_SVK,Representation in Slovakia,COM
+REPRES_DEU_BER,Representation in Germany – Berlin,COM
+FAO,Food and Agriculture Organization,
+ECHR,European Court of Human Rights,
+EP_OFF_HUN,Liaison Office in Hungary,EP
+AI,Amnesty International,
+REPRES_GBR_LON,Representation in the United Kingdom – London,COM
+JRCKARLS,Institute for Transuranium Elements,JRC
+EURONEST,Euronest Parliamentary Assembly,
+DG01B,"DG IB – External Relations: Southern Mediterranean, Middle East, Latin America, South and South–East Asia and North South cooperation",COM
+DG18,DG XVIII – Credit and Investments,COM
+COUN_ASS_EEC_MLT,EEC–Malta Association Council,EEC
+FUSEN,European Joint Undertaking for ITER and the Development of Fusion Energy,EURAG
+EP_IMMU,"Committee on the Rules of Procedure, the Verification of Credentials and Immunities",EP_CMT
+DEL_1A0,Office in Kosovo,EEAS_DEL
+REPRES_DEU,Representation in Germany,COM
+REPRES_SWE,Representation in Sweden,COM
+PUBL_1969_0,Publications Office,COM
+IEEA,Intelligent Energy Executive Agency,COM
+COUN_ASS_EC_TUN,EC–Tunisia Association Council,EC
+DG5_DH,Division ‘Health and Occupational Medicine’,EMPL
+EP_OFF_LUX,Liaison Office in Luxembourg,EP
+CPP,Division ‘Coordination and preparation of publications’,HR
+GULF_COOP_COUN,Gulf Cooperation Council,
+IWC,International Whaling Commission,
+LEAGUE_ARAB,Arab League,
+EP_OFF_AUT,Liaison Office in Austria,EP
+UNRWA,United Nations Relief and Works Agency for Palestine Refugees in the Near East,UNO
+IBRD,International Bank for Reconstruction and Development,WB
+CHAFEA,"Consumers, Health, Agriculture and Food Executive Agency",COM
+FSU,Forward Studies Unit,COM
+COUN_COOP_EC_RUS,EC–Russian Federation Cooperation Council,EC
+IMF,International Monetary Fund,UNO
+UNIDO,United Nations Industrial Development Organization,UNO
+IFAD,International Fund for Agricultural Development,UNO
+ITU,International Telecommunication Union,UNO
+WIPO,World Intellectual Property Organisation,UNO
+ILO,International Labour Organization,UNO
+WMO,World Meteorological Organization,UNO
+IMO,International Maritime Organisation,UNO
+UPU,Universal Postal Union,UNO
+ICAO,International Civil Aviation Organization,UNO
+UNCOM,United Nations commission,UNO
+GATT,General Agreement on Tariffs and Trade,
+PLO,Palestine Liberation Organisation,
+EASME,Executive Agency for Small and Medium-sized Enterprises,COM
+EIB_GOV,Board of Governors of the European Investment Bank,EIB
+DEL_ACC,Accession Delegation,COM
+REPRES_EST,Representation in Estonia,COM
+SPP,Spokesman’s Service of the Commission,COM
+REPRES_HUN,Representation in Hungary,COM
+DEL_MKD,Delegation to North Macedonia,EEAS_DEL
+EURSCHOOL,European schools,
+WEU,Western European Union,
+GROUP_CNTDR,Contadora Group,
+CSCE,Conference on Security and Cooperation in Europe,
+BTB,Brussels Terminology Office,COM
+DEL_BGR,Delegation to Bulgaria,RELEX
+ODCR,United Nations Disaster Relief Office,UNO
+ESDC,European Security and Defence College,EURAG
+AEPPEPF,Authority for European Political Parties and European Political Foundations,EURAG
+MERCOSUR,Mercosur,
+DEL_JPN,Delegation to Japan,EEAS_DEL
+EAR,European Agency for Reconstruction,EURAG
+ASEAN,Association of Southeast Asian Nations,
+SCR,Common Service for External Relations,COM
+REPRES_AUT,Representation in Austria,COM
+REPRES_NLD,Representation in the Netherlands,COM
+REPRES_DAN,Representation in Denmark,COM
+COUN_ASS_EC_TUR,EC–Turkey Association Council,EC
+COUN_COOP_EEC_MAR,EEC–Morocco Cooperation Council,EEC
+EP_OFF_GBR_EDI,Liaison Office in the United Kingdom – Edinburgh,EP
+EP_OFF_DAN,Liaison Office in Denmark,EP
+DEL_BIH,Delegation to Bosnia and Herzegovina,EEAS_DEL
+DEL_LSO,Delegation to Lesotho,EEAS_DEL
+DEL_USA,Delegation to the United States of America,EEAS_DEL
+FRA_CEA,French atomic energy agency,
+REPRES_MLT,Representation in Malta,COM
+EAPH,Executive Agency for the Public Health Programme,COM
+EPC,Economic Policy Committee,CONSIL
+COUN_ASS_EC_LTU,EC–Lithuania Association Council,EC
+CMT_MIX_EC_AND,EC–Andorra Joint Committee,EC
+EP_OFF_BGR,Liaison Office in Bulgaria,EP
+BEREC_OFFICE,Agency for Support for BEREC,EURAG
+EIOPA,European Insurance and Occupational Pensions Authority,EURAG
+DEL_MEX,Delegation to Mexico,EEAS_DEL
+EUSC,European Union Satellite Centre,EURAG
+BDS,Security Office,COM
+REPRES_ITA_MIL,Representation in Italy – Milan,COM
+REPRES_LVA,Representation in Latvia,COM
+REPRES_CYP,Representation in Cyprus,COM
+CONSIL_GAC,General Affairs Council,CONSIL
+COUN_COOP_EC_AZE,EC–Azerbaijan Cooperation Council,EC
+CMT_MIX_EC_USA,EC–United States of America Joint Committee,EC
+EP_OFF_GBR_LON,Liaison Office in the United Kingdom – London,EP
+EP_PERS,Directorate-General for Personnel,EP
+UNICEF,United Nations Children’s Fund,UNO
+DEL_MUS_COM_SYC,"Delegation to Mauritius, to the Comoros and to the Seychelles",EEAS_DEL
+OIB,Office for Infrastructure and Logistics in Brussels,COM
+IGS,Inspectorate-General,COM
+REPRES_SPA_BCN,Representation in Spain – Barcelona,COM
+EP_OFF_POL_WAW,Liaison Office in Poland – Warsaw,EP
+EP_OFF_SPA_MAD,Liaison Office in Spain – Madrid,EP
+GIW,Directorate-General for Industry and Economy,EAEC_COM
+CEMR,Council of European Municipalities and Regions,
+REPRES_POL,Representation in Poland,COM
+CMT_COOP,Cooperation Committee,EURUN
+REPRES_DEU_MUC,Representation in Germany – Munich,COM
+REPRES_LIT,Representation in Lithuania,COM
+EP_OFF_ROU,Liaison Office in Romania,EP
+EP_OFF_DEU_MUC,Liaison Office in Germany – Munich,EP
+EP_OFF_LIT,Liaison Office in Lithuania,EP
+DEL_ERI,Delegation to Eritrea,EEAS_DEL
+SAARC,South Asian Association for Regional Cooperation,
+REPRES_ITA,Representation in Italy,COM
+CMT_GOVCB,Committee of Governors of the Central Banks of the Member States,EC
+EP_OFF_SVN,Liaison Office in Slovenia,EP
+EP_INQWOM,Committee of inquiry into the situation of women in Europe,EP_CMT
+DEL_LKA_MDV,Delegation to Sri Lanka and the Maldives,EEAS_DEL
+DEL_PAK,Delegation to Pakistan,EEAS_DEL
+DEL_TUR,Delegation to Türkiye,EEAS_DEL
+REPRES_ROU,Representation in Romania,COM
+EFC,Economic and Financial Committee,CONSIL
+ABEC,Audit Board of the European Communities,EC
+CMT_MIX_EC_SWE,EC–Sweden Joint Committee,EC
+EP_OFF_SPA_BCN,Liaison Office in Spain – Barcelona,EP
+EP_OFF_NLD,Liaison Office in the Netherlands,EP
+EP_OFF_IRL,Liaison Office in Ireland,EP
+EP_TRANSL,Directorate-General for Translation,EP
+JRC_EI,Environment Institute,JRC
+DEL_GEO,Delegation to Georgia,EEAS_DEL
+DEL_CHN,Delegation to China,EEAS_DEL
+DEL_KHM,Delegation to Cambodia,EEAS_DEL
+G7,Group of 7,
+IAS,Internal Audit Service,COM
+COR_ECOS,Commission for Economic and Social Policy,COR
+CMT_COOP_EC_SMR,EC–San Marino Cooperation Committee,EC
+EP_OFF_DEU,Liaison Office in Germany,EP
+EP_OFF_SVK,Liaison Office in Slovakia,EP
+DEL_AU_NZ,Delegation to Australia and New Zealand,RELEX
+ECSC_DGA,Market Department (Steel),ECSC_HA
+DEL_AGO,Delegation to Angola,EEAS_DEL
+DEL_CHL,Delegation to Chile,EEAS_DEL
+DEL_BFA,Delegation to Burkina Faso,EEAS_DEL
+DEL_BLR,Delegation to Belarus,EEAS_DEL
+DEL_URY_PRY,Delegation to Uruguay and Paraguay,EEAS_DEL
+DEL_CAN,Delegation to Canada,EEAS_DEL
+DEL_HRV,Delegation to Croatia,EEAS_DEL
+DEL_BRA,Delegation to Brazil,EEAS_DEL
+DEL_AZE,Delegation to Azerbaijan,EEAS_DEL
+DEL_ARG,Delegation to Argentina,EEAS_DEL
+ARTEMIS,Artemis Joint Undertaking,EURAG
+EFTA,European Free Trade Association,
+REPRES_HRV,Representation in Croatia,COM
+EP_OFF_ITA,Liaison Office in Italy,EP
+EP_OFF_ITA_MIL,Liaison Office in Italy – Milan,EP
+EP_OFF_FRA_SXB,Liaison Office in Strasbourg,EP
+EP_OFF_LVA,Liaison Office in Latvia,EP
+EP_OFF_PRT,Liaison Office in Portugal,EP
+EAS,European School of Administration,EPSO
+COUN_COOP,Cooperation Council,EURUN
+JRC_ISIS,"Institute for Systems, Informatics and Safety",JRC
+DEL_SRB_MNE,Delegation to Serbia and Montenegro,RELEX
+COU_EUR_CLRA,Conference of Local and Regional Authorities of Europe,COU_EUR
+DEL_UZB,Delegation to Uzbekistan,EEAS_DEL
+DEL_MLI,Delegation to Mali,EEAS_DEL
+DEL_VNM,Delegation to Viet Nam,EEAS_DEL
+DEL_IND_BTN,Delegation to India and to Bhutan,EEAS_DEL
+DEL_NGA_ECOWAS,Delegation to Nigeria and ECOWAS,EEAS_DEL
+ACER_2009_0,Agency for the Cooperation of Energy Regulators,EURAG
+EUR_CONVENTON,European Convention,
+US_AEC,United States Atomic Energy Commission,
+ACEA,European Automobile Manufacturers Association,
+ACJHR,African Court of Justice and Human Rights,
+ACM,Arab Common Market,
+ACSHHPW,"Advisory Committee on Safety, Hygiene and Health Protection at Work",COM
+AGRI_1999_0,Directorate-General for Agriculture,COM
+ACSH,Advisory Committee on Safety and Health at Work,COM
+AUDIT_1972_0,DG XX – Financial Control,COM
+AGRI_1968_0,DG VI – Agriculture,COM
+AHWP_SCF,Ad hoc Working Party on the Social Climate Fund,CONSIL
+AHWP_FM,Ad hoc Working Party on Forest Monitoring,CONSIL
+AHWP_CY2004,Ad hoc Working Party on the follow-up to the Council conclusions on Cyprus of 26 April 2004,CONSIL
+AHWP_MM,Ad hoc Working Party on Military Mobility,CONSIL
+AHWP_COMEPP,Ad hoc Working Party on the Middle East Peace Process,CONSIL
+AHWP_MFF,Ad hoc Working Party on the Multiannual Financial Framework 2021–2027 mid-term revision,CONSIL
+AHWP_RESILIENCE,"Ad hoc Working Party on preparedness, response capability and resilience to future crises",CONSIL
+AHWP_DI,Ad hoc Working Party on defence industry,CONSIL
+AHWP_CBAM,Ad hoc Working Party on the Carbon Border Adjustment Mechanism,CONSIL
+AHWP_JHA,Ad hoc Working Party on JHA Financial Instruments,CONSIL
+AHWP_CEF,Ad hoc Working Party on the Connecting Europe Facility,CONSIL
+AHWP_OSOA,Ad hoc Working Party on One Substance One Assessment,CONSIL
+AHWP_DF,Ad hoc Working Party on the risk of deforestation and forest degradation associated with products placed on the EU market,CONSIL
+AHWP_UAP,Ad hoc Working Party on the multi-agency donor coordination platform for Ukraine,CONSIL
+AHWP_MFF1,Ad hoc Working Party on the Multiannual Financial Framework,CONSIL
+AHWP_COVEME,Ad hoc Working Party on the Cooperation and Verification Mechanism for Bulgaria and Romania,CONSIL
+AHWP_RESUA,Ad hoc Working Party on Reconstruction and Support for Ukraine,CONSIL
+AHWP_FA,Ad hoc Working Party on the use of frozen and immobilised assets to support Ukraine’s reconstruction,CONSIL
+ACP_CDE,Centre for the Development of Enterprise,ACP_AMB
+APDC,Asian and Pacific Development Centre,APPU
+ACP_EC_JA,ACP–EC Joint Assembly,
+ACP_EEC_CA,ACP–EEC Consultative Assembly,
+ACS,Association of Caribbean States,
+ADB,Asian Development Bank,
+AER,Assembly of European Regions,
+AFDB,African Development Bank,
+AFN,Association française de normalisation,
+AMCO,African and Mauritian Common Organisation,
+AMU,Arab Maghreb Union,
+ANDEAN,Andean Community,
+ANDEAN_P,Andean Pact,
+ANDEAN_PARL,Andean Parliament,
+ANZUS,ANZUS Treaty,
+APO,Asian Productivity Organisation,
+APPU,Asian-Pacific Parliamentarians’ Union,
+ARRANG_WSS,Wassenaar Arrangement,
+ASPAC,Asian and Pacific Council,
+BANK_EURO15,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO12,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Banque centrale du Luxembourg, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO17,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Eesti Pank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Národná banka Slovenska, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO11,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Banc Ceannais na hÉireann/Central Bank of Ireland, Banco de España, Banque de France, Banca d’Italia, Banque centrale du Luxembourg, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO16,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Národná banka Slovenska, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO18,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Eesti Pank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Latvijas Banka, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Národná banka Slovenska, Suomen Pankki/Finlands Bank",EUMS
+BANK_EURO13,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Banque centrale du Luxembourg, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Suomen Pankki",EUMS
+BUDG_1967_0,DG XIX – Budgets,COM
+BEPA_2002_0,Group of Policy Advisers,COM
+BTL,Luxembourg Terminology Office,COM
+BANK_NONEURO10A,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Hrvatska narodna banka, Lietuvos Bankas, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO7,"National banks outside the Eurosystem: Česká národní banka, Danmarks Nationalbank, Hrvatska narodna banka, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank",EUMS
+BANK_NONEURO13,"National banks outside the Eurosystem: Česká národní banka, Danmarks Nationalbank, Eesti Pank, Κεντρική Τράπεζα της Κύπρου, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Bank Centrali ta’ Malta/Central Bank of Malta, Narodowy Bank Polski, Banka Slovenije, Národná banka Slovenska, Sveriges Riksbank, Bank of England",EUMS
+BANK_EURO20,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Българска народна банка, Deutsche Bundesbank, Eesti Pank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Latvijas Banka, Lietuvos Bankas, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Národná banka Slovenska, Suomen Pankki/Finlands Bank",EUMS
+BANK_NONEURO3,"National banks outside the Eurosystem: Danmarks Nationalbank, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO9,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Hrvatska narodna banka, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO11A,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Hrvatska narodna banka, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank, Bank of England",EUMS
+BANK_EURO19,"National banks within the Eurosystem: Nationale Bank van België/Banque Nationale de Belgique, Deutsche Bundesbank, Eesti Pank, Banc Ceannais na hÉireann/Central Bank of Ireland, Τράπεζα της Ελλάδος, Banco de España, Banque de France, Banca d’Italia, Κεντρική Τράπεζα της Κύπρου, Latvijas Banka, Lietuvos Bankas, Banque centrale du Luxembourg, Bank Centrali ta’ Malta/Central Bank of Malta, De Nederlandsche Bank, Oesterreichische Nationalbank, Banco de Portugal, Banka Slovenije, Národná banka Slovenska, Suomen Pankki/Finlands Bank",EUMS
+BANK_NONEURO12,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Eesti Pank, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Národná banka Slovenska, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO4,"National banks outside the Eurosystem: Danmarks Nationalbank, Τράπεζα της Ελλάδος, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO10,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO8,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Hrvatska narodna banka, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank",EUMS
+BANK_NONEURO11,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Eesti Pank, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Narodowy Bank Polski, Banca Națională a României, Sveriges Riksbank, Bank of England",EUMS
+BANK_NONEURO14,"National banks outside the Eurosystem: Българска народна банка, Česká národní banka, Danmarks Nationalbank, Eesti Pank, Κεντρική Τράπεζα της Κύπρου, Latvijas Banka, Lietuvos Bankas, Magyar Nemzeti Bank, Bank Centrali ta’ Malta/Central Bank of Malta, Narodowy Bank Polski, Banca Națională a României, Národná banka Slovenska, Sveriges Riksbank, Bank of England",EUMS
+BEREC_2010_0,Body of European Regulators for Electronic Communications,EURUN
+CAJU,Clean Aviation Joint Undertaking,EURAG
+BBI,Bio-based Industries Joint Undertaking,EURAG
+BEREC_OFFICE_2010_0,BEREC Office,EURAG
+BENELUX,Benelux Union,
+BENELUX_1960_0,Benelux Economic Union,
+BERD,European Bank for Reconstruction and Development,
+BEUC,European Consumer Organisation,
+BIS,Bank for International Settlements,
+BLEU,Belgo-Luxembourg Economic Union,
+BOIP,Benelux Office for Intellectual Property,
+BRIC,BRIC countries,
+BRICS,BRICS countries,
+BSI,British Standards Institution,
+BSSE,BusinessEurope,
+CABEI,Central American Bank for Economic Integration,
+CACM,Central American Common Market,
+CAEMC,Central African Economic and Monetary Community,
+CAEU,Council of Arab Economic Unity,
+CAIS,Central American Integration System,
+CHAFEA_2014_0,"Consumers, Health and Food Executive Agency",COM
+CC_CIS,Coordination Committee for Communication and Information Systems,CONSIL
+CC_CATS,Coordinating Committee in the area of police and judicial cooperation in criminal matters,CONSIL
+CBRN_COE,CBRN Centres of Excellence,EURUN
+CETIS,European Scientific Information Processing Centre,JRCISP
+CBNM,Central Bureau for Nuclear Measurements,EAEC
+CARIFORUM,Caribbean Forum,ACP
+CERT,"Computer Emergency Response Team for the EU institutions, bodies and agencies",DIGIT
+CERT-EU,"Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies",DIGIT
+CBEJU,Circular Bio-based Europe Joint Undertaking,EURAG
+CFCA_2005_0,Community Fisheries Control Agency,EURAG
+CEPOL_2005_0,European Police College,EURAG
+CARICOM,Caribbean Community,
+CBSS,Council of the Baltic Sea States,
+CC,Creative Commons,
+CCC,Customs Cooperation Council,
+CCNR,Central Commission for the Navigation of the Rhine,
+CDB,Caribbean Development Bank,
+CEDRE,European Centre for Regional Development,
+CEEP,European Centre of Employers and Enterprises providing Public Services,
+CEFTA,Central European Free Trade Agreement,
+CELAB,Center for Ethics and Law in Biomedicine,
+CELAC,Community of Latin American and Caribbean States,
+CEN,European Committee for Standardization,
+CENEL,CENEL,
+CENELCOM,European Committee for the Coordination of Electrotechnical Standards in the Common Market,
+CENELEC,European Committee for Electrotechnical Standardisation,
+CENTO,Central Treaty Organization,
+CERN,CERN,
+CGIAR,Consultative Group on International Agricultural Research,
+CINEA,"European Climate, Infrastructure and Environment Executive Agency",COM
+CHR,Centre for Human Rights,UNO
+CHJU,Clean Hydrogen Joint Undertaking,EURAG
+CHE_FC,Swiss Federal Council,
+CMT_EMPL,Employment Committee,COM
+CMT_BUDG,Budget Committee,CONSIL
+CMT_CIVCOM,Committee for Civilian Aspects of Crisis Management,CONSIL
+CMT_COSI,Standing Committee on Operational Cooperation on Internal Security,CONSIL
+CMT_CULT,Cultural Affairs Committee,CONSIL
+CMT_EDU,Education Committee,CONSIL
+CMT_EMCO,Employment Committee,CONSIL
+CMT_ERAC,European Research Area and Innovation Committee,CONSIL
+CMT_EUMC,European Union Military Committee,CONSIL
+CMT_FSC,Financial Services Committee,CONSIL
+CMT_SC,Security Committee,CONSIL
+CMT_SCA,Special Committee on Agriculture,CONSIL
+CMT_SCIFA,"Strategic Committee on Immigration, Frontiers and Asylum",CONSIL
+CMT_SPC,Social Protection Committee,CONSIL
+CMT_AMB_EC_ACP,ACP–EC Committee of Ambassadors,EC
+CMT_MIX_EC_AUT,EC–Austria Joint Committee,EC
+CMT_MIX_EC_CSK,EC–Czech Republic Joint Committee,EC
+CMT_MIX_EC_DNK_FRO,EC–Denmark-Faroe Islands Joint Committee,EC
+CMT_MIX_EC_FIN,EC–Finland Joint Committee,EC
+CMT_MIX_EC_LTU,EC–Lithuania Joint Committee,EC
+CMT_MIX_EC_LVA,EC–Latvia Joint Committee,EC
+CMT_MIX_EC_SVK,EC–Slovak Republic Joint Committee,EC
+CMT_AMB_EEC_ACP,ACP–EEC Committee of Ambassadors,EEC
+CMT_MIX_ACP_EEC,ACP–EEC Joint Committee,EEC
+CMT_MIX_EEC_ARE,EEC–ARE (Arab Republic of Egypt) Joint Committee,EEC
+CMT_MIX_EEC_COM,EEC–Comoros Joint Committee,EEC
+CMT_MIX_EEC_CSK,EEC–Czech Republic Joint Committee,EEC
+CMT_MIX_EEC_ISL,EEC–Iceland-Norway Joint Committee,EEC
+CMT_MIX_EEC_ISR,EEC–Israel Joint Committee,EEC
+CMT_MIX_EEC_SVK,EEC–Slovak Republic Joint Committee,EEC
+CMT_CONJOIN,Joint Committee,EURUN
+CMT_CONS,Consultative Committee,EURUN
+CMT_MIX_EU_GBR,EU–United Kingdom Joint Committee,EURUN
+CMT_MIX_EU_ICAO,EU–ICAO Joint Committee,EURUN
+CMT_MIX_EU_MEX,EU–Mexico Joint Committee,EURUN
+CMT_PARIT,Joint Committee,EURUN
+CMT_MIX_ECSC_TUR,ECSC–Turkey Joint Committee,ECSC
+CMESA,Common Market for Eastern and Southern Africa,
+CMNW,Commonwealth,
+COMMU_1999_0,Directorate-General for Press and Communication,COM
+COMP_1967_0,DG IV – Competition,COM
+COM_CAB,Cabinets of Commissioners,COM
+COM_COLL,College of Commissioners,COM
+COM_PRES,President of the European Commission,COM
+CMT_TPC,Trade Policy Committee,CONSIL
+CONSIL_AGRIFISH,Agriculture and Fisheries Council,CONSIL
+CONSIL_COMPET,Competitiveness Council,CONSIL
+CONSIL_ECOFIN,Economic and Financial Affairs Council,CONSIL
+COM_1967_0,European Commission,EC
+CONSIL_1967_0,Council of the European Communities,EC
+CMT_TRADE_EU_ROK,EU–Korea Trade Committee,EURUN
+CMT_STAFF,Staff Committee,HR
+COM_COLL_01,College of Commissioners 1958–1962,COM_COLL
+COM_COLL_02,College of Commissioners 1962–1967,COM_COLL
+COM_COLL_03,College of Commissioners 1967–1970,COM_COLL
+COM_COLL_04,College of Commissioners 1970–1972,COM_COLL
+COM_COLL_05,College of Commissioners 1972–1973,COM_COLL
+COM_COLL_06,College of Commissioners 1973–1977,COM_COLL
+COM_COLL_07,College of Commissioners 1977–1981,COM_COLL
+COM_COLL_08,College of Commissioners 1981–1985,COM_COLL
+COM_COLL_09,College of Commissioners 1985–1989,COM_COLL
+COM_COLL_10,College of Commissioners 1989–1993,COM_COLL
+COM_COLL_11,College of Commissioners 1993–1995,COM_COLL
+COM_COLL_12,College of Commissioners 1995–1999,COM_COLL
+COM_COLL_13,College of Commissioners 1999–2004,COM_COLL
+COM_COLL_14,College of Commissioners 2004–2009,COM_COLL
+COM_COLL_15,College of Commissioners 2010–2014,COM_COLL
+COM_COLL_16,College of Commissioners 2014–2019,COM_COLL
+COM_COLL_17,College of Commissioners 2019–2024,COM_COLL
+COM_COLL_18,College of Commissioners 2024–2029,COM_COLL
+COCOM,Coordinating Committee for Multilateral Export Controls,
+CODESA,Convention for a Democratic South Africa,
+CONSIL_ENV,Environment Council,CONSIL
+CONSIL_EPSCO,"Employment, Social Policy, Health and Consumer Affairs Council",CONSIL
+CONSIL_EYCS,"Education, Youth, Culture and Sport Council",CONSIL
+CONSIL_FAC,Foreign Affairs Council,CONSIL
+CONSIL_JHA,Justice and Home Affairs Council,CONSIL
+CONSIL_PRES,Presidency of the Council of the EU,CONSIL
+CONSIL_SG_1967_0,General Secretariat of the Council,CONSIL
+CONSIL_TTE,"Transport, Telecommunications and Energy Council",CONSIL
+COREPER,Permanent Representatives Committee,CONSIL
+COREPER_I,Permanent Representatives Committee – Part I,CONSIL
+COREPER_II,Permanent Representatives Committee – Part II,CONSIL
+COR_AFFINS,Commission Institutional Affairs,COR
+COR_AMESPA,"Commission 2 Spatial Planning; Agriculture, Hunting, Fisheries, Forestry, Marine Environment and Upland Areas",COR
+COR_AMETER,"Commission 5 Land-use Planning, Environment and Energy",COR
+COR_CIVEX_2010_0,"Commission for Citizenship, Governance, Institutional and External Affairs",COR
+COR_COM1,"Commission 1 Regional Policy, Structural Funds, Economic and Social Cohesion, Cross-border and Inter-regional Cooperation",COR
+COR_COM2,"Commission 2 Agriculture, Rural Development and Fisheries",COR
+COR_COM3,"Commission 3 Trans-European Networks, Transport, Information Society",COR
+COR_COM4,"Commission 4 Spatial Planning, Urban Issues, Energy, Environment",COR
+COR_COM5,"Commission 5 Social Policy, Public Health, Consumer Protection, Research and Tourism",COR
+COR_COM6,"Commission 6 Employment, Economic Policy, Single Market, Industry, SMEs",COR
+COR_COM7,"Commission 7 Education, Vocational Training, Culture, Youth, Sport and Citizens’ Rights",COR
+COR_COM8,Commission Institutional Affairs,COR
+COR_CONST,"Commission for European Governance and the Area of Freedom, Security and Justice",COR
+COR_CONST_2002_0,Commission for Constitutional Affairs and European Governance,COR
+COR_COTER_2002_0,Commission for Territorial Cohesion Policy,COR
+COR_COTER_2005_0,Commission for Territorial Cohesion Policy,COR
+COR_COTER_2010_0,Commission for Territorial Cohesion Policy,COR
+COR_DEVE,Commission for Sustainable Development,COR
+COR_DEVELO,"Commission 1 Regional Development, Economic Development, Local and Regional Finances",COR
+COR_DEVE_2002_0,Commission for Subtainable Development,COR
+COR_1993_0,Committee of the Regions,EURUN
+COR_DIR_A,Directorate for Members and Plenaries,COR_SG
+COR_DIR_ADMIN_FINANCE,Directorate for Administration and Finance,COR_SG
+COR_DIR_B,Directorate for Legislative Work 1,COR_SG
+COR_DIR_C,Directorate for Legislative Work 2,COR_SG
+COR_DIR_COMMUNICATION,Directorate for Communication,COR_SG
+COR_DIR_CONSULTATIVE,Directorate for Consultative Work,COR_SG
+COR_DIR_D,Directorate for Communication,COR_SG
+CONSREG,Consultative Council of Regional and Local Authorities,
+CORDAID,Cordaid,
+COR_ENVE_2010_0,"Commission for The Environment, Climate Change and Energy",COR
+COR_SG_1993_0,Secretariat-General of the Committee of the Regions,COR
+COR_EDUC,"Commission for Education, Youth, Culture and Research",COR
+COR_POLURB,Commission 4 Urban Policies,COR
+COR_ECOS_2002_0,Commission for Economic and Social Policy,COR
+COR_RELEX_2002_0,Commission for External Relations,COR
+COR_EDUC_2005_0,"Commission for Culture, Education and Research",COR
+COR_TEMP_ROP,Ad Hoc Commission for the Revision of the CoR Rules of Procedure,COR
+COR_GROUP,Political groups at the European Committee of the Regions,COR
+COR_ECOSOC,"Commission 8 Economic and Social Cohesion, Social Policy and Public Health",COR
+COR_RELEX,Commission for External Relations and Decentralised Cooperation,COR
+COR_EDUFOR,"Commission 6 Education, Training",COR
+COR_TEMP_BUDG,Ad hoc commission on EU Budget,COR
+COR_ECOS_2005_0,Commission for Economic and Social Policy,COR
+COR_GROUP_1994_0,Political groups of the Committee of the Regions,COR
+COR_TRACOM,Commission 3 Transport and Communications Network,COR
+COR_EURCIT,"Commission 7 Citizen’s Europe, Research, Culture, Youth and Consumers",COR
+COR_SG,Secretariat-General of the European Committee of the Regions,COR
+COR_EDUC_2002_0,Commission for Culture and Education,COR
+COR_NAT_2010_0,Commission for Natural Resources,COR
+COR_GROUP_RENEW,Renew Europe,COR_GROUP
+COR_GROUP_EPP,European People’s Party,COR_GROUP
+COR_GROUP_PES,Party of European Socialists,COR_GROUP
+COR_GROUP_ALDE,Alliance of Liberals and Democrats for Europe,COR_GROUP
+COR_GROUP_EPP_1994_0,European People’s Party,COR_GROUP
+COR_GROUP_PES_1994_0,Party of European Socialists,COR_GROUP
+COR_GROUP_ALDE_2005_0,Alliance of Liberals and Democrats for Europe,COR_GROUP
+COR_DIR_HORIZONTAL_POLICIES,Directorate for Horizontal policies and networks,COR_SG
+COR_DIR_L,Directorate for Logistics,COR_SG
+COR_DIR_E,Directorate for Human Resources and Finance,COR_SG
+COR_DIR_HR_FINANCE,Directorate for Human Resources and Finance,COR_SG
+COST_1971_0,European Co-operation in the field of Scientific and Technical Research,
+COUN_AMB_EC_ACP,ACP–EC Council of Ministers,EC
+COUN_ASS_EC_CYP,EC–Cyprus Association Council,EC
+COUN_ASS_EC_EGY,EC–Egypt Association Council,EC
+COUN_ASS_EC_ISR,EC–Israel Association Council,EC
+COUN_ASS_EC_MAR,EC–Morocco Association Council,EC
+COUN_ASS_EC_MLT,EC–Malta Association Council,EC
+COUN_COOP_EC_ARM,EC–Armenia Cooperation Council,EC
+COUN_COOP_EC_DZA,EC–Algeria Cooperation Council,EC
+COUN_COOP_EC_GEO,EC–Georgia Cooperation Council,EC
+COUN_COOP_EC_KAZ,EC–Kazakhstan Cooperation Council,EC
+COUN_COOP_EC_KGZ,EC–Kyrgyzstan Cooperation Council,EC
+COUN_COOP_EC_LBN,EC–Lebanon Cooperation Council,EC
+COUN_COOP_EC_SYR,EC–Syria Cooperation Council,EC
+COUN_COOP_EC_UKR,EC–Ukraine Cooperation Council,EC
+COUN_COOP_EC_UZB,EC–Uzbekistan Cooperation Council,EC
+COUN_AMB_EEC_ACP,ACP–EEC Council of Ministers,EEC
+COUN_ASS_ACP_EEC,ACP–EEC Association Council,EEC
+COUN_ASS_EEC_GRC,EEC–Greece Association Council,EEC
+COUN_COOP_EEC_EGY,EEC–Egypt Cooperation Council,EEC
+COUN_COOP_EEC_LBN,EEC–Lebanon Cooperation Council,EEC
+COUN_COOP_EEC_YUG,EEC–Yugoslavia Cooperation Council,EEC
+COUN_AMB_EU_ACP,ACP–EU Council of Ministers,EURUN
+COUN_ASS_EU_CENTR_AMER,EU–Central America Association Council,EURUN
+COUN_ASS_EU_CHL,EU–Chile Association Council,EURUN
+COUN_ASS_EU_DZA,EU–Algeria Association Council,EURUN
+COUN_ASS_EU_EGY,EU–Egypt Association Council,EURUN
+COUN_ASS_EU_GEO,EU–Georgia Association Council,EURUN
+COUN_ASS_EU_ISR,EU–Israel Association Council,EURUN
+COUN_ASS_EU_JOR,EU–Jordan Association Council,EURUN
+COUN_ASS_EU_LBN,EU–Lebanon Association Council,EURUN
+COUN_ASS_EU_MAR,EU–Morocco Association Council,EURUN
+COUN_ASS_EU_MDA,EU–Moldova Association Council,EURUN
+COUN_ASS_EU_TUN,EU–Tunisia Association Council,EURUN
+COUN_ASS_EU_TUR,EU–Türkiye Association Council,EURUN
+COUN_ASS_EU_UKR,EU–Ukraine Association Council,EURUN
+COUN_COOP_EU_ARM,EU–Armenia Cooperation Council,EURUN
+COUN_COOP_EU_AZE,EU–Azerbaijan Cooperation Council,EURUN
+COUN_COOP_EU_KAZ,EU–Kazakhstan Cooperation Council,EURUN
+COUN_COOP_EU_KGZ,EU–Kyrgyzstan Cooperation Council,EURUN
+COUN_COOP_EU_SYR,EU–Syria Cooperation Council,EURUN
+COUN_COOP_EU_TJK,EU–Tajikistan Cooperation Council,EURUN
+CRO,Chief Risk Officer,COM
+COUN_JOIN_EC_MEX,EC–Mexico Joint Council,EC
+CURIA_1958_0,Court of Justice of the European Communities,EC
+CYBER,European Cybercrime Centre,EUROPOL
+COUN_COOP_EU_UZB,EU–Uzbekistan Cooperation Council,EURUN
+COUN_COOP_EU_ZAF,EU–South Africa Cooperation Council,EURUN
+COUN_JOIN_EU_MEX,EU–Mexico Joint Council,EURUN
+COUN_STAB_ASS,Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_ALB,EU–Albania Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_BIH,EU–Bosnia and Herzegovina Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_KOSOVO,EU–Kosovo Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_MKD,EU–North Macedonia Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_MKD_2009_0,EU–Former Yugoslav Republic of Macedonia Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_MNE,EU–Montenegro Stabilisation and Association Council,EURUN
+COUN_STAB_ASS_EU_SRB,EU–Serbia Stabilisation and Association Council,EURUN
+COU_EUR_CDCC,Council for Cultural Cooperation,COU_EUR
+COU_EUR_CDCPP,"Steering Committee for Culture, Heritage and Landscape",COU_EUR
+COU_EUR_CDCULT,Steering Committee for Culture,COU_EUR
+COU_EUR_CDED,Steering Committee for Education,COU_EUR
+COU_EUR_CDEDU,Steering Committee for Education,COU_EUR
+COU_EUR_CDESR,Steering Committee for Higher Education and Research,COU_EUR
+COU_EUR_CDPATEP,Steering Committee for Cultural Heritage and Landscape,COU_EUR
+COU_EUR_CDPPE,Steering Committee for Education Policy and Practice,COU_EUR
+COU_EUR_CLRAE,Congress of Local and Regional Authorities of Europe,COU_EUR
+COU_EUR_CLRAE_1983_0,Standing Conference of Local and Regional Authorities of Europe,COU_EUR
+COU_EUR_DB,Council of Europe Development Bank,COU_EUR
+COU_EUR_DB_1956_0,Resettlement Fund for National Refugees and Over-Population in Europe,COU_EUR
+COU_EUR_DB_1994_0,Council of Europe Social Development Fund,COU_EUR
+COU_EUR_ECARI,European Commission against Racism and Intolerance,COU_EUR
+COU_EUR_ECLA,European Conference of Local Authorities,COU_EUR
+COU_EUR_EDQM,European Directorate for the Quality of Medicines,COU_EUR
+COU_EUR_EDQM_1964_0,European Pharmacopoeia,COU_EUR
+COU_EUR_EDQM_1996_0,European Department for the Quality of Medicines,COU_EUR
+COU_EUR_EYF,European Youth Foundation,COU_EUR
+COU_EUR_MFRYD,Mobility Fund by Rail for the Young and the Disadvantaged,COU_EUR
+COU_EUR_SFYM,Solidarity Fund for Youth Mobility,COU_EUR
+CREDINV,Directorate General for Credit and Investments,ECSC_HA
+DEE,Directorate-General ‘Economy-Energy’,ECSC_HA
+D9D,"Directorate ‘Translation, Documentation, Reproduction and Library’",HR
+DAW,Division for the Advancement of Women,UNO
+DEL_AUS,Delegation to Australia,EEAS_DEL
+DEL_BDI,Delegation to Burundi,EEAS_DEL
+COUN_JOIN_EU_CARIFORUM,CARIFORUM–EU Joint Council,
+COU_ARCTIC,Arctic Council,
+COU_EUR_ECHR,European Commission of Human Rights,
+CPMR,Conference of Peripheral Maritime Regions,
+CSSS,Community of Sahel-Saharan States,
+CSTO,Collective Security Treaty Organization,
+DAC,Development Assistance Committee,
+DATPRO,Provisional data,
+DEVCO_2011_0,Directorate-General for Development and Cooperation – EuropeAid,COM
+DEV_1958_0,DG VIII – Development,COM
+DEV_1999_0,Directorate-General for Development,COM
+DG01_1958_0,DG I – External Relations,COM
+DG03_1967_0,DG III – Internal Market and Industrial Affairs,COM
+DG03_1972_0,DG III – Industrial and Technological Affairs,COM
+DG10_1967_0,DG X – Press and Information,COM
+DG10_1973_0,DG X – Information,COM
+DG10_1986_0,"DG X – Information, Communication and Culture",COM
+DG11,DG XI – Internal Market,COM
+DG11_1967_0,DG XI – External Trade,COM
+DG14,DG XIV – Internal Market and Approximation of Legislation,COM
+DG15_1973_0,DG XV – Financial Institutions and Taxation,COM
+DG15_1986_0,DG XV – Financial Institutions and Company Law,COM
+DG17_1967_0,DG XVII – Energy,COM
+DG22,DG XXII – Coordination of Structural Instruments,COM
+DGT_1967_0,Translation Service,COM
+DIGIT_1980_0,Informatics Directorate,COM
+DIGIT_1999_0,Directorate-General for Informatics,COM
+DPO,Data Protection Officer,COM
+EACEA_2005_0,"Education, Audiovisual and Culture Executive Agency",COM
+DG18_DC,Directorate for Credit,ECFIN
+DEL_IDN_BRN_TMP,"Delegation to Indonesia, Brunei Darussalam and East Timor",RELEX
+DG01_1957_0,DG I – Directorate-General External economic relations,ECSC
+DSB,Dispute Settlement Body,WTO
+DEL_BGD,Delegation to Bangladesh,EEAS_DEL
+DEL_CAF,Delegation to Central African Republic,EEAS_DEL
+DEL_COL,Delegation to Colombia,EEAS_DEL
+DEL_CRI,Delegation to Costa Rica,EEAS_DEL
+DEL_CRI_PAN,Delegation to Costa Rica and to Panama,EEAS_DEL
+DEL_ECU,Delegation to Ecuador,EEAS_DEL
+DEL_ISL,Delegation to Iceland,EEAS_DEL
+DEL_KAZ,Delegation to Kazakhstan,EEAS_DEL
+DEL_KAZ_KGZ_TJK,"Delegation to Kazakhstan, to Kyrgyzstan and to Tajikistan",EEAS_DEL
+DEL_KGZ,Delegation to Kyrgyzstan,EEAS_DEL
+DEL_MAR,Delegation to Morocco,EEAS_DEL
+DEL_MDG_COM,Delegation to Madagascar and to the Comoros,EEAS_DEL
+DEL_MKD_2009_0,Delegation to the former Yugoslav Republic of Macedonia,EEAS_DEL
+DEL_MNE,Delegation to Montenegro,EEAS_DEL
+DEL_MUS_SYC,Delegation to Mauritius and to the Seychelles,EEAS_DEL
+DEL_NIC_PAN_SICA,"Delegation to Nicaragua, Panama and to the Central American Integration System (SICA)",EEAS_DEL
+DEL_NOR,Delegation to Norway,EEAS_DEL
+DEL_NZL,Delegation to New Zealand,EEAS_DEL
+DEL_PRY,Delegation to Paraguay,EEAS_DEL
+DEL_TJK,Delegation to Tajikistan,EEAS_DEL
+DEL_URY,Delegation to Uruguay,EEAS_DEL
+DG03_1958_0,DG III – Internal market,EEC_COM
+EAC_1989_0,"Task Force for Human Resources, Education, Training and Youth of the European Commission",COM
+EAC_1995_0,"DG XXII – Education, Training and Youth",COM
+EAC_1999_0,Directorate-General for Education and Culture,COM
+ECHO_1992_0,European Community Humanitarian Office,COM
+ECHO_1999_0,Humanitarian Aid Office,COM
+ECHO_2005_0,Directorate-General for Humanitarian Aid,COM
+ECHO_2010_0,Directorate-General for Humanitarian Aid and Civil Protection (ECHO),COM
+ECA_1977_0,Court of Auditors,EC
+EAS_2009_0,European Administrative School,EPSO
+ECCC,"European Cybersecurity Industrial, Technology and Research Competence Centre",EURUN
+EDPB,European Data Protection Board,EURUN
+EC_LIBRARY,European Commission Library,PUBL
+ECAT,European Centre for Algorithmic Transparency,JRC
+EAEC_COUN,Council of the European Atomic Energy Community,EAEC
+EAEC_ES,Executive Secretariat,EAEC
+ECSC_PRESS,Press and Information Service,ECSC_HA
+ECOSOC,United Nations Economic and Social Council,UNO
+ECSC_CJ,Court of Justice of the European Coal and Steel Community,ECSC
+ECSC_CMIN,Council of Ministers,ECSC
+ECSC_SG,Secretariat-General,ECSC
+EASA_2002_0,European Aviation Safety Agency,EURAG
+EACOM,East African Community,
+EADI,European Association of Development Research and Training Institutes,
+EAES,European Atomic Energy Society,
+EANPC,European Association of National Productivity Centres,
+EAPC,Euro-Atlantic Partnership Council,
+EBCD,European Bureau for Conservation and Development,
+EBLUL,European Bureau for Lesser-Used Languages,
+EBMS,European Board for Media Services,
+EBUNION,European Barge Union,
+ECCAS,Economic Community of Central African States,
+ECML,European Centre for Modern Languages of the Council of Europe,
+EESC_1958_0,Economic and Social Committee,EC
+EEAS_BA,Directorate-General for Budget and Administration,EEAS
+EEAS_CSDP,Service of Deputy Secretary General CSDP and crisis response,EEAS
+EEAS_DEF,"Service of Deputy Secretary General for Peace, Security and Defence",EEAS
+EEAS_DEL,EU Delegations and Offices,EEAS
+EEAS_ECO,Service of Deputy Secretary General for economic and global issues,EEAS
+EEAS_EUMS,European Union military staff,EEAS
+EEAS_POL,Service of Deputy Secretary General for political affairs,EEAS
+EEAS_RM,Directorate-General for Resource Management,EEAS
+EEAS_SG,Secretariat-General of the EEAS,EEAS
+EEC_COM,Commission,EEC
+EEC_COUN,Council of the European Economic Community,EEC
+EEC_ES,Executive Secretariat,EEC
+EESC_CCMI,Consultative Commission on Industrial Change,EESC
+EEAREA_CC,EEA Consultative Committee,EEAREA
+EEAREA_COUN,EEA Council,EEAREA
+EEAREA_JPC,EEA Joint Parliamentary Committee,EEAREA
+EESC_ECO,Section for Economic and Monetary Union and Economic and Social Cohesion,EESC
+EESC_INT,"Section for the Single Market, Production and Consumption",EESC
+EESC_NAT,"Section for Agriculture, Rural Development and the Environment",EESC
+EESC_REX,Section for External Relations,EESC
+EESC_SG,Secretariat-General of the European Economic and Social Committee,EESC
+EESC_SOC,"Section for Employment, Social Affairs and Citizenship",EESC
+EESC_TEN,"Section for Transport, Energy, Infrastructure and the Information Society",EESC
+EEU,Eurasian Economic Union,
+EISMEA,European Innovation Council and SMEs Executive Agency,COM
+EIBI,European Investment Bank Institute,EIB
+EIB_SG,General Secretariat of the EIB,EIB
+EFTA_PC,EFTA Parliamentary Committee,EFTA
+EFTA_CC,EFTA Consultative Committee,EFTA
+EFTA_STAT,EFTA Statistical Office,EFTA
+EFTA_COUN,EFTA Council,EFTA
+EFTA_BOA,EFTA Board of Auditors,EFTA
+EGSA_1975_0,European GNSS Supervisory Authority,EURAG
+EEU_2000_0,Eurasian Economic Community,
+EFB,European Fiscal Board,
+EFI,European Forest Institute,
+EFSM,European Financial Stabilisation Mechanism,
+ENEST,Directorate-General for Enlargement and Eastern Neighbourhood,COM
+EMPL_1989_0,"DG V – Employment, Industrial Relations and Social Affairs",COM
+EMPL_2004_0,"Directorate-General for Employment, Social Affairs and Equal Opportunities",COM
+EMPL_1977_0,DG V – Employment and Social Affairs,COM
+EMPL_1999_0,Directorate-General for Employment and Social Affairs,COM
+EMPL_1958_0,DG V – Social Affairs,COM
+EMPL_1981_0,"DG V – Employment, Social Affairs and Education",COM
+EMEA_1993_0,European Agency for the Evaluation of Medicinal Products,EURAG
+EIT_2007_0,European Institute of Technology,EURAG
+ELEC,European League for Economic Cooperation,
+ELEN,European Language Equality Network,
+EMBL,European Molecular Biology Laboratory,
+ENEA,European Nuclear Energy Agency,
+ENER_COMNTY,Energy Community,
+ENTR_1999_0,Directorate-General for Enterprise,COM
+ENV_1981_0,"DG XI – Environment, Consumer Protection and Nuclear Safety",COM
+ENV_1989_0,"DG XI – Environment, Nuclear Safety and Civil Protection",COM
+EPPO,European Public Prosecutor’s Office,EURUN
+ENIAC,ENIAC Joint Undertaking,EURAG
+ENISA_2004_0,European Network and Information Security Agency,EURAG
+ENISA_2013_0,European Union Agency for Network and Information Security,EURAG
+ENP-EAST,Eastern Partnership,
+ENP-SOUTH,Southern Neighbourhood,
+EPA,European Productivity Agency,
+EPORG,European Patent Organisation,
+EPO_BA,Boards of Appeal of the European Patent Office,
+EPSO_2002_0,Personnel Selection Office,COM
+EP_1958_0,European Parliamentary Assembly,EEC
+EP_1952_0,Common Assembly,ECSC
+EP_AFCO_1982_0,Committee on Institutional Affairs,EP_CMT
+EP_BU,Bureau of the European Parliament,EP
+EP_COP,Conference of Presidents,EP
+EP_CPCO,Conference of Committee Chairs,EP
+EP_CPDE,Conference of Delegation Chairs,EP
+EP_AFET_1992_0,Committee on Foreign Affairs and Security,EP_CMT
+EP_AFET_1994_0,"Committee on Foreign Affairs, Security and Defence Policy",EP_CMT
+EP_AFET_1999_0,"Committee on Foreign Affairs, Human Rights, Common Security and Defence Policy",EP_CMT
+EP_AGRI_1978_0,Committee on Agriculture,EP_CMT
+EP_AGRI_1984_0,"Committee on Agriculture, Fisheries and Food",EP_CMT
+EP_AGRI_1987_0,"Committee on Agriculture, Fisheries and Rural Development",EP_CMT
+EP_AIDA,Special Committee on Artificial Intelligence in a Digital Age,EP_CMT
+EP_ANIT,Committee of Inquiry on the Protection of Animals during Transport,EP_CMT
+EP_BECA,Special Committee on Beating Cancer,EP_CMT
+EP_BUDE,European Parliament delegation to the Budgetary Conciliation Committee,EP_CMT
+EP_CODE,Parliament’s delegation to the Conciliation Committee,EP_CMT
+EP_DGBUDG,Directorate-General for Budgetary Affairs,EP
+EP_DGCASP,"Directorate-General for Cohesion, Agriculture and Social Policies",EP
+EP_CRIM,"Special Committee on Organised Crime, Corruption and Money Laundering",EP_CMT
+EP_CRIS,"Special Committee on the Financial, Economic and Social Crisis",EP_CMT
+EP_CULT_1979_0,"Committee on Youth, Culture, Education, Information and Sport",EP_CMT
+EP_CULT_1989_0,"Committee on Youth, Culture, Education, the Media and Sport",EP_CMT
+EP_CULT_1992_0,"Committee on Culture, Youth, Education and the Media",EP_CMT
+EP_CULT_1999_0,"Committee on Culture, Youth, Education, the Media and Sport",EP_CMT
+EP_DEVE_1978_0,Committee on Development and Cooperation,EP_CMT
+EP_DGECTI,"Directorate-General for Economy, Transformation and Industry",EP
+EP_DGITEC,Directorate-General for Information Technologies and Cybersecurity,EP
+EP_DGIUST,"Directorate-General for Citizens’ Rights, Justice and Institutional Affairs",EP
+EP_DGPART,Directorate-General for Parliamentary Democracy Partnerships,EP
+EP_FINANCE,Directorate-General for Finance,EP
+EP_FISC,Subcommittee on Tax Matters,EP_ECON
+EP_GROUP_ARC_1984_0,"Rainbow Group: Federation of the Green-Alternative European Links, Agelev-Ecolo, the Danish People’s Movement against Membership of the European Community and the European Free Alliance in the European Parliament",EP_GROUP
+EP_GROUP_CHD_1953_0,Christian-Democratic Group,EP_GROUP
+EP_GROUP_COM_1973_0,"Communist and Allies Group (SF, Ind. Sin.)",EP_GROUP
+EP_GROUP_CTDI,Technical Coordination and Defence of Independent Groups and Members,EP_GROUP
+EP_GROUP_DE,European Democratic Union Group,EP_GROUP
+EP_GROUP_DR_1984_0,Group of the European Right,EP_GROUP
+EP_GROUP_EFD_2009_0,Europe of freedom and democracy Group,EP_GROUP
+EP_GROUP_ENF,Europe of Nations and Freedom,EP_GROUP
+EP_DROI,Subcommittee on Human Rights,EP_CMT
+EP_ECON_1978_0,Committee on Economic and Monetary Affairs,EP_CMT
+EP_ECON_1984_0,Committee on Economic and Monetary Affairs and Industrial Policy,EP_CMT
+EP_EMIS,Committee of Inquiry into Emission Measurements in the Automotive Sector,EP_CMT
+EP_EMPL_1978_0,"Committee on Social Affairs, Employment and Education",EP_CMT
+EP_EMPL_1979_0,Committee on Social Affairs and Employment,EP_CMT
+EP_EMPL_1989_0,"Committee on Social Affairs, Employment and Working Environment",EP_CMT
+EP_EMPL_1994_0,Committee on Social Affairs and Employment,EP_CMT
+EP_ENVI_1962_0,Committee on Public Health and Environment,EP_CMT
+EP_ENVI_1978_0,"Committee on the Environment, Public Health and Consumer Protection",EP_CMT
+EP_ENVI_1999_0,"Committee on the Environment, Public Health and Consumer Policy",EP_CMT
+EP_ENVI_2004_0,"Committee on the Environment, Public Health and Food Safety",EP_CMT
+EP_EQUI,Committee of Inquiry into the crisis of the Equitable Life Assurance Society,EP_CMT
+EP_EUDS,Special committee on the European Democracy Shield,EP_CMT
+EP_FEMM_1984_0,Committee on Women’s Rights,EP_CMT
+EP_FEMM_1999_0,Committee on Women’s Rights and Equal Opportunities,EP_CMT
+EP_GROUP_SEC,Political groups’ secretariats,EP
+EP_INFRA_LOGIS,Directorate-General for Infrastructure and Logistics,EP
+EP_INNOV,Directorate-General for Innovation and Technological Support,EP
+EP_INTERPRET,Directorate-General for Logistics and Interpretation for Conferences,EP
+EP_INTERPRET_1952_0,Directorate-General for Interpretation and Conferences,EP
+EP_LS,Legal Service,EP
+EP_OFF_AUT_1995_0,Information Office in Austria,EP
+EP_OFF_BEL_1958_0,Information Office in Belgium,EP
+EP_OFF_BGR_2007_0,Information Office in Bulgaria,EP
+EP_OFF_CYP_2004_0,Information Office in Cyprus,EP
+EP_OFF_CZE,Liaison Office in Czechia,EP
+EP_OFF_CZE_2004_0,Information Office in the Czech Republic,EP
+EP_OFF_CZE_2018_0,Liaison Office in the Czech Republic,EP
+EP_OFF_DAN_1973_0,Information Office in Denmark,EP
+EP_OFF_DEU_1958_0,Information Office in Germany,EP
+EP_OFF_DEU_BER_1958_0,Information Office in Germany – Berlin,EP
+EP_OFF_DEU_MUC_1958_0,Information Office in Germany – Munich,EP
+EP_GROUP_EPP_1979_0,Group of the European People’s Party (Christian-Democratic Group),EP_GROUP
+EP_GROUP_EPP_1999_0,Group of the European People’s Party (Christian Democrats) and European Democrats,EP_GROUP
+EP_GROUP_EPP_2009_0,Group of the European People’s Party (Christian Democrats),EP_GROUP
+EP_GROUP_ESN,Europe of Sovereign Nations Group,EP_GROUP
+EP_GROUP_GUE_NGL_1995_0,Confederal Group of the European United Left – Nordic Green Left,EP_GROUP
+EP_GROUP_ID,Identity and Democracy Group,EP_GROUP
+EP_GROUP_NI_1953_0,Non-attached,EP_GROUP
+EP_GROUP_PFE,Patriots for Europe Group,EP_GROUP
+EP_GROUP_PSE_1953_0,Socialist Group,EP_GROUP
+EP_GROUP_PSE_1993_0,Group of the Party of European Socialists,EP_GROUP
+EP_GROUP_RENEW,Renew Europe Group,EP_GROUP
+EP_HOUS,Special committee on the Housing Crisis in the European Union,EP_CMT
+EP_IMMU_1982_0,Committee on the Verification of Credentials,EP_CMT
+EP_INGE,"Special Committee on Foreign Interference in all Democratic Processes in the European Union, including Disinformation",EP_CMT
+EP_ITRE_1978_0,Committee on Energy and Research,EP_CMT
+EP_ITRE_1984_0,"Committee on Energy, Research and Technology",EP_CMT
+EP_ITRE_1994_0,"Committee on Research, Technological Development and Energy",EP_CMT
+EP_ITRE_1999_0,"Committee on Industry, External Trade, Research and Energy",EP_CMT
+EP_JURI_1978_0,Committee for Legal Affairs,EP_CMT
+EP_JURI_1984_0,Committee on Legal Affairs and Citizens’ Rights,EP_CMT
+EP_JURI_1999_0,Committee on Legal Affairs and the Internal Market,EP_CMT
+EP_LIBE_1992_0,Committee on Civil Liberties and Internal Affairs,EP_CMT
+EP_LIBE_1999_0,"Committee on Citizens’ Freedoms and Rights, Justice and Home Affairs",EP_CMT
+EP_OFF_EST,Liaison Office in Estonia,EP
+EP_OFF_EST_2004_0,Information Office in Estonia,EP
+EP_OFF_FIN,Liaison Office in Finland,EP
+EP_OFF_FIN_1995_0,Information Office in Finland,EP
+EP_OFF_FRA,Liaison Office in France,EP
+EP_OFF_FRA_1958_0,Information Office in France,EP
+EP_OFF_FRA_MRS_1958_0,Information Office in France – Marseille,EP
+EP_OFF_FRA_PAR_1958_0,Information Office in France – Paris,EP
+EP_OFF_FRA_SXB_1958_0,Information Office in France – Strasbourg,EP
+EP_OFF_GBR,Liaison Office in the United Kingdom,EP
+EP_OFF_GBR_1973_0,Information Office in the United Kingdom,EP
+EP_OFF_GBR_EDI_1973_0,Information Office in the United Kingdom – Edinburgh,EP
+EP_OFF_GBR_LON_1973_0,Information Office in the United Kingdom – London,EP
+EP_OFF_GRC,Liaison Office in Greece,EP
+EP_OFF_GRC_1981_0,Information Office in Greece,EP
+EP_OFF_HRV,Liaison Office in Croatia,EP
+EP_OFF_HRV_2013_0,Information Office in Croatia,EP
+EP_OFF_HUN_2004_0,Information Office in Hungary,EP
+EP_OFF_IRL_1973_0,Information Office in Ireland,EP
+EP_OFF_ITA_1958_0,Information Office in Italy,EP
+EP_OFF_ITA_MIL_1958_0,Information Office in Italy – Milan,EP
+EP_OFF_ITA_ROM,Liaison Office in Italy – Rome,EP
+EP_OFF_ITA_ROM_1958_0,Information Office in Italy – Rome,EP
+EP_OFF_LIT_2004_0,Information Office in Lithuania,EP
+EP_OFF_LUX_1958_0,Information Office in Luxembourg,EP
+EP_OFF_LVA_2004_0,Information Office in Latvia,EP
+EP_OFF_MLT,Liaison Office in Malta,EP
+EP_OFF_MLT_2004_0,Information Office in Malta,EP
+EP_OFF_NLD_1958_0,Information Office in the Netherlands,EP
+EP_OFF_POL_2004_0,Information Office in Poland,EP
+EP_OFF_POL_WAW_2004_0,Information Office in Poland – Warsaw,EP
+EP_OFF_POL_WRO,Liaison Office in Poland – Wrocław,EP
+EP_OFF_POL_WRO_2004_0,Information Office in Poland – Wrocław,EP
+EP_OFF_PRT_1986_0,Information Office in Portugal,EP
+EP_OFF_ROU_2007_0,Information Office in Romania,EP
+EP_OFF_SPA_1986_0,Information Office in Spain,EP
+EP_OFF_SPA_BCN_1986_0,Information Office in Spain – Barcelona,EP
+EP_OFF_SPA_MAD_1986_0,Information Office in Spain – Madrid,EP
+EP_OFF_SVK_2004_0,Information Office in Slovakia,EP
+EP_OFF_SVN_2004_0,Information Office in Slovenia,EP
+EP_OFF_SWE_1995_0,Information Office in Sweden,EP
+EP_OFF_USA,EP-US Congress Liaison Office in Washington,EP
+EP_OFF_USA_2010_0,Liaison Office with US Congress,EP
+EP_QUE,College of Quaestors,EP
+EP_RESEARCH_1958_0,"Directorate for Parliamentary Documentation and Information (Studies, Information and Documentation Division)",EP
+EP_RESEARCH_1962_0,Directorate-General for Research and Documentation,EP
+EP_RESEARCH_1986_0,Directorate-General for Research,EP
+EP_SAFE,Directorate-General for Security and Safety,EP
+EP_SG,Secretariat-General of the European Parliament,EP
+EP_TAX2,Special Committee on Tax Rulings and Other Measures Similar in Nature or Effect (TAXE 2),EP
+EP_PANA,"Committee of Inquiry into Money Laundering, Tax Avoidance and Tax Evasion",EP_CMT
+EP_PEST,Special Committee on the Union’s authorisation procedure for pesticides,EP_CMT
+EP_PETI_1962_0,"Committee on Rules of Procedure, Legal Affairs, Petitions and Immunity",EP_CMT
+EP_PETI_1978_0,Committee on the Rules of Procedure and Petitions,EP_CMT
+EP_REGI_1978_0,"Committee on Regional Policy, Regional Planning and Transport",EP_CMT
+EP_REGI_1979_0,Committee on Regional Policy and Regional Planning,EP_CMT
+EP_REGI_1992_0,"Committee on Regional Policy, Regional Planning and Relations with Regional and Local Authorities",EP_CMT
+EP_REGI_1994_0,Committee on Regional Policy,EP_CMT
+EP_REGI_1999_0,"Committee on Regional Policy, Transport and Tourism",EP_CMT
+EP_SANT,Committee on Public Health,EP_CMT
+EP_SC_MONAFF,Subcommittee on Monetary Affairs,EP_CMT
+EP_SC_PECH,Subcommittee on Fisheries,EP_CMT
+EP_SC_SEDIS,Subcommittee on Security and Disarmament,EP_CMT
+EP_SEDE,Committee on Security and Defence,EP_CMT
+EP_SEDE_2004_0,Subcommittee on Security and Defence,EP_CMT
+EP_STOA,Panel for the Future of Science and Technology,EP_CMT
+EP_SURE,Special committee on the policy challenges and budgetary resources for a sustainable European Union after 2013,EP_CMT
+EP_TAX3,"Special committee on financial crimes, tax evasion and tax avoidance",EP_CMT
+EP_TAXE,Special Committee on Tax Rulings and Other Measures Similar in Nature or Effect,EP_CMT
+EP_TC_BSE,Temporary committee instructed to monitor the action taken on the recommendations made concerning BSE (bovine spongiform encephalopathy),EP_CMT
+EP_TC_BSE_1996_0,Temporary committee of inquiry into BSE (bovine spongiform encephalopathy),EP_CMT
+EP_TC_CLIM,Temporary Committee on Climate Change,EP_CMT
+EP_TC_CTS,Temporary committee of Inquiry into the Community Transit System,EP_CMT
+EP_TC_ECHE,Temporary committee on the Echelon interception system,EP_CMT
+EP_TC_EMPL,Temporary committee on employment,EP_CMT
+EP_TC_FIAP,Temporary committee on foot and mouth disease,EP_CMT
+EP_TC_FINP,Temporary committee on policy challenges and budgetary means of the enlarged Union 2007-2013,EP_CMT
+EP_TC_GENE,Temporary committee on human genetics and other new technologies in modern medicine,EP_CMT
+EP_TC_MARE,Temporary committee on improving safety at sea,EP_CMT
+EP_TC_TDIP,Temporary Committee on the alleged use of European countries by the CIA for the transport and illegal detention of prisoners,EP_CMT
+EP_TERR,Special Committee on Terrorism,EP_CMT
+ERCOU,European Research Council,COM
+ETHI_1993_0,Group of Advisers on the Ethical Implications of Biotechnology,COM
+ERCC,Emergency Response Coordination Centre,ECHO
+ESTAT_1958_0,Eurostat,EEC
+ESCB,European System of Central Banks,EURUN
+ESPAS,European Strategy and Policy Analysis System,EURUN
+ESABCC,European Scientific Advisory Board on Climate Change,EEA
+EP_TRAN_1979_0,Committee on Transport,EP_CMT
+EUAA,European Union Agency for Asylum,EURAG
+ERA_2004_0,European Railway Agency,EURAG
+ESF,European Science Foundation,
+ESGAB,European Statistical Governance Advisory Board,
+ESI,European Stability Initiative,
+ETC,European Travel Commission,
+ETSC,European Transport Safety Council,
+ETSI,European Telecommunications Standards Institute,
+ETUCO,European Trade Union College,
+ETUI,European Trade Union Institute,
+ETUI_1978_0,European Trade Union Institute,
+EUDA,European Union Drugs Agency,EURAG
+EUMS27_1,"The twenty-seven Member States: Belgium, Bulgaria, Czechia, Denmark, Germany, Estonia, Ireland, Greece, Spain, France, Croatia, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Hungary, Malta, Netherlands, Austria, Poland, Portugal, Romania, Slovenia, Slovakia, Finland, Sweden",EUMS
+EUMS28,"The twenty-eight Member States: Belgium, Bulgaria, Czechia, Denmark, Germany, Estonia, Ireland, Greece, Spain, France, Croatia, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Hungary, Malta, Netherlands, Austria, Poland, Portugal, Romania, Slovenia, Slovakia, Finland, Sweden, United Kingdom",EUMS
+EUMS28_2013_0,"The twenty-eight Member States: Belgium, Bulgaria, Czech Republic, Denmark, Germany, Estonia, Ireland, Greece, Spain, France, Croatia, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Hungary, Malta, Netherlands, Austria, Poland, Portugal, Romania, Slovenia, Slovakia, Finland, Sweden, United Kingdom",EUMS
+EUMS_EURO,The Member States having adopted the euro,EUMS
+EUMS_EURO11,"The Member States having adopted the euro: Belgium, Germany, Ireland, Spain, France, Italy, Luxembourg, Netherlands, Austria, Portugal, Finland",EUMS
+EUMS_EURO12,"The Member States having adopted the euro: Belgium, Germany, Ireland, Greece, Spain, France, Italy, Luxembourg, Netherlands, Austria, Portugal, Finland",EUMS
+EUMS_EURO13,"The Member States having adopted the euro: Belgium, Germany, Ireland, Greece, Spain, France, Italy, Luxembourg, Netherlands, Austria, Portugal, Slovenia, Finland",EUMS
+EUMS_EURO15,"The Member States having adopted the euro: Belgium, Germany, Ireland, Greece, Spain, France, Italy, Cyprus, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Finland",EUMS
+EUMS_EURO16,"The Member States having adopted the euro: Belgium, Germany, Ireland, Greece, Spain, France, Italy, Cyprus, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Slovakia, Finland",EUMS
+EUMS_EURO17,"The Member States having adopted the euro: Belgium, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Slovakia, Finland",EUMS
+EUMS_EURO18,"The Member States having adopted the euro: Belgium, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Latvia, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Slovakia, Finland",EUMS
+EUMS_EURO20,"The Member States having adopted the euro: Belgium, Bulgaria, Germany, Estonia, Ireland, Greece, Spain, France, Italy, Cyprus, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Austria, Portugal, Slovenia, Slovakia, Finland",EUMS
+EUMS_NONEURO10,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Latvia, Lithuania, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUMS_NONEURO10_1,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Croatia, Lithuania, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUMS_NONEURO11,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Estonia, Latvia, Lithuania, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUMS_NONEURO11_1,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Croatia, Latvia, Lithuania, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUMS_NONEURO12,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Estonia, Latvia, Lithuania, Hungary, Poland, Romania, Slovakia, Sweden, United Kingdom",EUMS
+EUMS_NONEURO13,"Non-euro area Member States: Czech Republic, Denmark, Estonia, Cyprus, Latvia, Lithuania, Hungary, Malta, Poland, Slovenia, Slovakia, Sweden, United Kingdom",EUMS
+EUMS_NONEURO14,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Estonia, Cyprus, Latvia, Lithuania, Hungary, Malta, Poland, Romania, Slovakia, Sweden, United Kingdom",EUMS
+EUMS_NONEURO3,"Non-euro area Member States: Denmark, Sweden, United Kingdom",EUMS
+EUMS_NONEURO7,"Non-euro area Member States: Czechia, Denmark, Croatia, Hungary, Poland, Romania, Sweden",EUMS
+EUMS_NONEURO8,"Non-euro area Member States: Bulgaria, Czechia, Denmark, Croatia, Hungary, Poland, Romania, Sweden",EUMS
+EUMS_NONEURO9,"Non-euro area Member States: Bulgaria, Czechia, Denmark, Croatia, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUMS_NONEURO9_2015_0,"Non-euro area Member States: Bulgaria, Czech Republic, Denmark, Croatia, Hungary, Poland, Romania, Sweden, United Kingdom",EUMS
+EUROGRO,Eurogroup,EUMS
+EUROSYSTEM,Eurosystem,EUMS
+EURAG,EU body or agency,EURUN
+EUSE,European Union Special Envoy,EURUN
+EURCOU_PRES,President of the European Council,EURCOU
+EUROJUST_1993_0,Eurojust,EURAG
+EUROPOL_1992_0,Europol,EURAG
+EUSPA,European Union Agency for the Space Programme,EURAG
+EURAC,European Union Network for Central Africa,
+EURASHE,European Association of Institutions in Higher Education,
+EUREKA,Eureka,
+EUROCORPS,Eurocorps,
+EVHAC,European Voluntary Humanitarian Aid Corps,COM
+FPI_2011_0,Foreign Policy Instruments Service,COM
+EUSR,European Union Special Representative,EURUN
+FVO_1997_0,Food and Veterinary Office,SANTE
+FRONTEX_2004_0,Frontex,EURAG
+FCH_2008_0,Fuel Cells and Hydrogen Joint Undertaking,EURAG
+FRA_1997_0,European Monitoring Centre on Racism and Xenophobia,EURAG
+EUTELSAT,Eutelsat,
+EVS,European Voluntary Service,
+FID,International Federation for Information and Documentation,
+FID_1938_0,International Federation for Documentation,
+FIFA,International Association Football Federation,
+FSF,Free Software Foundation,
+FTAA,Free Trade Area of the Americas,
+G10,Group of 10,
+G11,Group of 11,
+G12,Group of 12,
+G14,Group of 14,
+G15,Group of 15,
+G2,Group of 2,
+G20,Group of 20,
+G22,Group of 22,
+G3,Group of 3 Europe,
+G33,Group of 33 industrialized countries,
+G33_BIS,Group of 33 developing countries,
+G3_BIS,Group of 3 Latin America,
+G3_QUATER,Group of 3 with Japan,
+G3_TER,Group of 3 with China,
+G4,Group of 4,
+G4_BIS,G4 nations,
+G5,Group of 5,
+HADEA,European Health and Digital Executive Agency,COM
+GR_NICOLAIDIS,Nicolaidis Group,CONSIL
+GR_EXP_CRED,Export Credits Group,CONSIL
+GR_ANTICI_SIM,Antici Group – Simplification,CONSIL
+GR_COCG,Code of Conduct Group (Business Taxation),CONSIL
+GR_FP,Friends of the Presidency Group,CONSIL
+GOVREP_IRL,Representatives of the Government of Ireland,GOVREP
+GOVREP_PRT,Representatives of the Government of the Portuguese Republic,GOVREP
+GOVREP_ESP,Representatives of the Government of the Kingdom of Spain,GOVREP
+GOVREP_CYP,Representatives of the Government of the Republic of Cyprus,GOVREP
+GOVREP_LVA,Representatives of the Government of the Republic of Latvia,GOVREP
+GOVREP_SWE,Representatives of the Government of the Kingdom of Sweden,GOVREP
+GOVREP_GBR,Representatives of the Government of the United Kingdom of Great Britain and Northern Ireland,GOVREP
+GOVREP_BEL,Representatives of the Governments of the Kingdom of Belgium,GOVREP
+GOVREP_HRV,Representatives of the Government of the Republic of Croatia,GOVREP
+GOVREP_NLD,Representatives of the Government of the Kingdom of the Netherlands,GOVREP
+GOVREP_DEU,Representatives of the Government of the Federal Republic of Germany,GOVREP
+GOVREP_SVK,Representatives of the Government of the Slovak Republic,GOVREP
+GOVREP_FIN,Representatives of the Government of the Republic of Finland,GOVREP
+GOVREP_LTU,Representatives of the Government of the Republic of Lithuania,GOVREP
+GOVREP_AUT,Representatives of the Government of the Republic of Austria,GOVREP
+GOVREP_GRC,Representatives of the Government of the Hellenic Republic,GOVREP
+GOVREP_MLT,Representatives of the Government of the Republic of Malta,GOVREP
+GOVREP_CZE,Representatives of the Government of the Czech Republic,GOVREP
+GOVREP_ROU,Representatives of the Government of Romania,GOVREP
+GOVREP_EST,Representatives of the Government of the Republic of Estonia,GOVREP
+GOVREP_ITA,Representatives of the Government of the Italian Republic,GOVREP
+GOVREP_SVN,Representatives of the Government of the Republic of Slovenia,GOVREP
+GOVREP_HUN,Representatives of the Government of Hungary,GOVREP
+GOVREP_DNK,Representatives of the Government of the Kingdom of Denmark,GOVREP
+GOVREP_POL,Representatives of the Government of the Republic of Poland,GOVREP
+GOVREP_BGR,Representatives of the Government of the Republic of Bulgaria,GOVREP
+GOVREP_LUX,Representatives of the Government of the Grand Duchy of Luxembourg,GOVREP
+GOVREP_FRA,Representatives of the Government of the French Republic,GOVREP
+G5_BIS,Group of 5 emerging economies,
+G6,Group of 6 EU,
+G6_BIS,Group of 6,
+G77,Group of 77,
+G7_5,Group of 7+5,
+G8,Group of 8 with Russia,
+G8_5,Group of 8+5,
+G8_BIS,Group of 8 with the EU,
+G9,Group of 9,
+GREENPEACE,Greenpeace,
+GROUP_RIO,Rio Group,
+HERA,Health Emergency Preparedness and Response Authority,COM
+HOME_2010_0,Directorate-General for Home Affairs,COM
+HR_1967_0,DG IX – Personnel and Administration,COM
+HAS,Historical Archives Service,OIB
+HCCH,The Hague Conference on Private International Law,
+ICSID,International Centre for Settlement of Investment Disputes,WB
+IFC,International Finance Corporation,WB
+IDEA,"IDEA – Inspire, Debate, Engage and Accelerate Action",COM
+HR_1999_0,Directorate-General for Personnel and Administration,COM
+IAB,Impact Assessment Board,COM
+HWP_ERCHT,Horizontal Working Party on Enhancing Resilience and Countering Hybrid Threats,CONSIL
+HWP_CYBER,Horizontal Working Party on Cyber Issues,CONSIL
+HWP_HDG,Horizontal Working Party on Drugs,CONSIL
+ICGEB,International Centre for Genetic Engineering and Biotechnology,UNO
+IBE,International Bureau of Education,UNO
+IIEP,International Institute for Educational Planning,UNO
+ICJ,International Court of Justice,UNO
+IHIJU,Innovative Health Initiative Joint Undertaking,EURAG
+IACA,International Anti-Corruption Academy,
+IACHR,Inter-American Court of Human Rights,
+IBWM,International Bureau of Weights and Measures,
+ICAA,International Civil Airports Association,
+ICC,International Criminal Court,
+ICCROM,International Centre for the Study of the Preservation and Restoration of Cultural Property,
+ICCS,International Commission on Civil Status,
+ICEM,Intergovernmental Committee for European Migration,
+ICES,International Council for the Exploration of the Sea,
+ICFTU,International Confederation of Free Trade Unions,
+ICMPD,International Centre for Migration Policy Development,
+ICNAF,International Commission of the Northwest Atlantic Fisheries,
+IDA,International Development Association,
+IDB,Inter-American Development Bank,
+IEA,International Energy Agency,
+IFLA,International Federation of Library Associations and Institutions,
+IFLA_1929_0,International Federation of Library Associations,
+IFRC,International Federation of Red Cross and Red Crescent Societies,
+IGAD,Intergovernmental Authority on Development,
+IGADD,Intergovernmental Authority on Drought and Development,
+IID,International Institute for Documentation,
+INFSO_1986_0,"DG XIII – Telecommunications, Information Industries and Innovation",COM
+INFSO_1999_1,Directorate-General for the Information Society,COM
+INFSO_1973_0,DG XIII – Scientific and Technical Information and Information Management,COM
+INFSO_1993_0,"DG XIII – Telecommunications, Information Market and Exploitation of Research",COM
+INFSO_1967_0,DG XIII – Dissemination of Information,COM
+INFSO_1999_0,"DG XIII – Information Society: Telecommunications, Markets, Technologies – Innovation and Exploitation of Research",COM
+INFSO_1980_0,DG XIII – Information Market and Innovation,COM
+JLS_1999_0,Directorate-General for Justice and Home Affairs,COM
+INFSO_1992_0,"DG XIII – Information Technologies and Industries, and Telecommunications",COM
+INTCEN_2012_0,EU Intelligence Analysis Centre,EEAS
+INTCEN,EU Intelligence and Situation Centre,EEAS
+INTCEN_2002_0,EU Situation Centre,EEAS
+JRCGEEL_1967_0,Joint Research Centre – Geel,JRC
+JRCISP_1959_0,"Joint Nuclear Research Centre, Ispra Establishment",EAEC
+INCB,International Narcotics Control Board,UNO
+ILOFF,International Labour Office,UNO
+ITC,International Trade Centre,UNO
+ILC,International Labour Conference,UNO
+IPCC,Intergovernmental Panel on Climate Change,UNO
+IMCO,Inter-Governmental Maritime Consultative Organization,UNO
+INFSO_1958_0,Dissemination of Information,EAEC_COM
+ITC_1964_0,International Trade Centre UNCTAD/GATT,GATT
+IMI_2008_0,IMI Joint Undertaking,EURAG
+IIF,Institute for International Finance,
+ILAI,Institute for Latin American Integration,
+ILBC,International Library and Bibliographical Committee,
+INRO,International Natural Rubber Organisation,
+INTERPOL,Interpol,
+IOC,International Olympic Committee,
+IOM,International Organization for Migration,
+IPI,International Press Institute,
+IPU,Inter-Parliamentary Union,
+IRENA,International Renewable Energy Agency,
+IRSG,International Rubber Study Group,
+ISHR,International Society for Human Rights,
+ISO,ISO,
+ISOSUGAR,International Sugar Organization,
+ISSA,International Social Security Association,
+ITA_CNEN,Comitato Nazionale per l’Energia Nucleare,
+ITA_CNR,Consiglio Nazionale delle Ricerche,
+ITF,International Transport Forum,
+ITLOS,International Tribunal for the Law of the Sea,
+ITTO,International Tropical Timber Organization,
+ITUC,International Trade Union Confederation,
+MIGA,Multilateral Investment Guarantee Agency,WB
+MARKT_1999_0,Directorate-General for the Internal Market,COM
+MARE_1999_0,Directorate-General for Fisheries,COM
+MENA,"Directorate-General for the Middle East, North Africa and the Gulf",COM
+MARE_1977_0,DG XIV – Fisheries,COM
+MARE_2005_0,Directorate-General for Fisheries and Maritime Affairs,COM
+LRC_1958_0,Commission’s library,EAC
+JRCKARLS_1967_0,Joint Research Centre – Karlsruhe,JRC
+JRCPETT_1982_0,Institute for Advanced Materials,JRC
+JRCPETT_2001_0,Institute for Energy,JRC
+JRCPETT_1967_0,Joint Research Centre – Petten,JRC
+JRCKARLS_1966_0,"Joint Nuclear Research Centre, Karlsruhe Establishment",EAEC
+LABOUR_1952_0,Labour Problems Division,ECSC_HA
+L69,L69 Group,UNO
+OCHA,Office for the Coordination of Humanitarian Affairs,UNO
+OAMI_1994_0,Office for Harmonization in the Internal Market,EURAG
+KDTJU,Key Digital Technologies Joint Undertaking,EURAG
+LISA_2011_0,"European Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice",EURAG
+LACES,Latin American and the Caribbean Economic System,
+LAES,Latin American Economic System,
+LAIA,Latin American Integration Association,
+LA_PARL,Latin American Parliament,
+LIMA_GROUP,Lima Group,
+MERCATOR,Mercator Network,
+MSF,Doctors Without Borders,
+NACC,North Atlantic Cooperation Council,
+NAFO,Northwest Atlantic Fisheries Organization,
+NAFTA,North American Free Trade Agreement,
+NATO_EURGR,Eurogroup (NATO),
+NEA,Nuclear Energy Agency,
+NGO,Non-governmental organisation,
+NORDENCOU,Nordic Council,
+NP_AUT_BUN,Austrian Federal Council,
+NP_AUT_NAT,Austrian National Council,
+NP_BEL_REP,Belgian House of Representatives,
+NP_BEL_SEN,Belgian Senate,
+NP_BGR,National Assembly of the Republic of Bulgaria,
+NP_CYP,House of Representatives of the Republic of Cyprus,
+NP_CZE_POS,Chamber of Deputies of the Parliament of the Czech Republic,
+NP_CZE_SEN,Senate of the Parliament of the Czech Republic,
+NP_DEU_BRA,German Bundesrat,
+NP_DEU_BTA,German Bundestag,
+NP_DNK,Danish Parliament,
+NP_ESP_CON,Spanish Congress of Deputies,
+NP_ESP_SEN,Senate of Spain,
+NP_EST,Parliament of Estonia,
+NP_FIN,Parliament of Finland,
+NP_FRA_ASS,French National Assembly,
+NP_FRA_SEN,French Senate,
+NP_GBR_COM,House of Commons of the United Kingdom,
+NP_GBR_LOR,House of Lords of the United Kingdom,
+NP_GRC,Hellenic Parliament,
+NP_HRV,Croatian Parliament,
+NP_HUN,Hungarian National Assembly,
+NP_IRL_DAI,Dáil Éireann,
+NP_IRL_SEA,Seanad Éireann,
+NP_ITA_DEP,Chamber of Deputies of the Italian Parliament,
+NP_ITA_SEN,Senate of the Italian Republic,
+NP_LTU,Parliament of the Republic of Lithuania,
+NP_LUX,Luxembourg Chamber of Deputies,
+NP_LVA,Parliament of the Republic of Latvia,
+NP_MLT,Maltese House of Representatives,
+NP_NLD_EER,Senate of the Netherlands,
+NP_NLD_TWE,House of Representatives of the Netherlands,
+NP_POL_SEJ,Sejm of the Republic of Poland,
+NP_POL_SEN,Senate of the Republic of Poland,
+NP_PRT,Portuguese Assembleia da República,
+NP_ROU_DEP,Chamber of Deputies of Romania,
+NP_ROU_SEN,Senate of Romania,
+NP_SVK,National Council of the Slovak Republic,
+NP_SVN_SVE,National Council of the Republic of Slovenia,
+NP_SVN_ZBO,National Assembly of the Republic of Slovenia,
+NP_SWE,Riksdag of Sweden,
+NSC,North Sea Conference,
+NSG,Nuclear Suppliers Group,
+OAPEC,Organization of Arab Petroleum Exporting Countries,
+OAU,Organisation of African Unity,
+ODC,Open Data Commons,
+OLAF_1988_0,Anti-Fraud Coordination,COM
+PMO,Office for the Administration and Payment of Individual Entitlements,COM
+OIL,Office for Infrastructure and Logistics in Luxembourg,COM
+PRESS_1967_0,Press and Communication Service,COM
+PC_CONJ,Conjunctural Policy Committee,COM
+REFOR,Reform and Investment Task Force,COM
+PRESS,Directorate-General for Press and Communication,COM
+PC_MTE,Medium-term Economic Policy Committee,COM
+REA_2008_0,Research Executive Agency,COM
+PC_BUDG,Budgetary Policy Committee,COM
+PMG,Politico-Military Group,CONSIL
+RECOVER,Recovery and Resilience Task Force,SG
+RCN,Reactor Centre Netherlands,EAEC
+PRESS_COMMUN,Press and Information Service,ECSC_HA
+OHCHR,Office of the High Commissioner for Human Rights,UNO
+OSAGI,Office of the Special Adviser to the Secretary-General on Gender Issues and Advancement of Women,UNO
+OHCHR_1993_0,Office of the High Commissioner for Human Rights,UNO
+PUBL_1952_0,Publications department,ECSC
+OMB_SG,Secretariat-General of the European Ombudsman,OMB
+OIC,Organisation of Islamic Cooperation,
+OICONF,Organisation of the Islamic Conference,
+OIE,International Office of Epizootic Diseases,
+OPCW,Organization for the Prohibition of Chemical Weapons,
+OPEC,Organization of the Petroleum Exporting Countries,
+OTIF,Intergovernmental Organisation for International Carriage by Rail,
+PACIFIC_AL,Pacific Alliance,
+PAHO,Pan American Health Organization,
+PAP,Pan-African Parliament,
+PCA,Permanent Court of Arbitration,
+PIF,Pacific Islands Forum,
+PLAN_CMB,Colombo Plan,
+RECCEE,Regional Environmental Center for Central and Eastern Europe,
+REFORM,Directorate-General for Structural Reform Support,COM
+REGIO_1968_0,DG XVI – Regional Policy,COM
+REGIO_1997_0,DG XVI – Regional Policy and Cohesion,COM
+REGIO_1999_0,Directorate-General for Regional Policy,COM
+REPRES_CZE_2004_0,Representation in the Czech Republic,COM
+REPRES_DEU_BON,Representation in Germany – Bonn,COM
+REPRES_FRA_MRS,Representation in France – Marseille,COM
+REPRES_GBR_BEL,Representation in the United Kingdom – Northern Ireland,COM
+REPRES_GBR_CDF,Representation in the United Kingdom – Wales,COM
+REPRES_GBR_EDI,Representation in the United Kingdom – Scotland,COM
+REPRES_POL_WRO,Representation in Poland – Wrocław,COM
+RSB,Regulatory Scrutiny Board,COM
+REPRES_PERM,Permanent representations,EUMS
+RESPA,Regional School for Public Administration,
+RTD_1967_0,DG XII – General Research and Technology,COM
+RTD_1973_0,"DG XII – Research, Science and Education",COM
+RTD_1981_0,"DG XII – Science, Research and Development",COM
+RTD_1999_0,Directorate-General for Research,COM
+SAM_ADV,Group of Chief Scientific Advisors,COM
+RTD_1957_0,Directorate-General for Research and Education,EAEC_COM
+SACU,Southern African Customs Union,
+SC_OLAF,Supervisory Committee of OLAF,COM
+SANCO_1999_0,Directorate-General for Health and Consumer Protection,COM
+SCIC_1991_0,Joint Interpreting and Conference Service,COM
+SG_1967_0,Secretariat-General,COM
+SANCO_1978_0,Environment and Consumer Protection Service,COM
+SANCO_1967_0,Consumer Policy Service,COM
+SJ_1967_0,Legal Service,COM
+SCR_1998_0,Joint Service for the Management of Community Aid to Non-Member Countries,COM
+SANCO_1994_0,DG XXIV – Consumer Policy and Consumer Health Protection,COM
+SCAD_1969_0,Central Documentation Service,HR
+SJ_COMMUN,Legal Service,ECSC
+SHCMOEI_1957_0,Mines Safety Commission,ECSC
+SHCMOEI_1965_0,Mines Safety and Health Commission,ECSC
+SKY,Clean Sky 2 Joint Undertaking,EURAG
+SKY_2008_0,Clean Sky Joint Undertaking,EURAG
+SESAR_2007_0,SESAR Joint Undertaking,EURAG
+SCO,Shanghai Cooperation Organisation,
+SEATO,Southeast Asia Treaty Organization,
+SPC_1947_0,South Pacific Commission,
+TASKF_A50_UK,Article 50 Task Force,COM
+TAXUD_1968_0,Service of the Customs Union,COM
+STECF_1979_0,Scientific and Technical Committee for Fisheries,COM
+SRSS,Structural Reform Support Service,COM
+SPC_1997_0,Secretariat of the Pacific Community,
+STC,Scientific and Technical Committee,
+TAXUD_1982_0,DG XXI – Customs and Indirect Taxation,COM
+TAXUD_1999_0,DG XXI – Taxation and Customs Union,COM
+TRADE_1999_0,Directorate-General for Trade,COM
+TREN_1999_0,Directorate-General for Transport,COM
+UKTF,UK Task Force,COM
+UCPM,EU Civil Protection Mechanism,ECHO
+UFC,Uniting for Consensus,UNO
+UNACCTO,United Nations Advisory Committee of Experts on the Prevention of Crime and the Treatment of Offenders,UNO
+UNACSTD,United Nations Advisory Committee on Science and Technology for Development,UNO
+UNAHCCTO,United Nations Ad Hoc Advisory Committee of Experts on the Prevention of Crime and the Treatment of Offenders,UNO
+UNCCPC,United Nations Committee on Crime Prevention and Control,UNO
+UNCCPCJ,United Nations Commission on Crime Prevention and Criminal Justice,UNO
+UNCED,United Nations Conference on Environment and Development,UNO
+UNCENRD,United Nations Committee on Energy and Natural Resources for Development,UNO
+UNCHRC,United Nations Human Rights Committee,UNO
+UNCND,United Nations Commission on Narcotic Drugs,UNO
+UNCNR,United Nations Committee on Natural Resources,UNO
+UNCNRED,United Nations Committee on New and Renewable Sources of Energy and on Energy for Development,UNO
+UNCOMPD,United Nations Commission on Population and Development,UNO
+UNCRD,United Nations Centre for Regional Development,UNO
+UNCSD,United Nations Commission on Sustainable Development,UNO
+UNCSOCD,United Nations Commission for Social Development,UNO
+UNCSW,United Nations Commission on the Status of Women,UNO
+UNCTAD,United Nations Conference on Trade and Development,UNO
+UNDP,United Nations Development Programme,UNO
+UNECA,United Nations Economic Commission for Africa,UNO
+UNECAFE,United Nations Economic Commission for Asia and the Far East,UNO
+UNECLA,United Nations Economic Commission for Latin America,UNO
+UNECLAC,United Nations Economic Commission for Latin America and the Caribbean,UNO
+UNECWA,United Nations Economic Commission for Western Asia,UNO
+UNESCAP,United Nations Economic and Social Commission for Asia and the Pacific,UNO
+UNESCWA,United Nations Economic and Social Commission for Western Asia,UNO
+UNESOB,United Nations Economic and Social Office in Beirut,UNO
+UNFF,United Nations Forum on Forests,UNO
+UNFPA,United Nations Population Fund,UNO
+UNFPA_1967_0,United Nations Trust Fund for Population Activities,UNO
+UNFPA_1972_0,United Nations Fund for Population Activities,UNO
+UNGA,General Assembly of the United Nations,UNO
+UNHLPF,United Nations High-level Political Forum on Sustainable Development,UNO
+UNHRCOU,United Nations Human Rights Council,UNO
+UNICRI,United Nations Interregional Crime and Justice Research Institute,UNO
+UNIDIR,United Nations Institute for Disarmament Research,UNO
+TRCOM,Transport Community,
+TRI_SVB,Slavkov Triangle,
+TRI_WMR,Weimar Triangle,
+TUTB,European Trade Union Technical Bureau for Health and Safety,
+UEFA,Union of European Football Associations,
+UNASUR,Union of South American Nations,
+WP_AQ,Working Party on Atomic Questions,CONSIL
+WP_CL,Working Party on Company Law,CONSIL
+WP_AGR,Working Party on Agricultural Products,CONSIL
+WP_COASI,Asia-Oceania Working Party,CONSIL
+WP_AVIA,Working Party on Aviation,CONSIL
+WP_ACP,"African, Caribbean and Pacific Working Party",CONSIL
+WP_AVM,Audiovisual and Media Working Party,CONSIL
+WP_AGRIFIN,Working Party on Financial Agricultural Questions,CONSIL
+WP_COAFR,Africa Working Party,CONSIL
+WP_AG2030,Working Party on the 2030 Agenda for Sustainable Development,CONSIL
+WP_ASYLUM,Asylum Working Party,CONSIL
+WP29,Article 29 Working Party,EURUN
+UNTC,United Nations Trusteeship Council,UNO
+UNPCOM,United Nations Population Commission,UNO
+UNIGCSTD,United Nations Intergovernmental Committee on Science and Technology for Development,UNO
+UNSCOM,United Nations Statistical Commission,UNO
+UN_INSTRAW,International Research and Training Institute for the Advancement of Women,UNO
+UNRISD,United Nations Research Institute for Social Development,UNO
+UNWOMEN,UN Women,UNO
+UNITAR,United Nations Institute for Training and Research,UNO
+UNSD,United Nations Statistics Division,UNO
+UNIFEM,United Nations Development Fund for Women,UNO
+UNISIST,World Scientific and Technical Information System,UNO
+UNTECCOM,United Nations technical commission,UNO
+UNREGICOM,United Nations regional commission,UNO
+UNWTO,World Tourism Organization,UNO
+UNSB,United Nations subsidiary body,UNO
+UNODC,United Nations Office on Drugs and Crime,UNO
+UNSOCCOM,United Nations Social Commission,UNO
+WEU_ISS,Western European Union Institute for Security Studies,WEU
+WEU_SC,Western European Union Satellite Centre,WEU
+UNIDROIT,International Institute for the Unification of Private Law,
+UPC,Unified Patent Court,
+USMCA,United States – Mexico – Canada Agreement,
+V3,Visegrad Triangle,
+V4,Visegrad Group,
+WADA,World Anti-Doping Agency,
+WAEMU,West African Economic and Monetary Union,
+WCDC,Working Community of the Danube Countries,
+WCL,World Confederation of Labour,
+WCO,World Customs Organization,
+WEU_1948_0,Western Union,
+WFC,World Food Council,
+WFD,World Federation of the Deaf,
+WOAH,World Organisation for Animal Health,
+WP_COCON,Working Party on Consular Affairs,CONSIL
+WP_CODEV-PI,Working Party on Development Cooperation and International Partnerships,CONSIL
+WP_CODLEG,Working Party on Codification of Legislation,CONSIL
+WP_COELA,Working Party on Enlargement and Countries Negotiating Accession to the EU,CONSIL
+WP_COEST,Working Party on Eastern Europe and Central Asia,CONSIL
+WP_COHAFA,Working Party on Humanitarian Aid and Food Aid,CONSIL
+WP_COHOM,Working Party on Human Rights,CONSIL
+WP_COJUR,Working Party on Public International Law,CONSIL
+WP_COLAC,Working Party on Latin America and the Caribbean,CONSIL
+WP_COMAR,Working Party on the Law of the Sea,CONSIL
+WP_COMET,Working Party on restrictive measures to combat terrorism,CONSIL
+WP_COMP,Working Party on Competition,CONSIL
+WP_COMPGRO,Working Party on Competitiveness and Growth,CONSIL
+WP_CONUN,United Nations Working Party,CONSIL
+WP_COPEN,Working Party on Judicial Cooperation in Criminal Matters,CONSIL
+WP_COTRA,Working Party on Transatlantic Relations,CONSIL
+WP_COWEB,Working Party on the Western Balkans Region,CONSIL
+WP_CPI,Working Party on Consumer Protection and Information,CONSIL
+WP_CU,Working Party on Customs Union,CONSIL
+WP_CURIA,Working Party on the Court of Justice,CONSIL
+WP_DI,Working Party on Defence Industry,CONSIL
+WP_DP,Working Party on Data Protection,CONSIL
+WP_DUAL-USE,Working Party on Dual-Use Goods,CONSIL
+WP_EFTA,Working Party on the European Free Trade Association (EFTA),CONSIL
+WP_EJUST,Working Party on e-Justice,CONSIL
+WP_EM,Working Party on External Aspects of Asylum and Migration,CONSIL
+WP_ENERGY,Working Party on Energy,CONSIL
+WP_ENV,Working Party on the Environment,CONSIL
+WP_FICO,Working Party of Financial Counsellors,CONSIL
+WP_FISHERIES,Working Party on Fisheries Policy,CONSIL
+WP_FOOD,Working Party on Food and Food Systems,CONSIL
+WP_FORESTRY,Working Party on Forestry,CONSIL
+WP_FREMP,"Working Party on Fundamental Rights, Citizens' Rights and Free Movement of Persons",CONSIL
+WP_FRONTIERS,Working Party on Frontiers,CONSIL
+WP_FSA,Financial Services Attachés,CONSIL
+WP_FSBA,Working Party on Financial Services and the Banking Union,CONSIL
+WP_GAF,Working Party on Combating Fraud,CONSIL
+WP_GAG,Working Party on General Affairs,CONSIL
+WP_GRIA,Working Party on Genetic Resources and Innovation in Agriculture,CONSIL
+WP_HA,Working Party on Horizontal Agricultural Questions,CONSIL
+WP_IE,Working Party on International Environment Issues,CONSIL
+WP_IFA,Working Party on International Food and Agricultural Questions,CONSIL
+WP_IMEX,"Working Party on Integration, Migration and Expulsion",CONSIL
+WP_INFO,Working Party on Information,CONSIL
+WP_IP,Working Party on Intellectual Property,CONSIL
+WP_IXIM,Working Party on JHA Information Exchange,CONSIL
+WP_JUSTCIV,Working Party on Civil Law Matters,CONSIL
+WP_LANDTRANS,Working Party on Land Transport,CONSIL
+WP_LE,Law Enforcement Working Party,CONSIL
+WP_LEGLING,Working Party of Legal/Linguistic Experts,CONSIL
+WP_MAMA,Mashreq/Maghreb Working Party,CONSIL
+WP_MARITIME,Working Party on Maritime Issues,CONSIL
+WP_MED,Working Party on Pharmaceuticals and Medical Devices,CONSIL
+WP_MOG,Middle East/Gulf Working Party,CONSIL
+WP_NPAE,Working Party on Non-Proliferation and Arms Exports,CONSIL
+WP_OR,Working Party on Own Resources,CONSIL
+WP_OSCE_COE,Working Party on the OSCE and the Council of Europe,CONSIL
+WP_PLANT,Working Party on Plants and Plant Health Questions,CONSIL
+WP_POST,Working Party on Postal Services,CONSIL
+WP_PROBA,Working Party on Commodities,CONSIL
+WP_PROCIV,Working Party on Civil Protection,CONSIL
+WP_PU,Working Party on Public Health,CONSIL
+WP_RELEX,Working Party of Foreign Relations Counsellors,CONSIL
+WP_RESEARCH,Working Party on Research,CONSIL
+WP_SCHENGEN,Working Party for Schengen Matters,CONSIL
+WP_SHIP,Working Party on Shipping,CONSIL
+WP_SMOR,Working Party on Structural Measures and Outermost Regions,CONSIL
+WP_SPACE,Working Party on Space,CONSIL
+WP_SPORT,Working Party on Sport,CONSIL
+WP_SQ,Working Party on Social Questions,CONSIL
+WP_SR,Working Party on Staff Regulations,CONSIL
+WP_STAT,Working Party on Statistics,CONSIL
+WP_TAX,Working Party on Tax Questions,CONSIL
+WP_TER,Working Party on Terrorism,CONSIL
+WP_TER_INT,Working Party on Terrorism (International Aspects),CONSIL
+WP_TH,Working Party on Technical Harmonisation,CONSIL
+WP_UK,Working Party on the United Kingdom,CONSIL
+WP_VISA,Visa Working Party,CONSIL
+WP_TN,Working Party on Transport – Intermodal Questions and Networks,CONSIL
+WP_YOUTH,Youth Working Party,CONSIL
+WP_VET,Working Party on Animals and Veterinary Questions,CONSIL
+WP_TIS,Working Party on Telecommunications and Information Society,CONSIL
+WP_WALC,Working Party on Wines and Alcohol,CONSIL
+WP_TRADE,Working Party on Trade Questions,CONSIL
+CGIAR_CIARC,CGIAR Consortium of International Agricultural Research Centers,CGIAR
+ITA_CNR_ISMAR,Istituto di Scienze Marine,ITA_CNR
+ITA_CNR_IAS,Istituto per lo studio degli impatti Antropici e Sostenibilità in Ambiente Marino,ITA_CNR
+CMT_SC_IA,Security Committee – Information Assurance,CMT_SC
+CMT_SC_SAB,Security Accreditation Board,CMT_SC
+CMT_SC_TSCM,Technical Surveillance Counter-Measures Expert Group,CMT_SC
+COR_GROUP_EA,European Alliance,COR_GROUP
+COR_GROUP_EA_2005_0,Union for Europe of the Nations – European Alliance,COR_GROUP
+COR_GROUP_EA_2010_0,Union for Europe of the Nations – European Alliance,COR_GROUP
+COR_GROUP_ECR,European Conservatives and Reformists Group,COR_GROUP
+COR_GROUP_ECR_2013_0,European Conservatives and Reformists Group,COR_GROUP
+COR_GROUP_GREENS,The Greens and Progressives,COR_GROUP
+COR_GROUP_GREENS_2020_0,The Greens,COR_GROUP
+COR_GROUP_NI,Non-attached (NI),COR_GROUP
+COR_GROUP_NI_1994_0,Non-attached,COR_GROUP
+COR_DIR_A_2011_0,Directorate for Administration and Finance,COR_SG
+COR_DIR_B_2011_0,Directorate for Member Services and Registry,COR_SG
+COR_DIR_COMMUNICATION_2012_0,"Directorate for Communication, Press and Events",COR_SG
+COR_DIR_C_2011_0,Directorate for Consultative Work,COR_SG
+COR_DIR_D_2011_0,"Directorate for Communication, Press and Events",COR_SG
+COR_DIR_E_2011_0,Directorate for Horizontal policies and networks,COR_SG
+COR_DIR_LEGISLATIVE_1,Directorate for Legislative Work 1,COR_SG
+COR_DIR_LEGISLATIVE_2,Directorate for Legislative Work 2,COR_SG
+COR_DIR_LOGISTICS,Directorate for Logistics,COR_SG
+COR_DIR_MEMBERS_PLENARIES,Directorate for Members and Plenaries,COR_SG
+COR_DIR_MEMBER_SERVICES,Directorate for Member Services and Registry,COR_SG
+COR_DIR_T,Directorate for Translation,COR_SG
+COR_DIR_TRANSLATION,Directorate for Translation,COR_SG
+DEL_AFG,Delegation to Afghanistan,EEAS_DEL
+DEL_AFRICANUNION,Delegation to the African Union,EEAS_DEL
+DEL_ARE,Delegation to United Arab Emirates,EEAS_DEL
+DEL_ARM,Delegation to Armenia,EEAS_DEL
+DEL_ASEAN,EU Mission to ASEAN,EEAS_DEL
+DEL_BEN,Delegation to Benin,EEAS_DEL
+DEL_BHR_OMN_SAU,"Delegation to Bahrain, Oman, and Saudi Arabia",EEAS_DEL
+DEL_BOL,Delegation to Bolivia,EEAS_DEL
+DEL_BRB,Delegation to Barbados and the Eastern Caribbean,EEAS_DEL
+DEL_BRB_OECS_CARIFORUM_CARICOM,"Delegation to Barbados, the Eastern Caribbean States, the OECS and CARICOM/CARIFORUM",EEAS_DEL
+DEL_BWA,Delegation to Botswana,EEAS_DEL
+DEL_BWA_SADC,Delegation to Botswana and SADC,EEAS_DEL
+DEL_CHE_LIE,Delegation to Switzerland and to Liechtenstein,EEAS_DEL
+DEL_CIV,Delegation to Ivory Coast,EEAS_DEL
+DEL_CMR,Delegation to Cameroon,EEAS_DEL
+DEL_COD,Delegation to the Democratic Republic of the Congo,EEAS_DEL
+DEL_COG,Delegation to Congo,EEAS_DEL
+AMLA,Authority for Anti-Money Laundering and Countering the Financing of Terrorism,EURAG
+CJU,Chips Joint Undertaking,EURAG
+DEL_COU_EUR,Delegation to the Council of Europe,EEAS_DEL
+DEL_CPV,Delegation to Cabo Verde,EEAS_DEL
+DEL_CUB,Delegation to Cuba,EEAS_DEL
+DEL_DEL_IDN_BRN_ASEAN,"Delegation to Indonesia, Brunei Darussalam and ASEAN",EEAS_DEL
+DEL_DJI,Delegation to Djibouti,EEAS_DEL
+DEL_DJI_IGAD,Delegation to Djibouti and IGAD,EEAS_DEL
+DEL_DOM,Delegation to the Dominican Republic,EEAS_DEL
+DEL_DOM_CUB,Delegation to the Dominican Republic and to Cuba,EEAS_DEL
+DEL_DZA,Delegation to Algeria,EEAS_DEL
+DEL_EGY,Delegation to Egypt,EEAS_DEL
+DEL_GAB_STP_GNQ,"Delegation to Gabon, to São Tomé and Príncipe and to Equatorial Guinea",EEAS_DEL
+DEL_GAB_STP_GNQ_ECCAS,"Delegation to Gabon, Equatorial Guinea, São Tomé-et-Principe and CEEAC",EEAS_DEL
+DEL_GBR,Delegation to the United Kingdom,EEAS_DEL
+DEL_GHA,Delegation to Ghana,EEAS_DEL
+DEL_GIN,Delegation to Guinea,EEAS_DEL
+DEL_GMB,Delegation to The Gambia,EEAS_DEL
+DEL_GNB,Delegation to Guinea-Bissau,EEAS_DEL
+DEL_GTM,Delegation to Guatemala,EEAS_DEL
+DEL_GUY_SUR,"Delegation to Guyana, for Suriname, and with responsibility for Aruba, Bonaire, Curaçao, Saba, Saint Barthélemy, Sint Eustatius and Sint Maarten",EEAS_DEL
+DEL_GUY_SUR_TTO,"Delegation to Guyana, Suriname, Trinidad and Tobago and for the Dutch Overseas Countries and Territories",EEAS_DEL
+DEL_HKG,Delegation to Hong Kong and Macao,EEAS_DEL
+DEL_HND,Delegation to Honduras,EEAS_DEL
+DEL_HTI,Delegation to Haiti,EEAS_DEL
+DEL_IDN_BRN,Delegation to Indonesia and Brunei Darussalam,EEAS_DEL
+DEL_IDN_BRN_ASEAN,"Delegation to Indonesia, Brunei Darussalam and ASEAN",EEAS_DEL
+DEL_IRQ,Delegation to Iraq,EEAS_DEL
+DEL_ISR,Delegation to Israel,EEAS_DEL
+DEL_JAM_BLZ_BHS,"Delegation to Jamaica, Belize, The Bahamas, Turks and Caicos Islands and Cayman Islands",EEAS_DEL
+DEL_JOR,Delegation to Jordan,EEAS_DEL
+DEL_KEN,Delegation to Kenya,EEAS_DEL
+DEL_KOR,Delegation to South Korea,EEAS_DEL
+DEL_KWT,Delegation to Kuwait,EEAS_DEL
+DEL_LAO,Delegation to Laos,EEAS_DEL
+DEL_LBN,Delegation to Lebanon,EEAS_DEL
+DEL_LBR,Delegation to Liberia,EEAS_DEL
+DEL_LBY,Delegation to Libya,EEAS_DEL
+DEL_MDA,Delegation to Moldova,EEAS_DEL
+DEL_MDG,Delegation to Madagascar,EEAS_DEL
+DEL_MMR,Delegation to Myanmar / Burma,EEAS_DEL
+DEL_MNG,Delegation to Mongolia,EEAS_DEL
+DEL_MOZ,Delegation to Mozambique,EEAS_DEL
+DEL_MRT,Delegation in Mauritania,EEAS_DEL
+DEL_MWI,Delegation to Malawi,EEAS_DEL
+DEL_MYS,Delegation to Malaysia,EEAS_DEL
+DEL_NAM,Delegation to Namibia,EEAS_DEL
+DEL_NER,Delegation to Niger,EEAS_DEL
+DEL_NIC_CRI_PAN_SICA,"Delegation to Nicaragua, Costa Rica and Panama and to the Central American Integration System (SICA)",EEAS_DEL
+DEL_NIC_SICA,Delegation to Nicaragua and to the Central American Integration System (SICA),EEAS_DEL
+DEL_NIC_SICA_2014_0,Delegation to Nicaragua and to the Central American Integration System (SICA),EEAS_DEL
+DEL_NIC_SLV_HND,"Delegation to Nicaragua, to El Salvador and to Honduras",EEAS_DEL
+DEL_NPL,Delegation to Nepal,EEAS_DEL
+DEL_OECD_UNESCO,Delegation to the OECD and the UNESCO in Paris,EEAS_DEL
+DEL_ORG_INT,Delegation to the International Organisations in Vienna,EEAS_DEL
+DEL_ORG_WTO,Permanent Mission to the World Trade Organisation,EEAS_DEL
+DEL_PACIFIC,Delegation for the Pacific,EEAS_DEL
+DEL_PAN,Delegation to Panama,EEAS_DEL
+DEL_PER,Delegation to Peru,EEAS_DEL
+DEL_PNG,Delegation to Papua New Guinea,EEAS_DEL
+DEL_PRK,Delegation to North Korea,EEAS_DEL
+DEL_PSE,Delegation to the Palestinian territories,EEAS_DEL
+DEL_PSE_UNRWA,"Delegation to West Bank and Gaza Strip, UNRWA",EEAS_DEL
+DEL_RWA,Delegation to Rwanda,EEAS_DEL
+DEL_SAU,Delegation to Saudi Arabia,EEAS_DEL
+DEL_SDN,Delegation to Sudan,EEAS_DEL
+DEL_SEN,Delegation to Senegal,EEAS_DEL
+DEL_SGP,Delegation to Singapore,EEAS_DEL
+DEL_SLB,Delegation to Solomon Islands,EEAS_DEL
+DEL_SLE,Delegation to Sierra Leone,EEAS_DEL
+DEL_SLV,Delegation to El Salvador,EEAS_DEL
+DEL_SOM,Delegation to Somalia,EEAS_DEL
+DEL_SOM_2010_0,Delegation to the Somalia Operations Unit,EEAS_DEL
+DEL_SSD,Delegation to South Sudan,EEAS_DEL
+DEL_SUR,Delegation to Suriname,EEAS_DEL
+DEL_SWZ,Delegation to Eswatini,EEAS_DEL
+DEL_SWZ_2009_0,Delegation to Swaziland,EEAS_DEL
+DEL_SYR,Delegation to Syria,EEAS_DEL
+DEL_TCD,Delegation to Chad,EEAS_DEL
+DEL_TGO,Delegation to Togo,EEAS_DEL
+DEL_THA,Delegation to Thailand,EEAS_DEL
+DEL_THA_MMR,Delegation to Thailand and to Myanmar / Burma,EEAS_DEL
+DEL_TKM,Delegation to Turkmenistan,EEAS_DEL
+ECSC_RELEX,External Relations Directorate,ECSC_SG
+DEL_TLS,Delegation to Timor-Leste,EEAS_DEL
+DEL_TTO,Delegation to Trinidad and Tobago,EEAS_DEL
+DEL_TUN,Delegation to Tunisia,EEAS_DEL
+DEL_TWN,European Economic and Trade Office in Taiwan,EEAS_DEL
+DEL_TZA,Delegation to Tanzania,EEAS_DEL
+DEL_UGA,Delegation to Uganda,EEAS_DEL
+DEL_UNO_NY,Delegation to the United Nations in New York,EEAS_DEL
+DEL_UNO_ORG_INT,Delegation to the UN and other international organisations in Geneva,EEAS_DEL
+DEL_VAT,"Delegation to the Holy See, to the Order of Malta and to the UN organisations in Rome",EEAS_DEL
+DEL_VAT_SMR,"Delegation to the Holy See, Order of Malta, UN Organisations in Rome, and to San Marino",EEAS_DEL
+DEL_VEN,Delegation to Venezuela,EEAS_DEL
+DEL_VUT,Delegation to Vanuatu,EEAS_DEL
+DEL_YEM,Delegation to Yemen,EEAS_DEL
+DEL_ZAF,Delegation to South Africa,EEAS_DEL
+DEL_ZMB,Delegation to Zambia,EEAS_DEL
+DEL_ZMB_CMESA,Delegation to Zambia and COMESA,EEAS_DEL
+DEL_ZWE,Delegation to Zimbabwe,EEAS_DEL
+DG09EEC,DG IX – Administration,EEC_COM
+ELA,European Labour Authority,EURAG
+P5,Five Permanent Members,UNSC
+EUMCWG,European Union Military Committee Working Group,CMT_EUMC
+EPOFF,European Patent Office,EPORG
+EURAIL,Europe’s Rail Joint Undertaking,EURAG
+EUROHPC,European High-Performance Computing Joint Undertaking,EURAG
+GHEDCTP3,Global Health EDCTP3 Joint Undertaking,EURAG
+S2R,Shift2Rail Joint Undertaking,EURAG
+G24,Group of 24,G77
+IILAC,Institute for the Integration of Latin America and the Caribbean,IDB
+EURES,European Employment services,ELA
+WP_HTF,Headline Goal Task Force,CMT_EUMC
+UNCSTD,United Nations Commission on Science and Technology for Development,ECOSOC
+SNSJU,Smart Networks and Services Joint Undertaking,EURAG
+TRCOM_RSC,Regional Steering Committee of the Transport Community,TRCOM
+CMT_MIX_EU_SMR,EU–San Marino Joint Committee,EURUN
+CMT_MIX_EU_AND,EU–Andorra Joint Committee,EURUN
+SDMX_TWG,SDMX Technical Working Group,
+SDMX_SWG,SDMX Statistical Working Group,
