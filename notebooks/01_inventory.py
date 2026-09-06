@@ -133,8 +133,8 @@ fig.suptitle(
     fontsize=9.5, x=0.01, ha="left", y=1.02,
 )
 fig.tight_layout()
-fig.savefig(ROOT / "reports" / "week2_corpus_inventory.png", dpi=200, bbox_inches="tight")
-print("figure written")
+fig.savefig(ROOT / "reports" / "figures" / "figure2_corpus_inventory_week2.png", dpi=200, bbox_inches="tight")
+
 
 # %% [markdown]
 # ## Example documents (one per institution, in scope)
