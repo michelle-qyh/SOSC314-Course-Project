@@ -28,6 +28,11 @@ SOSC314-Course-Project/
 ├── data/
 │   ├── doc_types.csv               # scope rules: type → in/out, with reasons (rev. 6 Sep)
 │   ├── doc_types.xlsx              # formatted view of the same table
+│   ├── exploration/                # working files of the exploration notebook
+│   │   ├── raw_works_2026-09-05.csv
+│   │   ├── raw_works_2026-09-06.csv
+│   │   ├── doc_types_crosscheck.csv
+│   │   └── figures/week2_combined.png
 │   ├── inventory/                  # committed query snapshots (retrieval 4 Sep 2026)
 │   │   ├── works_eurovoc.csv
 │   │   ├── works_title.csv
@@ -37,17 +42,14 @@ SOSC314-Course-Project/
 ├── notebooks/
 │   ├── cellar.py                   # CELLAR API helpers (SPARQL + REST)
 │   ├── 01_inventory.py             # inventory pipeline: query → scope filter → counts
-│   ├── 01.Feasibility Test and Initial Exploration.ipynb
-│   ├── data/
-│   │   └── raw_works_2026-09-05.csv    # working retrieval for the exploration notebook
-│   └── figures/
-│       └── week2_combined.png
+│   └── 01_feasibility_test_and_initial_exploration.ipynb
 └── reports/
     ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
     └── figures/
-        ├── figure1_pipeline_week2.png          # data-acquisition and scope pipeline
-        └── figure2_corpus_inventory_week2.png  # corpus inventory by year and type
+        ├── figure1_pipeline_week2.png          # Fig. 1 — acquisition and scope pipeline
+        └── figure2_corpus_inventory_week2.png  # Fig. 2 — corpus inventory
 ```
+
 
 ## Reproduce
 
