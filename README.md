@@ -94,4 +94,5 @@ EU institutional documents may be reused under Commission Decision 2011/833/EU w
 - Veale, M., & Zuiderveen Borgesius, F. (2021). Demystifying the Draft EU Artificial Intelligence Act. *Computer Law Review International*, 22(4), 97–112.
 
 **AI Transparency**
+
 ChatGPT 5.6 Luna has been used to update the repo structure tree found in this README. 
