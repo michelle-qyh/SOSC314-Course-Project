@@ -62,7 +62,7 @@ python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; s
 - [CELLAR SPARQL endpoint](https://publications.europa.eu/webapi/rdf/sparql) — the public query interface used by `cellar.py`
 - [Publications Office: Advanced / machine access to EU law](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) — EUR-Lex documentation on programmatic access
 - [CELLAR / CDM ontology documentation](https://op.europa.eu/en/web/eu-vocabularies/cellar) — the data model behind our queries (works, expressions, agents)
-- [EuroVoc concept "artificial intelligence"](https://eurovoc.europa.eu/3030) — the subject tag used as our first retrieval criterion
+- - [EuroVoc concept "artificial intelligence" (3030)](https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://eurovoc.europa.eu/3030) — the subject tag used as our first retrieval criterion (queried as `http://eurovoc.europa.eu/3030`)
 
 **The legislative file**
 - [AI Act procedure file (2021/0106(COD))](https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2021/0106(COD)) — the full legislative history in Parliament's Legislative Observatory
