@@ -66,7 +66,7 @@ python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; s
 
 **The legislative file**
 - [AI Act procedure file (2021/0106(COD))](https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2021/0106(COD)) — the full legislative history in Parliament's Legislative Observatory
-- [Regulation (EU) 2024/1689 (AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) — the adopted act on EUR-Lex
+- [Regulation (EU) 2024/1689 (AI Act)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) — the adopted act on EUR-Lex
 - [Council public register](https://www.consilium.europa.eu/en/documents-publications/public-register/) — source system for the Council documents mirrored in CELLAR
 
 **Reuse**
