@@ -81,7 +81,19 @@ council_log = collect.collect_council(missing[missing["ref"].notna()], RAW)
 if len(council_log):
     print(council_log["status"].value_counts().to_string())
 
-pd.concat([log, council_log]).to_csv(CORPUS / "retrieval_log.csv", index=False)
+# Documents with no CELLAR manifestation are recorded explicitly rather than
+# omitted, so the log accounts for every in-scope document: a reader can see
+# that these were unreachable, not overlooked.
+unreachable = missing[missing["ref"].isna()][["doc_id"]].copy()
+unreachable["status"] = "not retrievable: no CELLAR manifestation (held on the issuing institution's own register)"
+unreachable["bytes"] = 0
+
+retrieval_log = pd.concat([log, council_log, unreachable], ignore_index=True)
+retrieval_log = retrieval_log.merge(
+    targets[["doc_id", "institution", "type_raw", "mtype"]], on="doc_id", how="left")
+retrieval_log.to_csv(CORPUS / "retrieval_log.csv", index=False)
+print(f"\nretrieval log: {len(retrieval_log)} rows covering all {len(core)} in-scope documents")
+print(retrieval_log.groupby("institution")["status"].value_counts().to_string())
 
 # %% [markdown]
 # ## 4. Extract plain text
