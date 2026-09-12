@@ -33,27 +33,32 @@ SOSC314-Course-Project/
 │   │   ├── documents.parquet               #   134 documents, one row each
 │   │   ├── paragraphs.parquet              #   27,486 paragraphs, one row each
 │   │   ├── exclusions.csv                  #   documents dropped at screening, with reasons
-│   │   ├── retrieval_log.csv               #   per-document retrieval outcome
-│   │   └── format_availability.csv         #   which CELLAR format each document offers
-│   ├── exploration/                        # working files of the exploration notebook
+│   │   ├── retrieval_log.csv               #   retrieval outcome for all 186 in-scope documents
+│   │   ├── format_availability.csv         #   which CELLAR format each document offers
+│   │   └── threshold_sensitivity.csv       #   screening-parameter sensitivity analysis
+│   ├── exploration/                        # working files of the exploration notebooks
 │   ├── inventory/                          # committed query snapshots (retrieval 4 Sep 2026)
 │   ├── white_paper_2020.html               # retrieved sample document
 │   └── white_paper_2020.pdf
 ├── notebooks/
-│   ├── cellar.py                           # CELLAR API helpers (SPARQL + REST)
-│   ├── collect.py                          # manifestation resolution, retrieval, text extraction
-│   ├── build_corpus.py                     # cleaning, segmentation, relevance screen
-│   ├── 01_inventory.py                     # Week 2: query → scope filter → counts
-│   ├── 02_build_corpus.py                  # Week 3: inventory → corpus
-│   └── 01_feasibility_test_and_initial_exploration.ipynb
+│   ├── cellar.py                           # module: CELLAR API helpers (SPARQL + REST)
+│   ├── collect.py                           # module: manifestation resolution, retrieval, extraction
+│   ├── build_corpus.py                      # module: cleaning, segmentation, relevance screen
+│   ├── 01_inventory.py                      # script: query → scope filter → counts
+│   ├── 02_build_corpus.py                   # script: inventory → analysis corpus
+│   ├── 01_feasibility_test_and_initial_exploration.ipynb
+│   └── 03_cross_check_and_descriptive_stats.ipynb
 └── reports/
     ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
+    ├── 03_week3_progress_report.pdf
     └── figures/
         ├── figure1_pipeline_week2.png
         ├── figure2_corpus_inventory_week2.png
         ├── figure_institution_mapping.png
-        └── figure1_corpus_construction_week3.png
+        ├── figure1_corpus_construction_week3.png
+        └── figure2_corpus_attrition_week3.png
 ```
+
 
 
 
