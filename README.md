@@ -38,27 +38,32 @@ SOSC314-Course-Project/
 │   │   └── threshold_sensitivity.csv       #   screening-parameter sensitivity analysis
 │   ├── exploration/                        # working files of the exploration notebooks
 │   ├── inventory/                          # committed query snapshots (retrieval 4 Sep 2026)
+│   │   ├── works_eurovoc.csv
+│   │   ├── works_title.csv
+│   │   └── works_union.csv
 │   ├── white_paper_2020.html               # retrieved sample document
 │   └── white_paper_2020.pdf
 ├── notebooks/
 │   ├── cellar.py                           # module: CELLAR API helpers (SPARQL + REST)
-│   ├── collect.py                           # module: manifestation resolution, retrieval, extraction
-│   ├── build_corpus.py                      # module: cleaning, segmentation, relevance screen
-│   ├── 01_inventory.py                      # script: query → scope filter → counts
-│   ├── 02_build_corpus.py                   # script: inventory → analysis corpus
+│   ├── collect.py                          # module: manifestation resolution, retrieval, extraction
+│   ├── build_corpus.py                     # module: cleaning, segmentation, relevance screen
+│   ├── 01_inventory.py                     # script: query → scope filter → counts
+│   ├── 02_build_corpus.py                  # script: inventory → analysis corpus
 │   ├── 01_feasibility_test_and_initial_exploration.ipynb
-│   └── 03_cross_check_and_descriptive_stats.ipynb
+│   ├── 03_crosscheck_and_descriptive_stats_v1_pre_pipeline_fix.ipynb
+│   └── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb
 └── reports/
     ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
-    ├── 03_week3_progress_report.pdf
+    ├── [SOSC314] Week_3_Progress_Report_Tim_Michelle.pdf
     └── figures/
         ├── figure1_pipeline_week2.png
         ├── figure2_corpus_inventory_week2.png
         ├── figure_institution_mapping.png
-        ├── figure1_corpus_construction_week3.png
-        └── figure2_corpus_attrition_week3.png
+        ├── figure_retrieval_process_week3.png
+        ├── figure2_corpus_attrition_week3.png
+        ├── figure3_doc_length_week3.png
+        └── figure4_paragraphs_density_week3.png
 ```
-
 
 
 
@@ -66,8 +71,13 @@ SOSC314-Course-Project/
 
 ```bash
 pip install -r requirements.txt
-python notebooks/01_inventory.py   # uses cached snapshots in data/inventory/; set REFRESH = True to re-query CELLAR
+python notebooks/01_inventory.py      # Week 2 inventory (cached snapshots; set REFRESH = True to re-query CELLAR)
+python notebooks/02_build_corpus.py   # Week 3 corpus (retrieval checkpointed in data/raw/; ~3 min cold run)
 ```
+
+`cellar.py`, `collect.py` and `build_corpus.py` are modules imported by the numbered
+scripts. They are not run directly, and their filenames must not be changed.
+
 
 ## Useful Links
 
