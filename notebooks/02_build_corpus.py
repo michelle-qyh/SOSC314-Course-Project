@@ -24,6 +24,7 @@ sys.path.insert(0, str(ROOT / "notebooks"))
 import build_corpus  # noqa: E402
 import cellar  # noqa: E402
 import collect  # noqa: E402
+import ep_portal  # noqa: E402
 
 RAW = ROOT / "data" / "raw"
 CORPUS = ROOT / "data" / "corpus"
@@ -81,14 +82,52 @@ council_log = collect.collect_council(missing[missing["ref"].notna()], RAW)
 if len(council_log):
     print(council_log["status"].value_counts().to_string())
 
+# Parliament documents are not held in CELLAR, but adopted texts are available
+# through the Parliament Open Data Portal. Matching is by date and AI subject tag:
+# date alone is ambiguous (Parliament adopts dozens of texts per sitting day) and
+# title similarity is unreliable, because CELLAR stores the long formal title while
+# the Portal stores a short label. A match is accepted only where exactly one
+# AI-tagged adopted text shares the date, so an ambiguous day yields no match
+# rather than a guess.
+ep_log = pd.DataFrame(columns=["doc_id", "status", "bytes"])
+ep_missing = missing.merge(core[["doc_id", "type_raw"]], on="doc_id", how="left", suffixes=("", "_c"))
+ep_missing = ep_missing[(ep_missing["ref"].isna())
+                        & (ep_missing["institution"] == "Parliament")
+                        & (ep_missing["type_raw"] == "ADOPT_TEXT")]
+if len(ep_missing):
+    # The Portal is a secondary source; if it is unreachable the pipeline continues
+    # with the CELLAR-held documents rather than aborting.
+    try:
+        years = sorted(pd.to_datetime(ep_missing["date"]).dt.year.unique())
+        listing = ep_portal.adopted_texts([int(y) for y in years])
+        matched = ep_portal.match(ep_missing, listing)
+        print(f"\nParliament Open Data Portal: {matched.ep_id.notna().sum()} of {len(matched)} "
+              f"adopted texts uniquely identified")
+        ep_log = ep_portal.collect(matched[matched.ep_id.notna()], RAW)
+        if len(ep_log):
+            print(ep_log["status"].value_counts().to_string())
+    except Exception as exc:
+        print(f"\nParliament Open Data Portal unavailable ({type(exc).__name__}); continuing without it")
+
 # Documents with no CELLAR manifestation are recorded explicitly rather than
 # omitted, so the log accounts for every in-scope document: a reader can see
 # that these were unreachable, not overlooked.
-unreachable = missing[missing["ref"].isna()][["doc_id"]].copy()
+# "Unreachable" is decided by what is actually on disk, not by this run's outcome:
+# a document retrieved earlier is still retrieved, and a secondary source that
+# happens to be down today must not turn a held document into a missing one.
+on_disk = {q.stem for q in RAW.glob("*") if not q.name.startswith(".")}
+
+late = missing[missing["ref"].isna() & missing["doc_id"].isin(on_disk)][["doc_id"]].copy()
+if len(late):
+    late["status"] = "ok (Parliament Open Data Portal)"
+    late["bytes"] = [next((q.stat().st_size for q in RAW.glob(f"{d}.*")), 0) for d in late["doc_id"]]
+    ep_log = pd.concat([ep_log, late], ignore_index=True).drop_duplicates("doc_id", keep="last")
+
+unreachable = missing[missing["ref"].isna() & ~missing["doc_id"].isin(on_disk)][["doc_id"]].copy()
 unreachable["status"] = "not retrievable: no CELLAR manifestation (held on the issuing institution's own register)"
 unreachable["bytes"] = 0
 
-retrieval_log = pd.concat([log, council_log, unreachable], ignore_index=True)
+retrieval_log = pd.concat([log, council_log, ep_log, unreachable], ignore_index=True)
 retrieval_log = retrieval_log.merge(
     targets[["doc_id", "institution", "type_raw", "mtype"]], on="doc_id", how="left")
 retrieval_log.to_csv(CORPUS / "retrieval_log.csv", index=False)
@@ -99,14 +138,25 @@ print(retrieval_log.groupby("institution")["status"].value_counts().to_string())
 # ## 4. Extract plain text
 
 # %%
-rows = []
+# One file per document. A document can leave more than one file in data/raw if an
+# earlier run chose a different format, so we take a single file per doc_id in the
+# order of FORMAT_PREFERENCE rather than globbing the directory, which would enter
+# the same document into the corpus twice.
+by_doc: dict[str, list] = {}
 for path in sorted(RAW.glob("*")):
     if path.name.startswith("."):
         continue
-    rows.append({"doc_id": path.stem, "fmt": path.suffix.lstrip("."),
-                 "text": collect.extract(path)})
+    by_doc.setdefault(path.stem, []).append(path)
+
+ext_rank = {ext: i for i, ext in enumerate(["xhtml", "xml", "html", "docx", "pdf"])}
+rows = []
+for doc_id, paths in by_doc.items():
+    chosen = sorted(paths, key=lambda q: ext_rank.get(q.suffix.lstrip("."), 99))[0]
+    rows.append({"doc_id": doc_id, "fmt": chosen.suffix.lstrip("."),
+                 "text": collect.extract(chosen)})
 extracted = pd.DataFrame(rows)
 extracted["words"] = extracted["text"].str.split().map(len)
+print(f"\nfiles on disk: {sum(len(v) for v in by_doc.values())} | documents extracted: {len(extracted)}")
 print(f"\nextracted: {len(extracted)}")
 print(extracted.groupby("fmt")["words"].agg(["count", "median"]).round(0).to_string())
 

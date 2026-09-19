@@ -200,12 +200,23 @@ def _from_pdf(path: Path) -> str:
 
 
 def _from_docx(path: Path) -> str:
-    """Extract paragraph text from a .docx by reading its XML."""
+    """Extract paragraph text from a .docx by reading its XML.
+
+    European Parliament documents carry the drafting system's own field markers
+    inside the text, escaped as entities (``&lt;Commission&gt;{JURI}…``) together
+    with brace-wrapped committee codes. These are removed after unescaping, since
+    they are production metadata rather than anything the institution wrote.
+    """
+    import html
     import zipfile
     with zipfile.ZipFile(path) as z:
         xml = z.read("word/document.xml").decode("utf-8", errors="replace")
     xml = re.sub(r"(?i)</w:p>", "\n", xml)
-    return TAG.sub("", xml)
+    text = TAG.sub("", xml)
+    text = html.unescape(text)
+    text = TAG.sub(" ", text)            # EP field markers, now unescaped
+    text = re.sub(r"\{[A-Za-z0-9_./-]{0,20}\}", " ", text)   # {JURI}, {26/11/2025}
+    return text
 
 
 def extract(path: Path) -> str:
