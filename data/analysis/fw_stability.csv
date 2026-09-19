@@ -1,0 +1,7 @@
+specification,mean_overlap
+no_stopwords,0.8
+drop_procedural,0.78
+drop_house_style,0.7
+with_bigrams,0.68
+tfidf,0.7
+min_df_20,0.7
