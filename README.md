@@ -10,7 +10,7 @@ The corpus is built entirely from CELLAR, the EU Publications Office repository 
 
 The conditions a document must meet: 1. **Institution.** Authored by the European Commission (including its DGs and executive agencies), the European Parliament (including its committees), or the Council of the EU; other EU bodies are out. 2. **Period.** Dated 1 January 2020 or later, capturing the White Paper on AI (February 2020) as the opening of the current policy cycle. 3. **Relevance.** Indexed with the EuroVoc subject *artificial intelligence*, or "artificial intelligence" in the English title. 4. **Genre.** A document type in which the institution states or negotiates a position — communications, staff documents, proposals, resolutions, opinions, amendments, conclusions, presidency notes; excluded: research publications, adopted legal acts, forwarding notes, administrative notices, minutes, factsheets. 5. **Authorship is real.** The listed institution must have written the text, not just transmitted it; register copies and works jointly attributed to several institutions (co-signed acts, joint declarations) are out. Full rules with reasons: `data/doc_types.csv`.
 
-## Methods (planned)
+## Methods
 
 The analysis moves from describing the language to measuring frames to explaining differences. We begin with descriptive text analysis — word and phrase frequencies per institution — followed by unsupervised topic modelling to identify recurring themes without defining them in advance, and distinctive-language analysis (Fightin' Words) to find the vocabulary each institution uses disproportionately often. The direct test of our hypotheses is frame classification: every paragraph is assigned to one or more predefined policy frames (economic opportunity, fundamental rights, security, labour, consumer protection, innovation, regulatory governance), with the classifier validated against a hand-coded sample before its output is used. Similarity analysis then measures how linguistically close the institutions are and whether their language converges as legislation moves from proposal to adoption, and all results are compared across legislative stages and before/after the release of ChatGPT in November 2022 as a shift in public attention. As a robustness check, we train a classifier to predict the authoring institution from text alone; its accuracy indicates whether institutional differences are systematic and serves as a diagnostic, not a finding in itself.
 
@@ -29,9 +29,14 @@ SOSC314-Course-Project/
 │   ├── corporate_body_authority_table.csv  # Publications Office authority table (code verification)
 │   ├── doc_types.csv                       # scope rules: type → in/out, with reasons
 │   ├── doc_types.xlsx                      # formatted view of the same table
-│   ├── corpus/                             # the analysis corpus (Week 3)
-│   │   ├── documents.parquet               #   134 documents, one row each
-│   │   ├── paragraphs.parquet              #   27,486 paragraphs, one row each
+│   ├── analysis/                           # Week 4 measurement results
+│   │   ├── frame_profile.csv               #   frame shares by institution (dictionary scoring)
+│   │   ├── frame_profile_formal_position.csv  #   the same, restricted to one genre
+│   │   ├── distinctive_terms.csv           #   Fightin' Words top terms, all specifications
+│   │   └── fw_stability.csv                #   overlap with baseline across specifications
+│   ├── corpus/                             # the analysis corpus
+│   │   ├── documents.parquet               #   139 documents, one row each
+│   │   ├── paragraphs.parquet              #   27,732 paragraphs, one row each
 │   │   ├── exclusions.csv                  #   documents dropped at screening, with reasons
 │   │   ├── retrieval_log.csv               #   retrieval outcome for all 186 in-scope documents
 │   │   ├── format_availability.csv         #   which CELLAR format each document offers
@@ -46,15 +51,21 @@ SOSC314-Course-Project/
 ├── notebooks/
 │   ├── cellar.py                           # module: CELLAR API helpers (SPARQL + REST)
 │   ├── collect.py                          # module: manifestation resolution, retrieval, extraction
+│   ├── ep_portal.py                        # module: Parliament Open Data Portal recovery
 │   ├── build_corpus.py                     # module: cleaning, segmentation, relevance screen
+│   ├── represent.py                        # module: tokenisation and representation specifications
+│   ├── measures.py                         # module: frame dictionary and Fightin' Words
 │   ├── 01_inventory.py                     # script: query → scope filter → counts
 │   ├── 02_build_corpus.py                  # script: inventory → analysis corpus
+│   ├── 03_operationalisation.py            # script: frame scoring, distinctive terms, comparison
 │   ├── 01_feasibility_test_and_initial_exploration.ipynb
 │   ├── 03_crosscheck_and_descriptive_stats_v1_pre_pipeline_fix.ipynb
-│   └── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb
+│   ├── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb
+│   └── 04_topic_modeling.ipynb             # LDA and NMF cross-check
 └── reports/
     ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
     ├── [SOSC314] Week_3_Progress_Report_Tim_Michelle.pdf
+    ├── [SOSC314] Week_4_Progress_Report_Tim_Michelle.pdf
     └── figures/
         ├── figure1_pipeline_week2.png
         ├── figure2_corpus_inventory_week2.png
@@ -62,8 +73,11 @@ SOSC314-Course-Project/
         ├── figure_retrieval_process_week3.png
         ├── figure2_corpus_attrition_week3.png
         ├── figure3_doc_length_week3.png
-        └── figure4_paragraphs_density_week3.png
+        ├── figure4_paragraphs_density_week3.png
+        ├── figure1_operationalisation_week4.png
+        └── figure2_topic_models_week4.png
 ```
+
 
 
 
@@ -71,12 +85,15 @@ SOSC314-Course-Project/
 
 ```bash
 pip install -r requirements.txt
-python notebooks/01_inventory.py      # Week 2 inventory (cached snapshots; set REFRESH = True to re-query CELLAR)
-python notebooks/02_build_corpus.py   # Week 3 corpus (retrieval checkpointed in data/raw/; ~3 min cold run)
+python notebooks/01_inventory.py         # Week 2 inventory (cached snapshots; REFRESH = True to re-query)
+python notebooks/02_build_corpus.py      # Week 3–4 corpus (checkpointed in data/raw/; ~3 min cold run)
+python notebooks/03_operationalisation.py  # Week 4 frame scoring, distinctive terms, comparison
 ```
 
-`cellar.py`, `collect.py` and `build_corpus.py` are modules imported by the numbered
-scripts. They are not run directly, and their filenames must not be changed.
+`cellar.py`, `collect.py`, `ep_portal.py`, `build_corpus.py`, `represent.py` and `measures.py`
+are modules imported by the numbered scripts. They are not run directly, and their
+filenames must not be changed.
+
 
 
 ## Useful Links
