@@ -1,0 +1,5 @@
+change,reference,overlap
+stopword lists,baseline,0.7
+with_bigrams,drop_house_style,0.83
+tfidf,drop_house_style,1.0
+min_df_20,drop_house_style,0.99
