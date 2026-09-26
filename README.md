@@ -29,11 +29,16 @@ SOSC314-Course-Project/
 │   ├── corporate_body_authority_table.csv  # Publications Office authority table (code verification)
 │   ├── doc_types.csv                       # scope rules: type → in/out, with reasons
 │   ├── doc_types.xlsx                      # formatted view of the same table
-│   ├── analysis/                           # Week 4 measurement results
+│   ├── analysis/                           # measurement and diagnostic results
 │   │   ├── frame_profile.csv               #   frame shares by institution (dictionary scoring)
 │   │   ├── frame_profile_formal_position.csv  #   the same, restricted to one genre
+│   │   ├── frame_profile_tightened.csv     #   the same, with 11 generic terms removed
 │   │   ├── distinctive_terms.csv           #   Fightin' Words top terms, all specifications
-│   │   └── fw_stability.csv                #   overlap with baseline across specifications
+│   │   ├── fw_stability.csv                #   term turnover against baseline (Week 4)
+│   │   ├── sensitivity_disentangled.csv    #   each change against its own reference (Week 5)
+│   │   ├── leave_one_term_out.csv          #   influence of each dictionary term
+│   │   ├── frame_overlap.csv               #   terms shared between frames
+│   │   └── bootstrap_frame_profile.csv     #   95% CIs from 1,000 document resamples
 │   ├── corpus/                             # the analysis corpus
 │   │   ├── documents.parquet               #   139 documents, one row each
 │   │   ├── paragraphs.parquet              #   27,732 paragraphs, one row each
@@ -55,17 +60,21 @@ SOSC314-Course-Project/
 │   ├── build_corpus.py                     # module: cleaning, segmentation, relevance screen
 │   ├── represent.py                        # module: tokenisation and representation specifications
 │   ├── measures.py                         # module: frame dictionary and Fightin' Words
+│   ├── diagnostics.py                      # module: term influence, bootstrap, sensitivity
 │   ├── 01_inventory.py                     # script: query → scope filter → counts
 │   ├── 02_build_corpus.py                  # script: inventory → analysis corpus
 │   ├── 03_operationalisation.py            # script: frame scoring, distinctive terms, comparison
+│   ├── 05_dictionary_diagnostics.py        # script: diagnostics for the dictionary and Fightin' Words
 │   ├── 01_feasibility_test_and_initial_exploration.ipynb
 │   ├── 03_crosscheck_and_descriptive_stats_v1_pre_pipeline_fix.ipynb
 │   ├── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb
-│   └── 04_topic_modeling.ipynb             # LDA and NMF cross-check
+│   ├── 04_topic_modeling.ipynb             # LDA and NMF cross-check
+│   └── 05_topic_diagnostics.ipynb          # topic stability: seeds, K, weighting, stopwords
 └── reports/
     ├── [SOSC314] Week_2_Progress_Report_Tim_Michelle.pdf
     ├── [SOSC314] Week_3_Progress_Report_Tim_Michelle.pdf
     ├── [SOSC314] Week_4_Progress_Report_Tim_Michelle.pdf
+    ├── [SOSC314] Week_5_Progress_Report_Tim_Michelle.pdf
     └── figures/
         ├── figure1_pipeline_week2.png
         ├── figure2_corpus_inventory_week2.png
@@ -75,9 +84,10 @@ SOSC314-Course-Project/
         ├── figure3_doc_length_week3.png
         ├── figure4_paragraphs_density_week3.png
         ├── figure1_operationalisation_week4.png
-        └── figure2_topic_models_week4.png
+        ├── figure2_topic_models_week4.png
+        ├── figure1_diagnostics_week5.png
+        └── figure2_topic_diagnostics_week5.png
 ```
-
 
 
 
@@ -85,14 +95,18 @@ SOSC314-Course-Project/
 
 ```bash
 pip install -r requirements.txt
-python notebooks/01_inventory.py         # Week 2 inventory (cached snapshots; REFRESH = True to re-query)
-python notebooks/02_build_corpus.py      # Week 3–4 corpus (checkpointed in data/raw/; ~3 min cold run)
-python notebooks/03_operationalisation.py  # Week 4 frame scoring, distinctive terms, comparison
+python notebooks/01_inventory.py               # inventory (cached snapshots; REFRESH = True to re-query CELLAR)
+python notebooks/02_build_corpus.py            # corpus (retrieval checkpointed in data/raw/; ~3 min cold run)
+python notebooks/03_operationalisation.py      # frame scoring, distinctive terms, approach comparison
+python notebooks/05_dictionary_diagnostics.py  # term influence, overlap, bootstrap, sensitivity
 ```
 
-`cellar.py`, `collect.py`, `ep_portal.py`, `build_corpus.py`, `represent.py` and `measures.py`
-are modules imported by the numbered scripts. They are not run directly, and their
-filenames must not be changed.
+The topic models and their diagnostics run as notebooks: `04_topic_modeling.ipynb`
+and `05_topic_diagnostics.ipynb`.
+
+`cellar.py`, `collect.py`, `ep_portal.py`, `build_corpus.py`, `represent.py`,
+`measures.py` and `diagnostics.py` are modules imported by the numbered scripts.
+They are not run directly, and their filenames must not be changed.
 
 
 
