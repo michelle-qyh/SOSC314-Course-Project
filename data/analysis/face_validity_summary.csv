@@ -1,0 +1,8 @@
+frame,top_score,distinct_texts_in_top10,verdict,what_the_top_paragraphs_contain
+economic_opportunity,23.3,10,passes,"SME adoption rates, investment, cost-benefit scoring"
+fundamental_rights,31.4,10,passes,"Charter provisions, non-discrimination, privacy, dignity"
+security_geopolitical,24.2,10,passes,"supply-chain resilience, technological sovereignty, cyber threats"
+labour_social,23.1,9,passes,"skills, upskilling, digital education programmes"
+consumer_protection,25.0,9,passes,"product safety, risk of harm to health and safety"
+technological_innovation,30.6,9,fails,"top paragraphs are an AI Act annex enumerating data-management operations; the score comes from 'data' repeating in a technical list, not from an innovation frame"
+regulatory_governance,29.0,6,passes,"conformity assessment, enforcement powers, notified bodies; repeated passages are substantively governance text"
