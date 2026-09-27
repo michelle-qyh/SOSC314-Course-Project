@@ -33,12 +33,16 @@ SOSC314-Course-Project/
 │   │   ├── frame_profile.csv               #   frame shares by institution (dictionary scoring)
 │   │   ├── frame_profile_formal_position.csv  #   the same, restricted to one genre
 │   │   ├── frame_profile_tightened.csv     #   the same, with 11 generic terms removed
+│   │   ├── frame_profile_inherited_removed.csv  #   the same, without cross-institution duplicates
 │   │   ├── distinctive_terms.csv           #   Fightin' Words top terms, all specifications
-│   │   ├── fw_stability.csv                #   term turnover against baseline (Week 4)
-│   │   ├── sensitivity_disentangled.csv    #   each change against its own reference (Week 5)
+│   │   ├── fw_stability.csv                #   term turnover against baseline
+│   │   ├── sensitivity_disentangled.csv    #   each change against its own reference
 │   │   ├── leave_one_term_out.csv          #   influence of each dictionary term
 │   │   ├── frame_overlap.csv               #   terms shared between frames
-│   │   └── bootstrap_frame_profile.csv     #   95% CIs from 1,000 document resamples
+│   │   ├── bootstrap_frame_profile.csv     #   95% CIs from 1,000 document resamples
+│   │   ├── face_validity_summary.csv       #   verdict per frame, with what the top paragraphs contain
+│   │   ├── face_validity_top_paragraphs.csv   #   the 70 paragraphs read, so the verdicts are checkable
+│   │   └── inherited_text_by_institution.csv  #   paragraphs shared verbatim across institutions
 │   ├── corpus/                             # the analysis corpus
 │   │   ├── documents.parquet               #   139 documents, one row each
 │   │   ├── paragraphs.parquet              #   27,732 paragraphs, one row each
@@ -64,7 +68,8 @@ SOSC314-Course-Project/
 │   ├── 01_inventory.py                     # script: query → scope filter → counts
 │   ├── 02_build_corpus.py                  # script: inventory → analysis corpus
 │   ├── 03_operationalisation.py            # script: frame scoring, distinctive terms, comparison
-│   ├── 05_dictionary_diagnostics.py        # script: diagnostics for the dictionary and Fightin' Words
+│   ├── 05_dictionary_diagnostics.py        # script: diagnostics for dictionary and Fightin' Words
+│   ├── 06_face_validity.py                 # script: face validity and inherited-text measurement
 │   ├── 01_feasibility_test_and_initial_exploration.ipynb
 │   ├── 03_crosscheck_and_descriptive_stats_v1_pre_pipeline_fix.ipynb
 │   ├── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb
@@ -91,6 +96,7 @@ SOSC314-Course-Project/
 
 
 
+
 ## Reproduce
 
 ```bash
@@ -99,6 +105,7 @@ python notebooks/01_inventory.py               # inventory (cached snapshots; RE
 python notebooks/02_build_corpus.py            # corpus (retrieval checkpointed in data/raw/; ~3 min cold run)
 python notebooks/03_operationalisation.py      # frame scoring, distinctive terms, approach comparison
 python notebooks/05_dictionary_diagnostics.py  # term influence, overlap, bootstrap, sensitivity
+python notebooks/06_face_validity.py           # face validity and inherited-text measurement
 ```
 
 The topic models and their diagnostics run as notebooks: `04_topic_modeling.ipynb`
@@ -107,6 +114,7 @@ and `05_topic_diagnostics.ipynb`.
 `cellar.py`, `collect.py`, `ep_portal.py`, `build_corpus.py`, `represent.py`,
 `measures.py` and `diagnostics.py` are modules imported by the numbered scripts.
 They are not run directly, and their filenames must not be changed.
+
 
 
 
