@@ -229,5 +229,3 @@ EU institutional documents are © European Union and may be reused with attribut
 
 - ChatGPT 5.6 Luna was used to update the repository structure tree in this README.
 - Claude Fable 5.1 was used to detect coding errors and get code recommendations in `notebooks/01_inventory.py`, `notebooks/cellar.py`, `notebooks/collect.py` and `notebooks/build_corpus.py`.
-- [TO CONFIRM — Tim] Claude (Anthropic) was used from Week 3 onward to draft and debug the analysis code (`represent.py`, `measures.py`, `diagnostics.py`, `ep_portal.py` and the numbered scripts 03, 05 and 06), to produce report figures, to draft and edit the Week 3–5 progress reports, to draft this README, and to build the final presentation. All analytic decisions, interpretations and final texts were reviewed and approved by the authors.
-- [TO ADD — Michelle] AI use for `04_topic_modeling.ipynb`, `05_topic_diagnostics.ipynb` and the topic-model figures.
