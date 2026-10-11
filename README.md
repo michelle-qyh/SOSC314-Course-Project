@@ -90,6 +90,7 @@ Three routes to the same question, each failing in a different way:
 SOSC314-Course-Project/
 ├── README.md
 ├── requirements.txt
+├── .gitignore
 ├── data/
 │   ├── corporate_body_authority_table.csv     # Publications Office authority table (institution codes)
 │   ├── doc_types.csv                          # scope rules: document type → in/out, with reasons
