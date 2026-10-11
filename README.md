@@ -140,6 +140,7 @@ SOSC314-Course-Project/
 │   ├── 03_operationalisation.py / .ipynb      # script: frame scoring, distinctive terms (Week 4)
 │   ├── 05_dictionary_diagnostics.py / .ipynb  # script: dictionary and Fightin' Words diagnostics (Week 5)
 │   ├── 06_face_validity.py / .ipynb           # script: face validity and inherited text (Week 5)
+│   ├── 07_figures.py / .ipynb                 # script: report and presentation figures from data/ (final)
 │   ├── 01_feasibility_test_and_initial_exploration.ipynb      # Week 2 exploration
 │   ├── 03_crosscheck_and_descriptive_stats_v1_pre_pipeline_fix.ipynb   # Week 3 coverage audit
 │   ├── 03_crosscheck_and_descriptive_stats_v2_post_pipeline_fix.ipynb  # Week 3 descriptive statistics
@@ -158,11 +159,13 @@ SOSC314-Course-Project/
         ├── figure2_corpus_attrition_week3.png     # 03_crosscheck_..._v1 notebook
         ├── figure3_doc_length_week3.png           # 03_crosscheck_..._v1 notebook
         ├── figure4_paragraphs_density_week3.png   # 03_crosscheck_..._v1 notebook
-        ├── figure1_operationalisation_week4.png
+        ├── figure1_operationalisation_week4.png   # 07_figures.py
         ├── figure2_topic_models_week4.png         # 04_topic_modeling.ipynb
-        ├── figure1_diagnostics_week5.png
+        ├── figure1_diagnostics_week5.png          # 07_figures.py
         ├── figure2_topic_diagnostics_week5.png    # 05_topic_diagnostics.ipynb
-        └── figure3_face_validity_week5.png
+        ├── figure3_face_validity_week5.png        # 07_figures.py
+        ├── figure_corpus_by_year_final.png        # 07_figures.py (presentation)
+        └── figure_corpus_attrition_final.png      # 07_figures.py (presentation)
 ```
 
 The `.py` scripts are the source of truth; the paired `.ipynb` files are notebook views of the same code (via `jupytext`). The modules are imported by the numbered scripts, are not run directly, and must keep their filenames.
@@ -182,6 +185,7 @@ python notebooks/02_build_corpus.py            # corpus (retrieval checkpointed 
 python notebooks/03_operationalisation.py      # frame scoring, distinctive terms, approach comparison
 python notebooks/05_dictionary_diagnostics.py  # term influence, overlap, bootstrap, sensitivity
 python notebooks/06_face_validity.py           # face validity and inherited-text measurement
+python notebooks/07_figures.py                 # report and presentation figures (EB Garamond if installed)
 ```
 
 The topic models run as notebooks: `04_topic_modeling.ipynb`, then `05_topic_diagnostics.ipynb` (the six-seed stability check takes about 25 minutes).
