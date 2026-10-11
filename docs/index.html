@@ -282,14 +282,16 @@
     <p>Only the <span class="c">Commission</span>'s lead on security survives (8.0%, interval 6.0–10.3; the others' intervals end at 5.6 and 4.7). The Commission's technology lead overlaps with the Parliament, the Council's governance lead spans 12.6 to 27.9% on just 28 documents, and the Parliament's rights lead overlaps with the Council.</p>
 
     <h3>The topic models: a difference in content</h3>
-    <p>In the first topic model, two governance-related topics, national enforcement authorities and requirements for high-risk AI systems, together made up 54.5% of the Council's topic weight. But long Council compromise texts counted with all their paragraphs. Giving every document equal weight, as the dictionary does, cut the Council's share of the high-risk topic from 41.6% to 19.9%; yet it still clearly exceeds the Parliament's (interval 11.6–29.1 against 2.8–9.8).</p>
+    <p>In the first topic model, two governance-related topics, national enforcement authorities and requirements for high-risk AI systems, together made up 54.5% of the Council's topic weight. In the revised model (after we changed the text cleaning), the high-risk topic alone made up 41.6% of the Council's topic weight when every paragraph counts. But long Council compromise texts counted with all their paragraphs. Giving every document equal weight, as the dictionary does, cut this to 19.9%; yet it still clearly exceeds the Parliament's (interval 11.6–29.1 against 2.8–9.8).</p>
   </div>
   <figure class="wide fig-md">
     <div class="frame"><img src="figures/topics_bootstrap.png" alt="Two panels of tracked topics for LDA and NMF, showing document-weighted topic shares with 95% bootstrap intervals by institution; hollow markers show the earlier paragraph-weighted values. In LDA the Council's high-risk topic share sits clearly above the other institutions." loading="lazy"></div>
-    <figcaption><b>Figure 5.</b> The three tracked topics in LDA (left) and NMF (right): document-weighted shares with 95% bootstrap intervals; hollow markers show the earlier paragraph-weighted values. The topic labelled "governance" is the high-risk topic discussed in the text. NMF has no clean rights topic, so data protection stands in.</figcaption>
+    <figcaption><b>Figure 5.</b> The three tracked topics in LDA (left) and NMF (right): document-weighted shares with 95% bootstrap intervals; hollow markers show the same model weighted by paragraph (the Week 4 method). In LDA, the topic labelled "governance" is the high-risk topic discussed in the text. Topics with the same label in LDA and NMF were chosen separately by their keywords and are not the same topic: NMF splits the high-risk rules into several smaller topics, and its "governance" topic (conformity assessment) is one of them. NMF has no clean rights topic, so data protection stands in.</figcaption>
   </figure>
   <div class="col">
-    <p>The high-risk topic also came back in all six re-runs of the model from different random starting points, and the Council still led when we asked for twenty topics instead of ten. The rights topic, by contrast, came back in none of the six re-runs. We read the Council result as a difference in <b>content</b>: the Council's documents are largely negotiating texts on the AI Act's high-risk rules. That is not the same as framing AI as a governance problem.</p>
+    <p>The high-risk topic also came back in all six re-runs of the model from different random starting points, and the Council still led when we asked for twenty topics instead of ten. The rights topic, by contrast, came back in none of the six re-runs.</p>
+    <p>We applied the same non-overlap test to all ten topics of each model. In LDA, the Council's lead on the high-risk topic is the only clear difference. NMF splits the high-risk rules into five smaller topics; the Council is highest on all five, but its lead is clear on only one, the legal requirements in Chapter III of the AI Act (6.4% against the Commission's 3.8%).</p>
+    <p>We read the Council result as a difference in <b>content</b>: the Council's documents are largely negotiating texts on the AI Act's high-risk rules. That is not the same as framing AI as a governance problem.</p>
   </div>
 </section>
 
@@ -369,9 +371,14 @@
 python notebooks/03_operationalisation.py      # frame scoring, distinctive words
 python notebooks/05_dictionary_diagnostics.py  # term influence, bootstrap, sensitivity
 python notebooks/06_face_validity.py           # face validity, copied text
-python notebooks/07_figures.py                 # figures</pre>
-    <p>The topic models run as notebooks (<code>04_topic_modeling.ipynb</code>, <code>05_topic_diagnostics.ipynb</code>). Rebuilding the corpus from CELLAR needs internet access and the <code>pdftotext</code> tool; see the repository README.</p>
+python notebooks/07_figures.py                 # figures
+python notebooks/08_topic_figures.py           # topic-model figures, all-topic check</pre>
+    <p>The topic models are fitted in two notebooks (<code>04_topic_modeling.ipynb</code>, <code>05_topic_diagnostics.ipynb</code>), which take much longer because 05 refits the models several times; <code>08_topic_figures.py</code> redraws the topic-model figures from their saved results in <code>reports/week5_topic_diagnostics/</code>. Rebuilding the corpus from CELLAR needs internet access and the <code>pdftotext</code> tool; see the repository README.</p>
     <p style="font-size:17px;color:var(--muted)">EU documents © European Union, reused with attribution under Commission Decision 2011/833/EU.</p>
+
+    <h3>Contributions</h3>
+    <p><b>Tim Maurice Steiner:</b> research design and framing; scope, cleaning and relevance-screening rules; retrieval and extraction code (<code>collect.py</code>, <code>build_corpus.py</code>) and the Parliament Open Data Portal recovery (<code>ep_portal.py</code>); frame dictionary and Fightin' Words (<code>represent.py</code>, <code>measures.py</code>, <code>03_operationalisation.py</code>); dictionary diagnostics and face validity (<code>diagnostics.py</code>, <code>05_dictionary_diagnostics.py</code>, <code>06_face_validity.py</code>); weekly reports and this website.</p>
+    <p><b>Yuhan (Michelle) Qiu:</b> CELLAR access and the first query and retrieval code (<code>01_feasibility_test_and_initial_exploration.ipynb</code>); inventory cross-check, format-availability diagnosis and corpus descriptive statistics (<code>03_crosscheck_and_descriptive_stats</code> notebooks); topic models (<code>04_topic_modeling.ipynb</code>) and their diagnostics: preprocessing comparison, seed stability, K sensitivity, weighting and bootstrap (<code>05_topic_diagnostics.ipynb</code>, <code>08_topic_figures.py</code>); topic-model sections of the weekly reports.</p>
 
     <h3>References</h3>
     <div class="refs">
