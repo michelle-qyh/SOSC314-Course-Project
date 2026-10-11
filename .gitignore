@@ -1,0 +1,15 @@
+# raw downloads created by 02_build_corpus.py (rebuilt from CELLAR; not redistributed)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
