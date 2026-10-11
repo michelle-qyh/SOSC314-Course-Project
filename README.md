@@ -245,3 +245,4 @@ EU institutional documents are © European Union and may be reused with attribut
 
 - ChatGPT 5.6 Luna was used to update the repository structure tree in this README.
 - Claude Fable 5.1 was used to detect coding errors and get code recommendations in `notebooks/01_inventory.py`, `notebooks/cellar.py`, `notebooks/collect.py` and `notebooks/build_corpus.py`.
+- Claude was used as a coding and writing assistant for the topic-model figures, edits to the report website and the notebook version of the report.
