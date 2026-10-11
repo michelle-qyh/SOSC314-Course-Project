@@ -1,0 +1,21 @@
+model,topic,cosine,leader_new,leader_week4,top_words,same_leader
+LDA,0,0.653,Council,Parliament,"data, personal, law, personal data, protection, persons, sys",False
+LDA,1,0.683,Parliament,Parliament,"data, sector, learning, models, systems, use, sectors, educa",True
+LDA,2,0.341,Parliament,Council,"systems, use, safety, risks, product, system, technologies, ",False
+LDA,3,0.284,Commission,Council,"stakeholders, was, were, out, respondents, impact, consultat",False
+LDA,4,0.804,Commission,Commission,"data, services, public, digital, access, market, authorities",True
+LDA,5,0.831,Commission,Commission,"digital, europe, development, technologies, artificial, inte",True
+LDA,6,0.348,Commission,Commission,"smes, eur, start, enterprises, small, ups, start ups, compan",True
+LDA,7,0.851,Council,Council,"systems, risk, high risk, high, system, requirements, author",True
+LDA,8,0.475,Parliament,Council,"rights, online, protection, fundamental, damage, content, fu",False
+LDA,9,0.857,Council,Commission,"liability, legal, rules, burden, risk, option, national, pro",False
+NMF,0,0.925,Commission,Commission,"public, sector, cloud, services, development, technologies, ",True
+NMF,1,0.996,Council,Council,"risk, high risk, high, systems, system, risk systems, risk s",True
+NMF,2,0.997,Council,Parliament,"artificial, intelligence, artificial intelligence, rules art",False
+NMF,3,0.999,Parliament,Parliament,"data, personal, personal data, protection, data protection, ",True
+NMF,4,0.998,Council,Council,"authorities, national, competent, competent authorities, aut",True
+NMF,5,0.998,Commission,Commission,"liability, rules, damage, legal, products, liability rules, ",True
+NMF,6,0.989,Council,Council,"set out, set, out, requirements, requirements set, chapter, ",True
+NMF,7,0.795,Council,Council,"testing, real world, legislation, harmonisation legislation,",True
+NMF,8,0.993,Commission,Commission,"digital, skills, decade, digital decade, europe, digital ski",True
+NMF,9,0.043,Council,Commission,"assessment, conformity, conformity assessment, notified, bod",False

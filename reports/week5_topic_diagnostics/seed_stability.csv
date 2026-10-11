@@ -1,0 +1,11 @@
+topic,mean_cos,min_cos,share_runs_matched,top_words
+0,0.722,0.434,0.167,"data, personal, law, personal data, protection, persons, sys"
+1,0.827,0.725,0.5,"data, sector, learning, models, systems, use, sectors, educa"
+2,0.471,0.294,0.0,"systems, use, safety, risks, product, system, technologies, "
+3,0.609,0.261,0.167,"stakeholders, was, were, out, respondents, impact, consultat"
+4,0.554,0.484,0.0,"data, services, public, digital, access, market, authorities"
+5,0.846,0.768,0.667,"digital, europe, development, technologies, artificial, inte"
+6,0.514,0.181,0.0,"smes, eur, start, enterprises, small, ups, start ups, compan"
+7,0.936,0.83,1.0,"systems, risk, high risk, high, system, requirements, author"
+8,0.521,0.312,0.0,"rights, online, protection, fundamental, damage, content, fu"
+9,0.772,0.533,0.667,"liability, legal, rules, burden, risk, option, national, pro"

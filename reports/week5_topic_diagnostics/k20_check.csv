@@ -1,0 +1,21 @@
+model,topic,family_cos,n_children,leader_K10,leader_K20,children,same_leader
+LDA,0,0.9,2,Council,Council,"information, law, legal, national, operator, subject | data, personal, protection, personal data, data protection, processing",True
+LDA,1,0.894,3,Parliament,Parliament,"systems, human, use, tools, models, applications | learning, models, machine, large, very, based | sector, sectors, use, data, adoption, across",True
+LDA,2,0.564,0,Parliament,Parliament,"(absorbed into: systems, human, use, tools, models, applications)",True
+LDA,3,0.795,1,Commission,Council,"were, stakeholders, respondents, was, organisations, out",False
+LDA,4,0.681,1,Commission,Parliament,"services, market, online, users, rules, legal",False
+LDA,5,0.925,4,Commission,Council,"intelligence, artificial, artificial intelligence, technologies, development, research | cloud, public, data, computing, europe, infrastructure | digital, technologies, skills, new, public, economy | education, training, including, skills, digital, support",False
+LDA,6,0.662,3,Commission,Commission,"countries, third, country, value, years, ict | small, smes, enterprises, defence, used, recommendation | eur, financial, funding, programme, costs, private",True
+LDA,7,0.954,3,Council,Council,"assessment, conformity, out, conformity assessment, system, notified | legislation, systems, harmonisation, testing, listed, harmonisation legislation | systems, risk, high, high risk, system, risk systems",True
+LDA,8,0.584,2,Parliament,Council,"virtual, justice, worlds, rights, virtual worlds, social | authorities, rights, fundamental, fundamental rights, enforcement, law",False
+LDA,9,0.869,1,Council,Commission,"liability, legal, rules, damage, specific, burden",False
+NMF,0,0.83,5,Commission,Commission,"europe, technologies, research, development, innovation, support | cloud, services, computing, cloud computing, computing services, providers | smes, start, ups, start ups, smcs, including start | virtual, worlds, virtual worlds, web, users, development virtual | public, sector, open, public sector, source, open source",True
+NMF,1,0.961,3,Council,Council,"risk, high risk, high, risk systems, systems, requirements | system, provider, market, service, risk system, put | systems, use, used, persons, providers, biometric",True
+NMF,2,0.996,1,Council,Council,"artificial, intelligence, artificial intelligence, rules artificial, harmonised rules, harmonised",True
+NMF,3,0.958,2,Parliament,Commission,"data, access, sharing, health, data protection, health data | personal data, personal, data, protection, processing, processing personal",False
+NMF,4,0.965,2,Council,Council,"authorities, national, competent, competent authorities, national competent, regulatory | office, market, market surveillance, surveillance, authority, powers",True
+NMF,5,0.834,2,Commission,Commission,"liability, rules, damage, legal, liability rules, proof | rights, fundamental, fundamental rights, law, protection, safety",True
+NMF,6,1.0,1,Council,Council,"set out, set, out, requirements, requirements set, chapter",True
+NMF,7,0.999,1,Council,Council,"testing, legislation, harmonisation legislation, real world, harmonisation, world",True
+NMF,8,0.948,2,Commission,Parliament,"education, training, skills, education training, learning, digital skills | digital, decade, digital decade, transformation, digital transformation, services",False
+NMF,9,0.997,1,Council,Council,"assessment, conformity, conformity assessment, notified, bodies, notified bodies",True
