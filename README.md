@@ -2,7 +2,7 @@
 
 **A computational analysis of how EU institutions frame artificial intelligence regulation**
 
-SOSC 314 course project, Duke Kunshan University, Fall 2026 (Prof. Markus Neumann)
+SOSC314 course project, Duke Kunshan University, Fall 2026 (Prof. Markus Neumann)
 
 ## Team
 
