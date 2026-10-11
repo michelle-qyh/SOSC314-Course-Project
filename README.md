@@ -127,6 +127,17 @@ SOSC314-Course-Project/
 │       ├── raw_works_2026-09-05.csv
 │       ├── raw_works_2026-09-06.csv
 │       └── figures/week2_combined.png
+├── docs/                                      # project website (GitHub Pages)
+│   ├── index.html                             #   single-page site
+│   ├── .nojekyll                              #   serve files as they are
+│   └── figures/                               #   figures used on the site (from reports/figures/)
+│       ├── corpus_by_year.png
+│       ├── corpus_attrition.png
+│       ├── frame_profile.png                  #   panel (a) of figure1_operationalisation_week4.png
+│       ├── bootstrap.png                      #   panel (a) of figure1_diagnostics_week5.png
+│       ├── what_moves.png                     #   panel (b) of figure1_diagnostics_week5.png
+│       ├── topics_bootstrap.png
+│       └── face_validity.png
 ├── notebooks/
 │   ├── cellar.py                              # module: CELLAR API helpers (SPARQL + REST)
 │   ├── collect.py                             # module: manifestation resolution, retrieval, text extraction
