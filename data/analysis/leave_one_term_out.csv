@@ -60,8 +60,8 @@ economic_opportunity,leadership,0.67
 regulatory_governance,governance,0.64
 economic_opportunity,economy,0.63
 security_geopolitical,defence,0.62
-technological_innovation,technological,0.61
 economic_opportunity,scale,0.61
+technological_innovation,technological,0.61
 technological_innovation,deployment,0.6
 technological_innovation,sandboxes,0.6
 regulatory_governance,supervision,0.59
@@ -72,12 +72,12 @@ economic_opportunity,industry,0.55
 regulatory_governance,monitoring,0.53
 consumer_protection,harm,0.52
 fundamental_rights,discrimination,0.5
+economic_opportunity,growth,0.47
 economic_opportunity,markets,0.47
 fundamental_rights,bias,0.47
-economic_opportunity,growth,0.47
+consumer_protection,safeguards,0.46
 security_geopolitical,autonomy,0.46
 security_geopolitical,cyber,0.46
-consumer_protection,safeguards,0.46
 economic_opportunity,industrial,0.45
 fundamental_rights,privacy,0.45
 regulatory_governance,documentation,0.44
@@ -85,8 +85,8 @@ technological_innovation,science,0.43
 fundamental_rights,autonomy,0.41
 regulatory_governance,supervisory,0.39
 security_geopolitical,sovereignty,0.39
-fundamental_rights,democratic,0.38
 fundamental_rights,charter,0.38
+fundamental_rights,democratic,0.38
 technological_innovation,algorithms,0.38
 fundamental_rights,ethics,0.37
 consumer_protection,safe,0.35
@@ -99,8 +99,8 @@ regulatory_governance,accountability,0.27
 economic_opportunity,competitive,0.26
 security_geopolitical,military,0.26
 economic_opportunity,startups,0.24
-technological_innovation,model,0.24
 labour_social,workplace,0.24
+technological_innovation,model,0.24
 regulatory_governance,standardisation,0.23
 regulatory_governance,oversight,0.21
 fundamental_rights,freedom,0.19
@@ -114,40 +114,40 @@ economic_opportunity,productivity,0.14
 labour_social,working conditions,0.14
 consumer_protection,damages,0.13
 fundamental_rights,discriminatory,0.13
-security_geopolitical,geopolitical,0.11
 labour_social,automation,0.11
 regulatory_governance,certification,0.11
-technological_innovation,experimentation,0.1
-labour_social,employees,0.1
+security_geopolitical,geopolitical,0.11
 fundamental_rights,freedoms,0.1
+labour_social,employees,0.1
+technological_innovation,experimentation,0.1
+fundamental_rights,redress,0.09
+labour_social,reskilling,0.09
 labour_social,upskilling,0.09
 labour_social,worker,0.09
-labour_social,reskilling,0.09
 regulatory_governance,audit,0.09
-fundamental_rights,redress,0.09
-security_geopolitical,dependency,0.08
 security_geopolitical,attacks,0.08
-security_geopolitical,critical infrastructure,0.07
-security_geopolitical,threat,0.07
+security_geopolitical,dependency,0.08
 fundamental_rights,biased,0.07
 fundamental_rights,dignity,0.07
-security_geopolitical,national security,0.06
+security_geopolitical,critical infrastructure,0.07
+security_geopolitical,threat,0.07
 regulatory_governance,sanctions,0.06
-economic_opportunity,prosperity,0.05
-labour_social,inequality,0.05
+security_geopolitical,national security,0.06
 consumer_protection,harms,0.05
 consumer_protection,recall,0.05
+economic_opportunity,prosperity,0.05
+labour_social,inequality,0.05
 consumer_protection,remedies,0.04
 security_geopolitical,warfare,0.03
 technological_innovation,algorithm,0.03
 consumer_protection,complaint,0.02
-security_geopolitical,attack,0.02
 labour_social,trade unions,0.02
 regulatory_governance,register,0.02
-labour_social,displacement,0.01
-security_geopolitical,defense,0.01
-labour_social,wages,0.01
+security_geopolitical,attack,0.02
 consumer_protection,complaints,0.01
-labour_social,labor,0.0
+labour_social,displacement,0.01
+labour_social,wages,0.01
+security_geopolitical,defense,0.01
 fundamental_rights,rule of law,0.0
+labour_social,labor,0.0
 security_geopolitical,espionage,0.0
