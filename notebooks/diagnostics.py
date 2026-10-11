@@ -105,7 +105,10 @@ def leave_one_term_out(paragraphs: pd.DataFrame, hits: dict,
             alt = profile(paragraphs, hits, lengths, exclude={(frame, term)})
             rows.append({"frame": frame, "term": term,
                          "max_shift_pp": round(float((alt - base).abs().max().max()), 2)})
-    return pd.DataFrame(rows).sort_values("max_shift_pp", ascending=False).reset_index(drop=True)
+    # frame and term break ties, so the row order is identical on every run
+    return (pd.DataFrame(rows)
+            .sort_values(["max_shift_pp", "frame", "term"], ascending=[False, True, True])
+            .reset_index(drop=True))
 
 
 def tightened_profile(paragraphs: pd.DataFrame, hits: dict,
