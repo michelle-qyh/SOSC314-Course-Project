@@ -218,7 +218,7 @@ python notebooks/06_face_validity.py           # face validity and inherited-tex
 python notebooks/07_figures.py                 # report and presentation figures (EB Garamond if installed)
 ```
 
-The topic models run as notebooks: `04_topic_modeling.ipynb`, then `05_topic_diagnostics.ipynb` (the six-seed stability check takes about 25 minutes).
+The topic models run as notebooks: `04_topic_modeling.ipynb`, then `05_topic_diagnostics.ipynb` (the six-seed stability check takes about 25 minutes). `python notebooks/08_topic_figures.py` then redraws the topic-model figures and the all-topic check from the saved results in `reports/week5_topic_diagnostics/` (seconds).
 
 ## Reuse and Licence
 
