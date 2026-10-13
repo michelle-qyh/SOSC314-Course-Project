@@ -4,7 +4,8 @@
 
 SOSC314 course project, Duke Kunshan University, Fall 2026 (Prof. Markus Neumann)
 
-**Website:** https://michelle-qyh.github.io/SOSC314-Course-Project/
+**Website:** https://michelle-qyh.github.io/SOSC314-Course-Project/  
+**Full report (Jupyter notebook):** https://michelle-qyh.github.io/SOSC314-Course-Project/report.html
 
 ## Team
 
@@ -219,6 +220,13 @@ python notebooks/07_figures.py                 # report and presentation figures
 ```
 
 The topic models run as notebooks: `04_topic_modeling.ipynb`, then `05_topic_diagnostics.ipynb` (the six-seed stability check takes about 25 minutes). `python notebooks/08_topic_figures.py` then redraws the topic-model figures and the all-topic check from the saved results in `reports/week5_topic_diagnostics/` (seconds).
+
+The report notebook reads the result files above. To re-run it and rebuild the website version:
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace report/report.ipynb
+jupyter nbconvert --to html --no-input report/report.ipynb --output-dir docs --output report
+```
 
 ## Reuse and Licence
 
