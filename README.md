@@ -71,7 +71,7 @@ The analysis corpus covers **139 documents, 27,732 paragraphs and 2.04 million w
 
 Three routes to the same question, each failing in a different way:
 
-1. **Fightin' Words (baseline).** Log-odds ratios with an informative Dirichlet prior (Monroe, Colaresi & Quinn 2008) identify the words that separate two institutions; we keep the top 20 per side by z-score. Run under seven text representations (stopword lists, bigrams, TF-IDF, minimum document frequency).
+1. **Fightin' Words (baseline).** Log-odds ratios with an informative Dirichlet prior (Monroe, Colaresi & Quinn 2008) identify the words that separate two institutions; we keep the top 20 per side by z-score. Run under several text representations (stopword lists, bigrams, minimum document frequency). A TF-IDF variant is defined in `represent.py` but leaves Fightin' Words unchanged, because the method works on raw counts.
 2. **Seven-frame dictionary (main measure).** The seven frames from the proposal (economic opportunity, fundamental rights, security/geopolitics, labour and social, consumer protection, technological innovation, regulatory governance), defined by 152 terms. Score = frame words per 100 words per paragraph; reported as each frame's share of the institution's total frame signal (the seven shares sum to 100).
 3. **Topic models (cross-check).** LDA on raw counts and NMF on TF-IDF over 25,762 paragraphs and a 4,000-term vocabulary; K = 10 chosen from {5, 8, 10, 12} by a coherence score. No categories are imposed; topics are labelled after fitting.
 
