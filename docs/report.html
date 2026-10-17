@@ -7944,8 +7944,36 @@ a.anchor-link {
 <h2 id="03-%C2%B7-Methods">03 · Methods<a class="anchor-link" href="#03-%C2%B7-Methods">¶</a></h2><h3 id="Three-routes-to-the-same-question">Three routes to the same question<a class="anchor-link" href="#Three-routes-to-the-same-question">¶</a></h3><p>Each method can go wrong in its own way. A result that shows up in more than one of them is more convincing than any single one.</p>
 <p><strong>Fightin' Words</strong> (Baseline). Which single words separate two institutions? A log-odds comparison with a statistical prior that keeps rare words from topping the list by chance (Monroe, Colaresi &amp; Quinn 2008). <strong>Imposes:</strong> no categories.</p>
 <p><strong>Seven-frame dictionary</strong> (Main measure). 152 words sorted into the seven frames from our proposal. Each paragraph is scored as frame words per 100 words; each institution's profile is the share of its framing that goes to each frame (the seven shares add up to 100%). <strong>Imposes:</strong> our categories.</p>
-<p><strong>Topic models</strong> (Cross-check). LDA and NMF find groups of words that occur together in the same paragraphs ("topics"); we read and name them afterwards. Ten topics, chosen by how coherent their top words are. <strong>Imposes:</strong> no categories.</p>
+<p><strong>Topic models</strong> (Cross-check). LDA finds groups of words that occur together in the same paragraphs ("topics"); NMF, a different algorithm, serves as a check. Ten topics, named by us after reading their top words. <strong>Imposes:</strong> no categories, but we choose the number of topics and which words are removed.</p>
 <h4 id="The-first-lesson:-style-before-substance">The first lesson: style before substance<a class="anchor-link" href="#The-first-lesson:-style-before-substance">¶</a></h4><p>On raw text, Fightin' Words is dominated by document style, not framing. The Parliament's most distinctive words are <em>regard, calls, whereas, stresses</em>, the grammar of a resolution; the Council's are <em>article, annex, paragraph, pursuant</em>, the grammar of a legal text. Only after removing such procedural and rhetorical words do substantive differences appear: the Parliament's <em>technologies, human, ethical, research</em> against the Council's <em>harmonisation, testing, conformity</em>. That cleaning decision alone replaces 30% of the most distinctive words, so we report it openly rather than hide it.</p>
+<h4 id="How-the-topic-models-are-built">How the topic models are built<a class="anchor-link" href="#How-the-topic-models-are-built">¶</a></h4><p>A topic model sees only which words occur together, so the words removed before fitting decide which topics can form. Both models read the same 139 documents and the same stopword lists as the dictionary and Fightin' Words, with three settings of their own:</p>
+<table>
+<thead>
+<tr>
+<th>Decision</th>
+<th>What we did</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stopwords</td>
+<td>62 common English words; 55 EU procedural words (<em>European, Article, annex, pursuant</em>…); 39 rhetorical verbs (<em>calls, stresses, welcomes</em>…); citation-link fragments (<em>eli, http</em>)</td>
+</tr>
+<tr>
+<td>Short paragraphs</td>
+<td>Dropped figure and table captions, and paragraphs with fewer than 8 words left after cleaning: 27,732 → 25,762 paragraphs</td>
+</tr>
+<tr>
+<td>Vocabulary</td>
+<td>Single words and two-word phrases found in at least 5 paragraphs and at most half of them; the 4,000 most frequent</td>
+</tr>
+<tr>
+<td>Number of topics</td>
+<td>10, the most coherent of 5, 8, 10 and 12 in our first model; re-checked with 20</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why LDA leads and NMF checks.</strong> LDA describes every paragraph as a mixture of topics whose shares add up to one, which is the quantity we compare across institutions. NMF works on TF-IDF weights and returns unscaled weights that we rescale into shares. The two models therefore differ in both algorithm and word weighting, and a topic in one is not the same object as a topic in the other. We never compare topic shares across models. We only ask whether the same institutional difference appears in both.</p>
 <h4 id="Evaluation:-why-there-is-no-test-set">Evaluation: why there is no test set<a class="anchor-link" href="#Evaluation:-why-there-is-no-test-set">¶</a></h4><p>Without labels there is nothing to predict and no accuracy to measure, so a train/test split does not apply. Our question is whether the differences between institutions are real, so we evaluate in three ways:</p>
 <ul>
 <li><strong>Uncertainty.</strong> We resample each institution's documents with replacement 1,000 times and recompute its profile (a bootstrap). Documents are resampled because they are the units we happened to collect. A lead counts only if its 95% interval does not overlap the other institutions' intervals.</li>
@@ -8101,6 +8129,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Figure 5.</strong> The three tracked topics in LDA (left) and NMF (right): document-weighted shares with 95% bootstrap intervals; hollow markers show the same model weighted by paragraph (the Week 4 method). In LDA, the topic labelled "governance" is the high-risk topic discussed in the text. Topics with the same label in LDA and NMF were chosen separately by their keywords and are not the same topic: NMF splits the high-risk rules into several smaller topics, and its "governance" topic (conformity assessment) is one of them. NMF has no clean rights topic, so data protection stands in.</p>
 <p>The high-risk topic also came back in all six re-runs of the model from different random starting points, and the Council still led when we asked for twenty topics instead of ten. The rights topic, by contrast, came back in none of the six re-runs.</p>
+<p>The stopword list also matters. Re-fitted with our first list, which removed general English words but none of the rhetorical ones, only 4 of the 10 LDA topics kept a close counterpart; that list had produced a topic built on <em>having regard</em>, the opening formula of Parliament resolutions. NMF, which already discounts frequent words through TF-IDF, kept 8 of 10. The high-risk topic survived with the <strong>Council</strong> still leading; the rights topic did not.</p>
 </div>
 </div>
 </div>
