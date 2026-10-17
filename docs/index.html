@@ -267,13 +267,25 @@
       <div class="card">
         <p class="role">Cross-check</p>
         <h4>Topic models</h4>
-        <p>LDA and NMF find groups of words that occur together in the same paragraphs ("topics"); we read and name them afterwards. Ten topics, chosen by how coherent their top words are.</p>
-        <p><b>Imposes:</b> no categories.</p>
+        <p>LDA finds groups of words that occur together in the same paragraphs ("topics"); NMF, a different algorithm, serves as a check. Ten topics, named by us after reading their top words.</p>
+        <p><b>Imposes:</b> no categories, but we choose the number of topics and which words are removed.</p>
       </div>
     </div>
     <div class="col" style="margin-left:auto;margin-right:auto">
       <h3>The first lesson: style before substance</h3>
       <p>On raw text, Fightin' Words is dominated by document style, not framing. The Parliament's most distinctive words are <i>regard, calls, whereas, stresses</i>, the grammar of a resolution; the Council's are <i>article, annex, paragraph, pursuant</i>, the grammar of a legal text. Only after removing such procedural and rhetorical words do substantive differences appear: the Parliament's <i>technologies, human, ethical, research</i> against the Council's <i>harmonisation, testing, conformity</i>. That cleaning decision alone replaces 30% of the most distinctive words, so we report it openly rather than hide it.</p>
+      <h3>How the topic models are built</h3>
+      <p>A topic model sees only which words occur together, so the words removed before fitting decide which topics can form. Both models read the same 139 documents and the same stopword lists as the dictionary and Fightin' Words, with three settings of their own:</p>
+      <div class="table-wrap">
+        <table>
+          <tr><th style="width:24%">Decision</th><th>What we did</th></tr>
+          <tr><td>Stopwords</td><td>62 common English words; 55 EU procedural words (<i>European, Article, annex, pursuant</i>…); 39 rhetorical verbs (<i>calls, stresses, welcomes</i>…); citation-link fragments (<i>eli, http</i>)</td></tr>
+          <tr><td>Short paragraphs</td><td>Dropped figure and table captions, and paragraphs with fewer than 8 words left after cleaning: 27,732 → 25,762 paragraphs</td></tr>
+          <tr><td>Vocabulary</td><td>Single words and two-word phrases found in at least 5 paragraphs and at most half of them; the 4,000 most frequent</td></tr>
+          <tr><td>Number of topics</td><td>10, the most coherent of 5, 8, 10 and 12 in our first model; re-checked with 20</td></tr>
+        </table>
+      </div>
+      <p><b>Why LDA leads and NMF checks.</b> LDA describes every paragraph as a mixture of topics whose shares add up to one, which is the quantity we compare across institutions. NMF works on TF-IDF weights and returns unscaled weights that we rescale into shares. The two models therefore differ in both algorithm and word weighting, and a topic in one is not the same object as a topic in the other. We never compare topic shares across models. We only ask whether the same institutional difference appears in both.</p>
     </div>
   </div>
 </section>
@@ -309,6 +321,7 @@
   </figure>
   <div class="col">
     <p>The high-risk topic also came back in all six re-runs of the model from different random starting points, and the Council still led when we asked for twenty topics instead of ten. The rights topic, by contrast, came back in none of the six re-runs.</p>
+        <p>The stopword list also matters. Re-fitted with our first list, which removed general English words but none of the rhetorical ones, only 4 of the 10 LDA topics kept a close counterpart; that list had produced a topic built on <i>having regard</i>, the opening formula of Parliament resolutions. NMF, which already discounts frequent words through TF-IDF, kept 8 of 10. The high-risk topic survived with the <span class="k">Council</span> still leading; the rights topic did not.</p>
     <p>We applied the same non-overlap test to all ten topics of each model. In LDA, the Council's lead on the high-risk topic is the only clear difference. NMF splits the high-risk rules into five smaller topics; the Council is highest on all five, but its lead is clear on only one, the legal requirements in Chapter III of the AI Act (6.4% against the Commission's 3.8%).</p>
     <p>We read the Council result as a difference in <b>content</b>: the Council's documents are largely negotiating texts on the AI Act's high-risk rules. That is not the same as framing AI as a governance problem.</p>
   </div>
