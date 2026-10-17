@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Who Defines the Problem? How EU Institutions Frame AI Regulation</title>
 <meta name="description" content="A computational text analysis of 139 European Commission, Parliament and Council documents on artificial intelligence, 2020–2026. SOSC 314, Duke Kunshan University.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Who Defines the Problem? How EU Institutions Frame AI Regulation">
+<meta property="og:description" content="139 EU documents on AI, three text-analysis methods, and a test of every difference: which framing differences between Commission, Parliament and Council hold up.">
+<meta property="og:url" content="https://michelle-qyh.github.io/SOSC314-Course-Project/">
+<meta property="og:image" content="https://michelle-qyh.github.io/SOSC314-Course-Project/figures/bootstrap.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%231B2533%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27Georgia,serif%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%23F4F1EA%27%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -47,6 +54,12 @@
   header.hero .sub { font-size: clamp(22px, 2.6vw, 28px); line-height: 1.35; color: #D9DEE6; max-width: 820px; margin: 0 0 36px; }
   header.hero .meta { font-family: var(--sans); font-size: 15px; color: #BFC8D6; }
   header.hero .meta strong { color: #F4F1EA; font-weight: 600; }
+  header.hero .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  header.hero .actions a { font-family: var(--sans); font-size: 16px; font-weight: 600; text-decoration: none; padding: 12px 22px; border-radius: 999px; border: 1px solid #F4F1EA; color: #F4F1EA; }
+  header.hero .actions a.primary { background: #F4F1EA; color: var(--ink); }
+  header.hero .actions a:hover { opacity: .88; }
+  p code, li code { overflow-wrap: anywhere; }
+  header.hero .actions-note { font-family: var(--sans); font-size: 14px; color: #BFC8D6; margin: 12px 0 0; }
 
   main section { padding: 72px 24px; border-bottom: 1px solid var(--rule); }
   main section.alt { background: var(--panel); }
@@ -129,6 +142,7 @@
     <a href="#checks">05 Checks</a>
     <a href="#meaning">06 Meaning</a>
     <a href="#reproduce">07 Reproduce</a>
+    <a href="report.html"><strong>Full report</strong></a>
   </div>
 </nav>
 
@@ -137,7 +151,12 @@
     <p class="eyebrow">SOSC 314 · Duke Kunshan University · Fall 2026</p>
     <h1>Who Defines the Problem?</h1>
     <p class="sub">A computational analysis of how the European Commission, Parliament and Council frame artificial intelligence regulation</p>
-    <p class="meta"><strong>Tim Maurice Steiner</strong> and <strong>Yuhan (Michelle) Qiu</strong> · Instructor: Prof. Markus Neumann · <a href="https://github.com/michelle-qyh/SOSC314-Course-Project" style="color:#E8ECF3">Code and data on GitHub</a> · <a href="report.html" style="color:#E8ECF3">Notebook version</a></p>
+    <p class="meta"><strong>Tim Maurice Steiner</strong> and <strong>Yuhan (Michelle) Qiu</strong> · Instructor: Prof. Markus Neumann · <a href="https://github.com/michelle-qyh/SOSC314-Course-Project" style="color:#E8ECF3">Code and data on GitHub</a></p>
+    <div class="actions">
+      <a class="primary" href="report.html">Read the full report (Jupyter notebook) →</a>
+      <a href="https://github.com/michelle-qyh/SOSC314-Course-Project">GitHub repository</a>
+    </div>
+    <p class="actions-note">The full report is written as a Jupyter notebook (<code>report/report.ipynb</code>) and exported to HTML. This page is a shorter visual summary.</p>
   </div>
 </header>
 
@@ -208,7 +227,7 @@
   </div>
   <figure class="wide fig-md">
     <div class="frame"><img src="figures/corpus_by_year.png" alt="Bar chart of documents per year and institution, 2020 to 2026. Commission 75 documents, Parliament 36, Council 28. Most documents date from 2025 and 2026; dotted lines mark the AI Act proposal (April 2021) and the Digital Omnibus on AI (November 2025)." loading="lazy"></div>
-    <figcaption><b>Figure 1.</b> Documents in the analysis corpus by year and institution. In total 139 documents, 27,732 paragraphs and 2.04 million words.</figcaption>
+    <figcaption><b>Figure 1.</b> Documents in the analysis corpus by year and institution. In total 139 documents (2.04 million words); the analysis uses their 27,732 paragraphs (1.86 million words).</figcaption>
   </figure>
   <div class="col">
     <h3>What we could not collect</h3>
@@ -254,7 +273,7 @@
     </div>
     <div class="col" style="margin-left:auto;margin-right:auto">
       <h3>The first lesson: style before substance</h3>
-      <p>On raw text, Fightin' Words separates the institutions almost perfectly, but by document style, not framing. The Parliament's most distinctive words are <i>regard, calls, whereas, stresses</i>, the grammar of a resolution; the Council's are <i>article, annex, paragraph, pursuant</i>, the grammar of a legal text. Only after removing such procedural and rhetorical words do substantive differences appear: the Parliament's <i>technologies, human, ethical, research</i> against the Council's <i>harmonisation, testing, conformity</i>. That cleaning decision alone replaces 30% of the most distinctive words, so we report it openly rather than hide it.</p>
+      <p>On raw text, Fightin' Words is dominated by document style, not framing. The Parliament's most distinctive words are <i>regard, calls, whereas, stresses</i>, the grammar of a resolution; the Council's are <i>article, annex, paragraph, pursuant</i>, the grammar of a legal text. Only after removing such procedural and rhetorical words do substantive differences appear: the Parliament's <i>technologies, human, ethical, research</i> against the Council's <i>harmonisation, testing, conformity</i>. That cleaning decision alone replaces 30% of the most distinctive words, so we report it openly rather than hide it.</p>
     </div>
   </div>
 </section>
@@ -301,15 +320,15 @@
     <p class="num">05 · Checks</p>
     <h2>Where the measures work, and where they fail</h2>
     <h3>Which choices move the answer?</h3>
-    <p>Every text analysis rests on decisions. We tested each one separately. The substantive ones mattered: the stopword lists changed 30% of the Fightin' Words results, and removing eleven very common words from the dictionary shifted a frame share by up to 15 percentage points. Purely technical settings, such as TF-IDF weighting or a minimum word frequency, changed almost nothing.</p>
+    <p>Every text analysis rests on decisions. We tested each one separately. The substantive ones mattered: the stopword lists changed 30% of the Fightin' Words results, and removing eleven very common words from the dictionary shifted a frame share by up to 15 percentage points. A minimum word frequency changed almost nothing, because the method already discounts rare words. TF-IDF weighting does not apply to Fightin' Words, which works on raw word counts, so its bar is zero by construction rather than a tested result.</p>
   </div>
   <figure class="wide fig-sm">
     <div class="frame"><img src="figures/what_moves.png" alt="Bar chart of the effect of each analytic decision: TF-IDF weighting 0, minimum document frequency 1, adding two-word phrases 17, stopword lists 30 (percent of top-20 Fightin' Words terms replaced), and removing 11 generic dictionary terms 15 (percentage-point shift in a frame share)." loading="lazy"></div>
-    <figcaption><b>Figure 6.</b> Effect of each analytic decision, measured against its own reference. Blue bars: share of the top-20 Fightin' Words terms replaced (%). Red bar: largest shift in a dictionary frame share (percentage points). The units differ, so compare within a colour.</figcaption>
+    <figcaption><b>Figure 6.</b> Effect of each analytic decision, measured against its own reference. Blue bars: share of the top-20 Fightin' Words terms replaced (%). Red bar: largest shift in a dictionary frame share (percentage points). The units differ, so compare within a colour. TF-IDF is zero by construction: Fightin' Words uses raw counts, so this setting does not change its input.</figcaption>
   </figure>
   <div class="col">
     <h3>Why the technology frame was inflated</h3>
-    <p>Removing each dictionary word in turn showed that a handful of words carried a lot of weight: <i>digital</i> alone moved a frame share by 6.6 points, <i>data</i> by 5.8. These are the everyday vocabulary of EU technology policy, not markers of an innovation frame. Without eleven such generic words, the Commission's technology share falls from 35% to 20% and the order of the frames changes. "Technology dominates every institution" was largely produced by a few words.</p>
+    <p>Removing each dictionary word in turn showed that a handful of words carried a lot of weight: <i>digital</i> alone moved a frame share by 6.6 points, <i>data</i> by 5.8. These are the everyday vocabulary of EU technology policy, not markers of an innovation frame. Without eleven such generic words, the Commission's technology share falls from 35% to 20% and the order of the frames changes. "Technology dominates every institution" was largely produced by a few words. What the generic words do not change is which institution leads: in all seven frames the leading institution stays the same, and the Commission's security lead grows (11.3% against 5.1% and 4.3%). We did not re-run the bootstrap on the reduced dictionary.</p>
 
     <h3>Do the top paragraphs read as the frame?</h3>
     <p>A high score only means that a frame's words occur often. To check what they mean in context, one of us read the ten highest-scoring paragraphs for each of the seven frames. Six frames pass. Technological innovation fails: its top paragraphs are the same annex list from the AI Act, copied into documents of all three institutions.</p>
@@ -345,7 +364,7 @@
       <li><b>Uneven coverage.</b> We have about half of the Parliament's in-scope documents and only 28 from the Council, so many intervals are wide.</li>
       <li><b>No independent validation.</b> No one has yet hand-coded a sample of paragraphs to test whether the scores match human judgement; the face-validity reading is a first check by one reader.</li>
       <li><b>Model sensitivity.</b> After one change in text cleaning, only 4 of 10 LDA topics kept a close counterpart; only the high-risk topic is stable throughout.</li>
-      <li><b>Different genres.</b> 21 of 28 Council texts are negotiating notes and 33 of 36 Parliament texts are resolutions, so institution and genre cannot be fully separated.</li>
+      <li><b>Different genres.</b> 21 of 28 Council texts are legislative documents, mostly negotiating notes, and 33 of 36 Parliament texts are resolutions, so institution and genre cannot be fully separated.</li>
     </ul>
 
     <h3>What we did not do</h3>
@@ -373,7 +392,7 @@ python notebooks/05_dictionary_diagnostics.py  # term influence, bootstrap, sens
 python notebooks/06_face_validity.py           # face validity, copied text
 python notebooks/07_figures.py                 # figures
 python notebooks/08_topic_figures.py           # topic-model figures, all-topic check</pre>
-    <p>The topic models are fitted in two notebooks (<code>04_topic_modeling.ipynb</code>, <code>05_topic_diagnostics.ipynb</code>), which take much longer because 05 refits the models several times; <code>08_topic_figures.py</code> redraws the topic-model figures from their saved results in <code>reports/week5_topic_diagnostics/</code>. Rebuilding the corpus from CELLAR needs internet access and the <code>pdftotext</code> tool; see the repository README.</p>
+    <p>The topic models are fitted in two notebooks (<code>04_topic_modeling.ipynb</code>, <code>05_topic_diagnostics.ipynb</code>), which take much longer because 05 refits the models several times; <code>08_topic_figures.py</code> redraws the topic-model figures from their saved results in <code>reports/week5_topic_diagnostics/</code>. Rebuilding the corpus from CELLAR needs internet access and the <code>pdftotext</code> tool; see the repository README, which also gives the two commands that re-run the <a href="report.html">full report</a> (<code>report/report.ipynb</code>) and export it to this site.</p>
     <p style="font-size:17px;color:var(--muted)">EU documents © European Union, reused with attribution under Commission Decision 2011/833/EU.</p>
 
     <h3>Contributions</h3>
