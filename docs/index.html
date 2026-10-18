@@ -285,7 +285,7 @@
           <tr><td>Number of topics</td><td>10, the most coherent of 5, 8, 10 and 12 in our first model; re-checked with 20</td></tr>
         </table>
       </div>
-      <p><b>Why LDA leads and NMF checks.</b> LDA describes every paragraph as a mixture of topics whose shares add up to one, which is the quantity we compare across institutions. NMF works on TF-IDF weights and returns unscaled weights that we rescale into shares. The two models therefore differ in both algorithm and word weighting, and a topic in one is not the same object as a topic in the other. We never compare topic shares across models. We only ask whether the same institutional difference appears in both.</p>
+      <p><b>Why LDA leads and NMF checks.</b> LDA (Blei et al. 2003) describes every paragraph as a mixture of topics whose shares add up to one, which is the quantity we compare across institutions. NMF (Lee &amp; Seung 1999), which we fit to TF-IDF weights rather than word counts, returns unscaled weights that we rescale into shares. The two models therefore differ in both algorithm and word weighting, and a topic in one is not the same object as a topic in the other. We never compare topic shares across models. We only ask whether the same institutional difference appears in both.</p>
     </div>
   </div>
 </section>
